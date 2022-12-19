@@ -10,8 +10,9 @@ import matplotlib.pyplot as plt
 from scipy import stats
 from nltk import tokenize
 
-import rouge
-from rouge import rouge_n
+import rouge_scoring
+from rouge_scoring import rouge_n
+from rouge_scoring import rouge_l_sentence_level
 
 
 
@@ -53,7 +54,9 @@ def process_summaries(ref_doc, summaries):
 
             for j, sentence in enumerate(sentence_list):
 
-                current_score, precision, recall = rouge_n([token], [sentence])
+                # current_score, precision, recall = rouge_n([token], [sentence], n=1)
+                # current_score, precision, recall = rouge_n([token], [sentence], n=2)
+                # current_score, precision, recall = rouge_l_sentence_level([token], [sentence])
                 
                 #print("token:", token)
                 #print("sentence: ", sentence)
@@ -73,7 +76,6 @@ def process_summaries(ref_doc, summaries):
 
 summary_scores = []
 
-# process_summaries(ref_doc, human_sums_bad)
-# process_summaries(ref_doc, human_sums_good)
-# process_summaries(ref_doc, human_sums_exact)
+process_summaries(ref_doc, human_sums_bad)
+process_summaries(ref_doc, human_sums_good)
 process_summaries(large_test_ref_exact, large_test_hyp_exact)

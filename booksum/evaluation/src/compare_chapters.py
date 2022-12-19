@@ -52,14 +52,14 @@ def result_printout(function):
    print()
 
 
-def get_human_summary(summary_path):
-    try:
-        with open("../../scripts/" + summary_path, encoding='utf-8') as f:
-            summary_json = json.load(f)
-            return summary_json["summary"]
-    except Exception as e:
-        print("Failed to read summary file: {}".format(e))
-        return None
+def get_human_summary(summary_path): #returns summaries located in scripts/finished_summaries
+   try:
+      with open("../../scripts/" + summary_path, encoding='utf-8') as f:
+         summary_json = json.load(f)
+         return summary_json["summary"]
+   except Exception as e:
+      print("Failed to read summary file: {}".format(e))
+      return None
 
 
 def setup_model(function):
@@ -71,7 +71,7 @@ def setup_model(function):
    elif function == "bertscore":
       from bert import calculate_bertscore
       calculate_bertscore.create_model()
-   elif function == "rouge":
+   elif function == "rouge-1n" or function == "rouge-2n" or function == "rouge-l":
       return # no model required
    elif function == "moverscore":
       return #no model required
@@ -152,9 +152,15 @@ def calculate_F1(function):
                   elif function == "bertscore":
                      from bert import calculate_bertscore
                      current_score = calculate_bertscore.compute_score(token, sentence)
-                  elif function == "rouge":
+                  elif function == "rouge-1n":
                      from rouge_scoring import calculate_score
-                     current_score = calculate_score.compute_score(token, sentence)
+                     current_score = calculate_score.compute_score_1n(token, sentence)
+                  elif function == "rouge-2n":
+                     from rouge_scoring import calculate_score
+                     current_score = calculate_score.compute_score_2n(token, sentence)
+                  elif function == "rouge-l":
+                     from rouge_scoring import calculate_score
+                     current_score = calculate_score.compute_score_l(token, sentence)
                   elif function == "moverscore":
                      from moverscore import calculate_score
                      current_score = calculate_score.compute_score(token, sentence)
@@ -226,7 +232,7 @@ def main(argv):
    function = None
    outputfile = None
    split = None
-   function_list = ["bleu", "bert", "bertscore", "rouge", 
+   function_list = ["bleu", "bert", "bertscore", "rouge-1n", "rouge-2n", "rouge-l",
       "moverscore", "qaeval", "meteor", "summac", "bartscore", "chrf"]
    split_list = ["test", "train", "val"]
 

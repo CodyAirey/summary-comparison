@@ -62,7 +62,7 @@ def get_human_summary(summary_path): #returns summaries located in scripts/finis
       return None
 
 
-def setup_model(function):
+def setup_model(function): #there has got to be a better way to do this.
    if function == "bleu":
       return # no model reqiured
    elif function == "bert":

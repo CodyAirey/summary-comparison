@@ -1,71 +1,3 @@
-# from typing import List, Union, Iterable
-# import numpy as np
-# import nltk
-# import math
-# from collections import defaultdict
-# from nltk import tokenize
-# from itertools import zip_longest
-# import json
-# import sys
-# import getopt
-# import pathlib
-# import time
-# import pandas as pd
-
-# human_summaries = dict()
-# summaries_count = 0
-# data = []
-# used_files = []
-# unique_books = set()
-
-
-# count = 0
-
-
-# def preprocessing_summary_setup(split):
-
-#     global count
-
-#     f = open(pathlib.Path(f"../../alignments/book-level-summary-alignments/book_summaries_aligned_{split}.jsonl"),
-#             encoding='utf-8')
-
-
-
-#     for line in f: #for each source ->  book
-#         content = json.loads(line)
-#         if content['source'] == 'pinkmonkey': #skip pinkmonkey, causes issues
-#             continue
-#         text = get_human_summary(content['summary_path'])
-#         if text is not None:
-#             try:
-#                 human_summaries[content['summary_path']] = {
-#                     "chapter_title": content['book_id'],
-#                     "source": content['source'],
-#                     "summary_text": text,
-#                 }
-#             except:
-#                 continue
-
-#     print("Evaluating {} summary documents...".format(len(human_summaries)))
-
-# def get_human_summary(summary_path): #returns summaries located in scripts/finished_summaries
-#     global count
-#     try:
-#         with open("../../scripts/" + summary_path, encoding='utf-8') as f:
-#             summary_json = json.load(f)
-#             return summary_json["summary"]
-#     except Exception as e:
-#         print("Failed to read summary file: {}".format(e))
-#         return None
-
-# def main():
-#     preprocessing_summary_setup("train")
-
-# if __name__ == "__main__":
-#     main()
-
-
-
 from typing import List, Union, Iterable
 import numpy as np
 import nltk
@@ -115,8 +47,8 @@ def preprocessing_summary_setup(split):
 
 
 def result_printout(function):
-   print("Unique chapters covered: {}".format(len(unique_chapters)))
-   print("Unique chapters used: {}".format(len(unique_used_chapters)))
+   print("Unique Books covered: {}".format(len(unique_books)))
+   print("Unique Books used: {}".format(len(unique_used_books)))
    FUNC_list = [data_item[0] for data_item in data]
    FUNC_mean = sum(FUNC_list) / len(FUNC_list)
    print(f"Mean {function}: {FUNC_mean}")

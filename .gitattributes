@@ -1,3 +1,4 @@
 *.pkl filter=lfs diff=lfs merge=lfs -text
 *.jsonl.gathered filter=lfs diff=lfs merge=lfs -text
 *.jsonl.gathered.stable filter=lfs diff=lfs merge=lfs -text
+*.stable filter=lfs diff=lfs merge=lfs -text

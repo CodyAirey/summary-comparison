@@ -1,0 +1,47 @@
+[
+    {
+        "text": "_3 May. Bistritz._--Left Munich at 8:35 P. M., on 1st May, arriving at Vienna early next morning; should have arrived at 6:46, but train was an hour late. Buda-Pesth seems a wonderful place, from the glimpse which I got of it from the train and the little I could walk through the streets. I feared to go very far from the station, as we had arrived late and would start as near the correct time as possible. The impression I had was that we were leaving the West and entering the East; the most western of splendid bridges over the Danube, which is here of noble width and depth, took us among the traditions of Turkish rule.",
+        "summary": [
+            "He is favorably impressed with Budapest, and he remarks that already he can tell that he is leaving the Western world behind him and that he is \"entering the East,\" a section of Europe whose peoples and customs will be, for the most part, strange and unfamiliar.",
+            "At the eve of twilight, when Harker's train reaches Bistritz, not far from the infamous Borgo Pass, Harker disembarks and checks into the \"delightful . . . old fashioned\" Golden Krone Hotel .",
+            "Coincidentally, Harker's arrival at Bistritz is on the eve of St. George's Day, a night when \"evil things in the world . . . have full sway.\""
+        ],
+        "alignment_scores": [
+            "0.38618878",
+            "0.43611234",
+            "0.34791714"
+        ],
+        "title": "dracula.chapter_1.cliffnotes-stable-0"
+    },
+    {
+        "text": "_3 May. Bistritz._--Left Munich at 8:35 P. M., on 1st May, arriving at Vienna early next morning; should have arrived at 6:46, but train was an hour late. Buda-Pesth seems a wonderful place, from the glimpse which I got of it from the train and the little I could walk through the streets. I feared to go very far from the station, as we had arrived late and would start as near the correct time as possible. The impression I had was that we were leaving the West and entering the East; the most western of splendid bridges over the Danube, which is here of noble width and depth, took us among the traditions of Turkish rule.",
+        "summary": [
+            "Harker is on a business trip in Eastern Europe, making his way across one of the most isolated regions of Europe.",
+            "Two days ago, he was in Munich.",
+            "One day ago, he was in Vienna."
+        ],
+        "alignment_scores": [
+            "0.31709892",
+            "0.44096956",
+            "0.43305928"
+        ],
+        "title": "dracula.chapter_1.gradesaver-stable-0"
+    },
+    {
+        "text": "_3 May. Bistritz._--Left Munich at 8:35 P. M., on 1st May, arriving at Vienna early next morning; should have arrived at 6:46, but train was an hour late. Buda-Pesth seems a wonderful place, from the glimpse which I got of it from the train and the little I could walk through the streets. I feared to go very far from the station, as we had arrived late and would start as near the correct time as possible. The impression I had was that we were leaving the West and entering the East; the most western of splendid bridges over the Danube, which is here of noble width and depth, took us among the traditions of Turkish rule.",
+        "summary": [
+            "He's traveling through Buda-Pesth on his way to Transylvania .",
+            "He travels by train from Budapest to Bistritz, the nearest town to Castle Dracula.",
+            "He leaves Bistritz on the coach as planned.",
+            "We'll jump into the past to describe what happened."
+        ],
+        "alignment_scores": [
+            "0.30731827",
+            "0.47732013",
+            "0.28672656",
+            "0.2400459"
+        ],
+        "title": "dracula.chapter_1.shmoop-stable-0"
+    },
+    {"text": "\"This morning my husband came in and told me about your quarrel with Grushnitski. Evidently I changed countenance greatly, because he looked me in the face long and intently. I almost fainted at the thought that you had to fight a duel to-day, and that I was the cause of it; it seemed to me that I should go mad... But now, when I am able to reason, I am sure that you remain alive: it is impossible that you should die, and I not with you--impossible! My husband walked about the room for a long time. I do not know what he said to me, I do not remember what I answered... Most likely I told him that I loved you... I only remember that, at the end of our conversation, he insulted me with a dreadful word and left the room. I heard him ordering the carriage... I have been sitting at the window three hours now, awaiting your return... But you are alive, you cannot have died!... The carriage is almost ready... Good-bye, good-bye!... I have perished--but what matter? If I could be sure that you will always remember me--I no longer say love--no, only remember... Good-bye, they are coming!... I must hide this letter.", "summary": ["Before the duel, a time lapse happens.", "The letter reveals that her husband is taking her far away."], "alignment_scores": ["0.27970192", "0.33345646"], "title": "a_hero_of_our_time.book_5.chapter_1-chapter_22.gradesaver-stable-269"}
+]

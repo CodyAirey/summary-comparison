@@ -1,0 +1,30 @@
+[
+    "title": "don_juan.canto_i.cliffnotes-stable-5" //has "canto" for chapter/book name. easy fix.
+    "title": "the_ramayana.book_1.chapters_canto_i-canto_lxxvii.gradesaver-stable-25",
+
+    "title": "the_aeneid.book_i.gradesaver-stable-17" //does not contain what chapter it comes from.
+
+    "title": "my_antonia.book_iii.chapter_iii.gradesaver-stable-0" //  both book + chapters, also roman numerals, not big deal, is base case.
+
+    "title": "a_hero_of_our_time.book_5.chapter_1-chapter_22.gradesaver-stable-269" // chapter-1-chapter_22 instead of chapters-1-22, both shmoop and gradsaver do this.  //singular chapter-1 + chapter-22 in same bit . --- .
+
+    "title": "the_last_of_the_mohicans.chapters_7-8.cliffnotes-stable-5" //chapters_x-y, only cliffnotes, but heaps.
+
+    "title": "the_rivals.act_1.scene_1-scene_2.gradesaver-stable-10", //act & scene, individual scene splitting
+
+    "title": "hamlet.act_2.scenes_1-2.bookwolf-stable-24", //act and scene, paired scenes
+
+    "title": "siddhartha.part_i.chapter_i-chapter_iv.gradesaver-stable-105", //parts individual chapter spliting
+
+    "title": "dr._jekyll_and_mr._hyde.chapter_1.gradesaver-stable-5", // lots of extra fullstops, that break the usual splitting methods.
+    
+    "title": "the_federalist_papers.essay_10.gradesaver-stable-9", // essay
+
+    "title": "green_mansions.prologue.cliffnotes-stable-0", // prologue
+    
+    "title": "the_new_testament.acts_of_the_apostles.sparknotes-stable-100" // no clue
+
+    "title": "the_mysteries_of_udolpho.volume_1.chapter_5.shmoop-stable-9" //volume
+    ""
+    
+]

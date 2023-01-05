@@ -14,6 +14,6 @@ def compute_score_2n(token, sentence):
     return current_score
 
 
-def compute_score_1n(token, sentence):
+def compute_score_l(token, sentence):
     current_score, precision, recall = rouge_l_sentence_level([token], [sentence])
     return current_score

@@ -307,7 +307,7 @@ def write_to_csv(function, split, filename):
         data, columns=[function, "number of Unique sentences", "title", "source"])
     # Save file.
     df.to_csv(
-        f"../csv_results/booksum_summaries/book-comparison-results-{split}-{filename}.csv")
+        f"../csv_results/booksum_summaries/paragraph-comparison-results-{split}-{filename}.csv")
 
 
 def helper(function_list):

@@ -1,0 +1,46 @@
+note the bad is_aggregate  (taken from chapter_summary_aligned_train_split.jsonl)
+
+un-edited
+{"bid": "768", "is_aggregate": true, "source": "gradesaver", "chapter_path": "all_chapterized_books/768-chapters/19.txt", "summary_path": "finished_summaries/gradesaver/Wuthering Heights/section_3_part_3.txt", "book_id": "Wuthering Heights.chapter 18", "summary_id": "chapter 18"}
+{"bid": "768", "is_aggregate": true, "source": "gradesaver", "chapter_path": "all_chapterized_books/768-chapters/20.txt", "summary_path": "finished_summaries/gradesaver/Wuthering Heights/section_3_part_4.txt", "book_id": "Wuthering Heights.chapter 19", "summary_id": "chapter 19"}
+{"bid": "768", "is_aggregate": true, "source": "gradesaver", "chapter_path": "all_chapterized_books/768-chapters/21.txt", "summary_path": "finished_summaries/gradesaver/Wuthering Heights/section_3_part_5.txt", "book_id": "Wuthering Heights.chapter 20", "summary_id": "chapter 20"}
+
+edited for readability. (says is_aggregate, yet only looks at 1 chapter)
+{"bid": "768", "is_aggregate": true, ---> , "book_id": "Wuthering Heights.chapter 18", "summary_id": "chapter 18"}
+{"bid": "768", "is_aggregate": true, ---> , "book_id": "Wuthering Heights.chapter 19", "summary_id": "chapter 19"}
+{"bid": "768", "is_aggregate": true, ---> , "book_id": "Wuthering Heights.chapter 20", "summary_id": "chapter 20"}
+
+
+
+yet in the same file, we see is_aggregate is true, but has not split the chapters up.
+
+original
+{"bid": "141", "is_aggregate": true, "source": "gradesaver", "chapter_path": "all_chapterized_books/141-chapters/chapters_1_to_6.txt", "summary_path": "finished_summaries/gradesaver/Mansfield Park/section_0_part_0.txt", "book_id": "Mansfield Park.chapters 1-6", "summary_id": "chapters 1-6"}
+{"bid": "141", "is_aggregate": true, "source": "gradesaver", "chapter_path": "all_chapterized_books/141-chapters/chapters_13_to_18.txt", "summary_path": "finished_summaries/gradesaver/Mansfield Park/section_2_part_0.txt", "book_id": "Mansfield Park.chapters 13-18", "summary_id": "chapters 13-18"}
+{"bid": "141", "is_aggregate": true, "source": "gradesaver", "chapter_path": "all_chapterized_books/141-chapters/chapters_19_to_24.txt", "summary_path": "finished_summaries/gradesaver/Mansfield Park/section_3_part_0.txt", "book_id": "Mansfield Park.chapters 19-24", "summary_id": "chapters 19-24"}
+{"bid": "141", "is_aggregate": true, "source": "gradesaver", "chapter_path": "all_chapterized_books/141-chapters/chapters_25_to_30.txt", "summary_path": "finished_summaries/gradesaver/Mansfield Park/section_4_part_0.txt", "book_id": "Mansfield Park.chapters 25-30", "summary_id": "chapters 25-30"}
+{"bid": "141", "is_aggregate": true, "source": "gradesaver", "chapter_path": "all_chapterized_books/141-chapters/chapters_31_to_36.txt", "summary_path": "finished_summaries/gradesaver/Mansfield Park/section_5_part_0.txt", "book_id": "Mansfield Park.chapters 31-36", "summary_id": "chapters 31-36"}
+{"bid": "141", "is_aggregate": true, "source": "gradesaver", "chapter_path": "all_chapterized_books/141-chapters/chapters_37_to_42.txt", "summary_path": "finished_summaries/gradesaver/Mansfield Park/section_6_part_0.txt", "book_id": "Mansfield Park.chapters 37-42", "summary_id": "chapters 37-42"}
+{"bid": "141", "is_aggregate": true, "source": "gradesaver", "chapter_path": "all_chapterized_books/141-chapters/chapters_43_to_48.txt", "summary_path": "finished_summaries/gradesaver/Mansfield Park/section_7_part_0.txt", "book_id": "Mansfield Park.chapters 43-48", "summary_id": "chapters 43-48"}
+
+edited for readability.
+{"bid": "141", "is_aggregate": true, "source": "gradesaver", "book_id": "Mansfield Park.chapters 1-6", "summary_id": "chapters 1-6"}
+{"bid": "141", "is_aggregate": true, "source": "gradesaver", "book_id": "Mansfield Park.chapters 13-18", "summary_id": "chapters 13-18"}
+{"bid": "141", "is_aggregate": true, "source": "gradesaver", "book_id": "Mansfield Park.chapters 19-24", "summary_id": "chapters 19-24"}
+{"bid": "141", "is_aggregate": true, "source": "gradesaver", "book_id": "Mansfield Park.chapters 25-30", "summary_id": "chapters 25-30"}
+{"bid": "141", "is_aggregate": true, "source": "gradesaver", "book_id": "Mansfield Park.chapters 31-36", "summary_id": "chapters 31-36"}
+{"bid": "141", "is_aggregate": true, "source": "gradesaver", "book_id": "Mansfield Park.chapters 37-42", "summary_id": "chapters 37-42"}
+{"bid": "141", "is_aggregate": true, "source": "gradesaver", "book_id": "Mansfield Park.chapters 43-48", "summary_id": "chapters 43-48"}
+
+
+take a look at specific example from the source website. here we see the reason is_aggregate is true while no splits are made is because the website does not have individual summaries
+https://www.gradesaver.com/mansfield-park/study-guide/summary-chapters-1-6
+{"bid": "141", "is_aggregate": true, "source": "gradesaver", "book_id": "Mansfield Park.chapters 1-6", "summary_id": "chapters 1-6"}
+
+while this site contains each summary split up individually even though the page covers chapters 6 - 10
+https://web.archive.org/web/20201127012736/https://www.gradesaver.com/wuthering-heights/study-guide/summary-chapters-6-10
+{"bid": "768", "is_aggregate": true, "source": "gradesaver", "chapter_path": "all_chapterized_books/768-chapters/06.txt", "summary_path": "finished_summaries/gradesaver/Wuthering Heights/section_1_part_1.txt", "book_id": "Wuthering Heights.chapter 6", "summary_id": "chapter 6"}
+{"bid": "768", "is_aggregate": true, "source": "gradesaver", "chapter_path": "all_chapterized_books/768-chapters/07.txt", "summary_path": "finished_summaries/gradesaver/Wuthering Heights/section_1_part_2.txt", "book_id": "Wuthering Heights.chapter 7", "summary_id": "chapter 7"}
+{"bid": "768", "is_aggregate": true, "source": "gradesaver", "chapter_path": "all_chapterized_books/768-chapters/08.txt", "summary_path": "finished_summaries/gradesaver/Wuthering Heights/section_1_part_3.txt", "book_id": "Wuthering Heights.chapter 8", "summary_id": "chapter 8"}
+{"bid": "768", "is_aggregate": true, "source": "gradesaver", "chapter_path": "all_chapterized_books/768-chapters/09.txt", "summary_path": "finished_summaries/gradesaver/Wuthering Heights/section_1_part_4.txt", "book_id": "Wuthering Heights.chapter 9", "summary_id": "chapter 9"}
+{"bid": "768", "is_aggregate": true, "source": "gradesaver", "chapter_path": "all_chapterized_books/768-chapters/10.txt", "summary_path": "finished_summaries/gradesaver/Wuthering Heights/section_1_part_5.txt", "book_id": "Wuthering Heights.chapter 10", "summary_id": "chapter 10"}

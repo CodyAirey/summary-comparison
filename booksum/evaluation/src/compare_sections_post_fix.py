@@ -37,10 +37,16 @@ number_of_matches = {
 #           \              \---- total_agg_sections_used = 0
 #            \              \ ---total_sections = 0
 #             \              \---used_sections = 0
-#              \              \-- [ section_name_1 , section_name_2...etc.etc ]
+#              \              \-- { section_name_1 { sources : [s1, s2,s3], word_count : 123 },
+#                                 , section_name_2 { sources : [s2, s4,s7], word_count : 213 }
+#                                  , ...etc.etc  { sources : [s1, s2,s3], word_count : 123 }
 #               \              \-
 #                \
 #                 \-book2 ----- etc ^
+# souce2 ---- etc.
+
+
+average_books = {}
 
 
 def setup_matches_datastructure(split):
@@ -50,58 +56,20 @@ def setup_matches_datastructure(split):
    # for sourc in number_of_matches:
       # for book in number_of_matches[sourc]:
 
+   x = 0
+
    #setup the 'datastructure'.
    for line in f:
       content = json.loads(line)
-
       flag = False
-      
       original_title = content['book_id']
-         
       book = content['book_id'].split(".")[0:1][0] #extracts book title as a string
-
-      # book = content['book_id'].split(content['summary_id'])[0][:-1]
-
-      # print(f"{content['book_id']}")
-      id_split = re.split("\.|_|-| ", content['book_id'])
-      temp_id = []
-
-      #replace romans to ints, e.g. ACT_II to ACT_2
-      for i, each in enumerate(id_split):
-         if(romanToInt(each.upper()) >= 1):
-               id_split[i] = str(romanToInt(each.upper()))
 
       #special case.
       if content['book_id'].split(".")[0:3] == ["Dr"," Jekyll and Mr", " Hyde"]:
          book = "Dr. Jekyll and Mr. Hyde"
 
-      i = 0
-
-      # fix instances of "chapters_43-48" to "chapter-43-chapter-48" etc.
-      try :
-         while i < len(id_split):
-            if id_split[i] == "chapters" and i+1 <= len(id_split):
-                  temp_id.append("chapter")
-                  temp_id.append(id_split[i+1])
-                  temp_id.append("chapter")
-                  # i += 2
-                  i += 2
-            elif id_split[i] == "scenes" and i+1 <= len(id_split):
-                  temp_id.append("scene")
-                  temp_id.append(id_split[i+1])
-                  temp_id.append("scene")
-                  # i += 2
-                  i += 2
-            elif i < len(id_split):
-                  temp_id.append(id_split[i])
-                  i += 1
-      except:
-         temp_id.append(id_split[i])
-         i += 1
-         continue
-
-      corrected_title = "-".join(temp_id)
-
+      corrected_title = content['corrected_title']
 
       source = content['source']
       number_of_matches[source][book] = {
@@ -109,7 +77,8 @@ def setup_matches_datastructure(split):
          'total_sections_used' : 0,
          'total_aggregate_sections' : 0,
          'total_aggregate_sections_used' : 0,
-         'sections_that_exist_elsewhere' : set()
+         'sections_that_exist_elsewhere' : dict(),
+         'agg_sections_that_exist_elsewhere': set()
       }
 
       text = get_human_summary(content['summary_path'])
@@ -120,7 +89,8 @@ def setup_matches_datastructure(split):
                   "chapter_title": corrected_title,
                   "source": source,
                   "summary_text": text,
-                  "original_title": original_title
+                  "original_title": original_title,
+                  'is_aggregate': content['is_aggregate']
                }
 
                print(f"Found {content['c_title']}")
@@ -128,32 +98,6 @@ def setup_matches_datastructure(split):
                continue
 
    print("Evaluating {} summary documents...".format(len(human_summaries)))
-
-
-
-#yoinked from geeks for geeks | https://www.geeksforgeeks.org/python-program-for-converting-roman-numerals-to-decimal-lying-between-1-to-3999/
-def romanToInt(s):
-
-    try:
-
-        translations = {
-            "I": 1,
-            "V": 5,
-            "X": 10,
-            "L": 50,
-            "C": 100,
-            "D": 500,
-            "M": 1000
-        }
-        number = 0
-        s = s.replace("IV", "IIII").replace("IX", "VIIII")
-        s = s.replace("XL", "XXXX").replace("XC", "LXXXX")
-        s = s.replace("CD", "CCCC").replace("CM", "DCCCC")
-        for char in s:
-            number += translations[char]
-        return number
-    except:
-        return -1
 
 
 def result_printout(function):
@@ -259,7 +203,15 @@ def calculate_F1(function):
 
       # print(used_files)
 
+    #   if(summaries_count == 0):
+    #     print(summary)
+    #     le_split = summary['summary_text'].split(" ")
+    #     print(f"length: {len(le_split)} \n{le_split}")
+    #     sys.exit(1)
+
       number_of_matches[summary['source']][summary['book']]['total_sections'] += 1
+      if summary['is_aggregate'] == True:
+        number_of_matches[summary['source']][summary['book']]['total_aggregate_sections'] += 1
 
       # if there are no related summary documents, then just print.
       if len(related_summaries) == 0:
@@ -269,11 +221,21 @@ def calculate_F1(function):
       related_summary_texts = [curr_summary['summary_text']
                               for curr_summary in related_summaries]
 
+      word_count = len(summary['summary_text'].split(" "))
+
       for path, summary2 in human_summaries.items():
          if summary == summary2: continue
          if summary["chapter_title"] == summary2["chapter_title"]:
-            number_of_matches[summary['source']][summary['book']]['sections_that_exist_elsewhere'].add(summary['chapter_title']) #esentially just adding each chapter/section from a source to a set.
+            
+            if summary2['chapter_title'] in number_of_matches[summary['source']][summary['book']]['sections_that_exist_elsewhere'].keys():
+                number_of_matches[summary['source']][summary['book']]['sections_that_exist_elsewhere'][summary['chapter_title']]['sources'].append(summary2['source'])
+            else:
+                number_of_matches[summary['source']][summary['book']]['sections_that_exist_elsewhere'][summary['chapter_title']] = {'sources': [summary2['source']],
+                                                                                                                                    'word_count': word_count}
+                                                                                                        
 
+            if(summary2['is_aggregate']):
+                number_of_matches[summary['source']][summary['book']]['agg_sections_that_exist_elsewhere'].add(summary['chapter_title'])
       #prep text by tokenizing it into sentences
       ref_doc = tokenize.sent_tokenize(summary['summary_text'])
       tokenized_sums = []
@@ -354,8 +316,8 @@ def calculate_F1(function):
       unique_used_books.add(summary['chapter_title'])
       summaries_count += 1
 
-      # if summaries_count >= 10:
-      #    break
+      if summaries_count >= 200:
+         break
    update_match_counts()
    total_time = (time.time() - start_time)
    print(summaries_count)
@@ -366,19 +328,20 @@ def calculate_F1(function):
 
 def write_summary_count_to_json(split,filename):
 
-   with open(f"../summary_count/chapter-comparison-counts-{split}-{filename}.json", 'w') as f:
+   with open(f"../summary_count/chapter-comparison-counts-postfix-{split}-{filename}.json", 'w') as f:
 
       for source in number_of_matches:
          for book in number_of_matches[source]:
-            number_of_matches[source][book]['sections_that_exist_elsewhere'] = list(number_of_matches[source][book]['sections_that_exist_elsewhere'])
+            # number_of_matches[source][book]['sections_that_exist_elsewhere'] = list(number_of_matches[source][book]['sections_that_exist_elsewhere'])
+            number_of_matches[source][book]['agg_sections_that_exist_elsewhere'] = list(number_of_matches[source][book]['agg_sections_that_exist_elsewhere'])
       json.dump(number_of_matches, f)
 
 
 def update_match_counts():
    for source in number_of_matches:
       for book in number_of_matches[source]:
-         number_of_matches[source][book]['total_sections_used'] = len(number_of_matches[source][book]['sections_that_exist_elsewhere'])
-
+        number_of_matches[source][book]['total_sections_used'] = len(number_of_matches[source][book]['sections_that_exist_elsewhere'])
+        number_of_matches[source][book]['total_aggregate_sections_used'] = len(number_of_matches[source][book]['agg_sections_that_exist_elsewhere'])
 
 def write_to_csv(function, split,filename):
    print(filename)
@@ -398,6 +361,27 @@ def helper(function_list):
    print("Functions:", function_list)
    print("Possible Splits: test, train, val    (default is train)")
    print("Example Filename: bart-24-12-2022")
+
+def find_average_books():
+    for source in number_of_matches:
+        for book in number_of_matches[source]:
+
+            if number_of_matches[source][book] not in average_books:
+                average_books[book] = number_of_matches[source][book]
+
+            for section in number_of_matches[source][book]['sections_that_exist_elsewhere'].values():
+                if section not in average_books[book].values():
+                    average_books[book][section] = {
+                        'total_wc' : number_of_matches[source][book]['sections_that_exist_elsewhere'][section].get('word_count'),
+                        'total_duplicate_secs' : 1
+                    }
+                else:
+                    average_books[book][section]['total_wc'] += number_of_matches[source][book]['sections_that_exist_elsewhere'][section]['word_count']
+                    average_books[book][section]['total_duplicate_secs'] += 1
+
+def write_avg_books(split, filename):
+    with open(f"average-books-{split}-{filename}.json", 'w') as f:
+        json.dumps(average_books, f)
 
 def main(argv):
    """Main method takes arguments for Function, OutputFilename, and Split to use.
@@ -451,9 +435,13 @@ def main(argv):
    setup_model(function)
 
    data, summaries_count, unique_books, unique_used_books = calculate_F1(function)
+   find_average_books()
    result_printout(function)
    # write_to_csv(function, split, outputfile)
    write_summary_count_to_json(split, outputfile)
+   write_avg_books(split, outputfile)
+
+
 
 
 if __name__ == "__main__":

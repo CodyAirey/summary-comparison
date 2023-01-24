@@ -504,9 +504,7 @@ sky.
 """
 
 tokens = word_tokenize(text)
-
 words = [''.join(letter for letter in word if letter not in string.punctuation) for word in tokens]
-
 words = list(filter(None, words))
 
 print(words)

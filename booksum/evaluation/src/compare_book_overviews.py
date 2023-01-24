@@ -11,6 +11,7 @@ import getopt
 import pathlib
 import time
 import pandas as pd
+import re
 
 human_summaries = dict()
 summaries_count = 0
@@ -21,29 +22,102 @@ unique_used_books = set()
 unique_chapters = set()
 unique_used_chapters = set()
 
+def romanToInt(s):
+
+    try:
+
+        translations = {
+            "I": 1,
+            "V": 5,
+            "X": 10,
+            "L": 50,
+            "C": 100,
+            "D": 500,
+            "M": 1000
+        }
+        number = 0
+        s = s.replace("IV", "IIII").replace("IX", "VIIII")
+        s = s.replace("XL", "XXXX").replace("XC", "LXXXX")
+        s = s.replace("CD", "CCCC").replace("CM", "DCCCC")
+        for char in s:
+            number += translations[char]
+        return number
+    except:
+        return -1
 
 def preprocessing_summary_setup(split):
-    f = open(pathlib.Path(f"../../alignments/book-level-summary-alignments/book_summaries_aligned_{split}.jsonl"),
-            encoding='utf-8')
+   f = open(pathlib.Path(f"../../alignments/book-level-summary-alignments/book_summaries_aligned_{split}.jsonl"),
+         encoding='utf-8')
 
 
 
-    for line in f: #for each source ->  book
-        content = json.loads(line)
-        if content['source'] == 'pinkmonkey': #skip pinkmonkey, causes issues
-            continue
-        text = get_human_summary(content['summary_path'])
-        if text is not None:
-            try:
-                human_summaries[content['summary_path']] = {
-                    "title": content['title'], #
-                    "source": content['source'], #source from jsonl
-                    "summary_text": text, #actual summary from different text file.
-                }
-            except:
-                continue
+   for line in f:
+      content = json.loads(line)
 
-    print("Evaluating {} summary documents...".format(len(human_summaries)))
+      flag = False
+      
+      original_title = content['book_id']
+         
+      book = content['book_id'].split(".")[0:1][0] #extracts book title as a string
+
+      # book = content['book_id'].split(content['summary_id'])[0][:-1]
+
+      # print(f"{content['book_id']}")
+      id_split = re.split("\.|_|-| ", content['book_id'])
+      temp_id = []
+
+      #replace romans to ints, e.g. ACT_II to ACT_2
+      for i, each in enumerate(id_split):
+         if(romanToInt(each.upper()) >= 1):
+               id_split[i] = str(romanToInt(each.upper()))
+
+      #special case.
+      if content['book_id'].split(".")[0:3] == ["Dr"," Jekyll and Mr", " Hyde"]:
+         book = "Dr. Jekyll and Mr. Hyde"
+
+      i = 0
+
+      # fix instances of "chapters_43-48" to "chapter-43-chapter-48" etc.
+      try :
+         while i < len(id_split):
+            if id_split[i] == "chapters" and i+1 <= len(id_split):
+                  temp_id.append("chapter")
+                  temp_id.append(id_split[i+1])
+                  temp_id.append("chapter")
+                  # i += 2
+                  i += 2
+            elif id_split[i] == "scenes" and i+1 <= len(id_split):
+                  temp_id.append("scene")
+                  temp_id.append(id_split[i+1])
+                  temp_id.append("scene")
+                  # i += 2
+                  i += 2
+            elif i < len(id_split):
+                  temp_id.append(id_split[i])
+                  i += 1
+      except:
+         temp_id.append(id_split[i])
+         i += 1
+         continue
+
+      corrected_title = "-".join(temp_id)
+
+   # for line in f: #for each source ->  book
+   #    content = json.loads(line)
+   #    if content['source'] == 'pinkmonkey': #skip pinkmonkey, causes issues
+   #       continue
+   #    text = get_human_summary(content['summary_path'])
+   #    if text is not None:
+   #       try:
+   #             human_summaries[content['summary_path']] = {
+   #                "title": content['title'], #
+   #                "source": content['source'], #source from jsonl
+   #                "summary_text": text, #actual summary from different text file.
+   #             }
+   #       except:
+   #             continue
+
+   print("Evaluating {} summary documents...".format(len(human_summaries)))
 
 
 def result_printout(function):

@@ -1,0 +1,188 @@
+,Book Title,Word Count,Book Path
+0,paradise lost,81433,all_chapterized_books/20-chapters/book_clean.txt
+1,the federalist papers,192404,all_chapterized_books/1404-chapters/book_clean.txt
+2,the rivals,27013,all_chapterized_books/24761-chapters/book_clean.txt
+3,adam bede,219911,all_chapterized_books/507-chapters/book_clean.txt
+4,northanger abbey,77737,all_chapterized_books/121-chapters/book_clean.txt
+5,frankenstein,68659,all_chapterized_books/41445-chapters/book_clean.txt
+6,my antonia,81391,all_chapterized_books/19810-chapters/book_clean.txt
+7,a vindication of the rights of woman,81153,all_chapterized_books/3420-chapters/book_clean.txt
+8,little women,189921,all_chapterized_books/514-chapters/book_clean.txt
+9,the house of mirth,132618,all_chapterized_books/284-chapters/book_clean.txt
+10,the house of the seven gables,103945,all_chapterized_books/77-chapters/book_clean.txt
+11,a study in scarlet,43630,all_chapterized_books/244-chapters/book_clean.txt
+12,the life of timon of athens,20064,all_chapterized_books/1132-chapters/book_clean.txt
+13,hamlet,32557,all_chapterized_books/1787-chapters/book_clean.txt
+14,othello,28373,all_chapterized_books/1793-chapters/book_clean.txt
+15,a room with a view,67876,all_chapterized_books/2641-chapters/book_clean.txt
+16,mary barton,163976,all_chapterized_books/2153-chapters/book_clean.txt
+17,coriolanus,29906,all_chapterized_books/1797-chapters/book_clean.txt
+18,around the world in eighty days,62674,all_chapterized_books/103-chapters/book_clean.txt
+19,candide,32369,all_chapterized_books/19942-chapters/book_clean.txt
+20,the garden party,59064,all_chapterized_books/1429-chapters/book_clean.txt
+21,sister carrie,158607,all_chapterized_books/233-chapters/book_clean.txt
+22,persuasion,83771,all_chapterized_books/105-chapters/book_clean.txt
+23,looking backward: 2000-1887,77572,all_chapterized_books/25439-chapters/book_clean.txt
+24,wuthering heights,118559,all_chapterized_books/768-chapters/book_clean.txt
+25,what maisie knew,96269,all_chapterized_books/7118-chapters/book_clean.txt
+26,the vicar of wakefield,62854,all_chapterized_books/2667-chapters/book_clean.txt
+27,utilitarianism,27158,all_chapterized_books/11224-chapters/book_clean.txt
+28,where angels fear to tread,50492,all_chapterized_books/2948-chapters/book_clean.txt
+29,oliver twist,159182,all_chapterized_books/730-chapters/book_clean.txt
+30,david copperfield,359844,all_chapterized_books/766-chapters/book_clean.txt
+31,heart of darkness,38763,all_chapterized_books/219-chapters/book_clean.txt
+32,dracula,161573,all_chapterized_books/345-chapters/book_clean.txt
+33,a hero of our time,57858,all_chapterized_books/913-chapters/book_clean.txt
+34,green mansions,87569,all_chapterized_books/942-chapters/book_clean.txt
+35,the phantom of the opera,85527,all_chapterized_books/175-chapters/book_clean.txt
+36,leviathan,211347,all_chapterized_books/3207-chapters/book_clean.txt
+37,the goose girl,65729,all_chapterized_books/14598-chapters/book_clean.txt
+38,main street,171286,all_chapterized_books/543-chapters/book_clean.txt
+39,the canterville ghost,11454,all_chapterized_books/14522-chapters/book_clean.txt
+40,middlemarch,323549,all_chapterized_books/145-chapters/book_clean.txt
+41,villette,195435,all_chapterized_books/9182-chapters/book_clean.txt
+42,from the earth to the moon,41700,all_chapterized_books/83-chapters/book_clean.txt
+43,the power and the glory,94290,all_chapterized_books/10068-chapters/book_clean.txt
+44,notes from underground,44269,all_chapterized_books/600-chapters/book_clean.txt
+45,on liberty,47926,all_chapterized_books/34901-chapters/book_clean.txt
+46,the marrow of tradition,90408,all_chapterized_books/11228-chapters/book_clean.txt
+47,the return of the native,143817,all_chapterized_books/17500-chapters/book_clean.txt
+48,the scarlet letter,69411,all_chapterized_books/25344-chapters/book_clean.txt
+49,babbitt,126418,all_chapterized_books/1156-chapters/book_clean.txt
+50,the wind in the willows,59781,all_chapterized_books/27805-chapters/book_clean.txt
+51,madame bovary,116353,all_chapterized_books/2413-chapters/book_clean.txt
+52,a tale of two cities,137165,all_chapterized_books/98-chapters/book_clean.txt
+53,howards end,111578,all_chapterized_books/2946-chapters/book_clean.txt
+54,the turn of the screw,43315,all_chapterized_books/209-chapters/book_clean.txt
+55,the secret agent,91543,all_chapterized_books/974-chapters/book_clean.txt
+56,jane eyre,187180,all_chapterized_books/1260-chapters/book_clean.txt
+57,the pickwick papers,303781,all_chapterized_books/580-chapters/book_clean.txt
+58,ivanhoe,178827,all_chapterized_books/82-chapters/book_clean.txt
+59,mansfield park,160805,all_chapterized_books/141-chapters/book_clean.txt
+60,typee,106290,all_chapterized_books/1900-chapters/book_clean.txt
+61,anne of green gables,105997,all_chapterized_books/45-chapters/book_clean.txt
+62,kidnapped,80679,all_chapterized_books/421-chapters/book_clean.txt
+63,a little princess,67591,all_chapterized_books/146-chapters/book_clean.txt
+64,regeneration,58519,all_chapterized_books/13434-chapters/book_clean.txt
+65,therese raquin,70014,all_chapterized_books/6626-chapters/book_clean.txt
+66,sons and lovers,164122,all_chapterized_books/217-chapters/book_clean.txt
+67,the hound of the baskervilles,59522,all_chapterized_books/2852-chapters/book_clean.txt
+68,the mysteries of udolpho,292707,all_chapterized_books/3268-chapters/book_clean.txt
+69,twelve years a slave,81227,all_chapterized_books/45631-chapters/book_clean.txt
+70,the last of the mohicans,148126,all_chapterized_books/27681-chapters/book_clean.txt
+71,the deerslayer,215324,all_chapterized_books/3285-chapters/book_clean.txt
+72,the rise of silas lapham,133217,all_chapterized_books/154-chapters/book_clean.txt
+73,the good soldier,76545,all_chapterized_books/2775-chapters/book_clean.txt
+74,the red badge of courage,46773,all_chapterized_books/463-chapters/book_clean.txt
+75,the new testament,179419,all_chapterized_books/25901-chapters/book_clean.txt
+76,o pioneers,56483,all_chapterized_books/24-chapters/book_clean.txt
+77,the mill on the floss,211645,all_chapterized_books/6688-chapters/book_clean.txt
+78,treasure island,69565,all_chapterized_books/27780-chapters/book_clean.txt
+79,henry viii,146543,all_chapterized_books/20300-chapters/book_clean.txt
+80,the time machine,32572,all_chapterized_books/35-chapters/book_clean.txt
+81,kim,106688,all_chapterized_books/2226-chapters/book_clean.txt
+82,the valley of fear,58585,all_chapterized_books/3289-chapters/book_clean.txt
+83,the invisible man,49407,all_chapterized_books/5230-chapters/book_clean.txt
+84,vanity fair,307226,all_chapterized_books/599-chapters/book_clean.txt
+85,news from nowhere,78189,all_chapterized_books/3261-chapters/book_clean.txt
+86,the way of all flesh,163628,all_chapterized_books/2084-chapters/book_clean.txt
+87,little dorrit,342177,all_chapterized_books/963-chapters/book_clean.txt
+88,incidents in the life of a slave girl,82617,all_chapterized_books/11030-chapters/book_clean.txt
+89,henry iv part 2,22316,all_chapterized_books/2252-chapters/book_clean.txt
+90,macbeth,18631,all_chapterized_books/1533-chapters/book_clean.txt
+91,troilus and cressida,28124,all_chapterized_books/1790-chapters/book_clean.txt
+92,richard ii,22706,all_chapterized_books/2250-chapters/book_clean.txt
+93,henry iv part 1,25532,all_chapterized_books/2251-chapters/book_clean.txt
+94,king john,22135,all_chapterized_books/1511-chapters/book_clean.txt
+95,henry vi part 1,23093,all_chapterized_books/1765-chapters/book_clean.txt
+96,richard iii,30538,all_chapterized_books/2257-chapters/book_clean.txt
+97,henry v,27098,all_chapterized_books/2253-chapters/book_clean.txt
+98,every man in his humour,37437,all_chapterized_books/3694-chapters/book_clean.txt
+99,henry viii,25840,all_chapterized_books/2258-chapters/book_clean.txt
+100,titus andronicus,22015,all_chapterized_books/1771-chapters/book_clean.txt
+101,julius caesar,21081,all_chapterized_books/1522-chapters/book_clean.txt
+102,two gentlemen of verona,14781,all_chapterized_books/1108-chapters/book_clean.txt
+103,second treatise of government,55677,all_chapterized_books/7370-chapters/book_clean.txt
+104,she stoops to conquer,22890,all_chapterized_books/383-chapters/book_clean.txt
+105,the wonderful wizard of oz,39905,all_chapterized_books/43936-chapters/book_clean.txt
+106,pygmalion,33152,all_chapterized_books/3825-chapters/book_clean.txt
+107,twelfth night,18358,all_chapterized_books/38901-chapters/book_clean.txt
+108,the boxcar children,24938,all_chapterized_books/42796-chapters/book_clean.txt
+109,the piazza tales,80112,all_chapterized_books/15859-chapters/book_clean.txt
+110,the return of sherlock holmes,113493,all_chapterized_books/221-chapters/book_clean.txt
+111,arms and the man,25204,all_chapterized_books/3618-chapters/book_clean.txt
+112,the aeneid,110899,all_chapterized_books/228-chapters/book_clean.txt
+113,ghosts,23017,all_chapterized_books/2467-chapters/book_clean.txt
+114,hedda gabler,27343,all_chapterized_books/4093-chapters/book_clean.txt
+115,merry wives of windsor,23764,all_chapterized_books/1517-chapters/book_clean.txt
+116,the spanish tragedy,22025,all_chapterized_books/35330-chapters/book_clean.txt
+117,daisy miller,21899,all_chapterized_books/208-chapters/book_clean.txt
+118,tartuffe,18383,all_chapterized_books/2027-chapters/book_clean.txt
+119,a christmas carol,28970,all_chapterized_books/19337-chapters/book_clean.txt
+120,an enemy of the people,32048,all_chapterized_books/2446-chapters/book_clean.txt
+121,siddhartha,39624,all_chapterized_books/2500-chapters/book_clean.txt
+122,measure for measure,31993,all_chapterized_books/23045-chapters/book_clean.txt
+123,the seagull,19063,all_chapterized_books/1754-chapters/book_clean.txt
+124,alice's adventure in wonderland,27075,all_chapterized_books/11-chapters/book_clean.txt
+125,idylls of the king,84946,all_chapterized_books/610-chapters/book_clean.txt
+126,jude the obscure,147633,all_chapterized_books/153-chapters/book_clean.txt
+127,pride and prejudice,122958,all_chapterized_books/42671-chapters/book_clean.txt
+128,emma,161306,all_chapterized_books/158-chapters/book_clean.txt
+129,white fang,72682,all_chapterized_books/910-chapters/book_clean.txt
+130,romeo and juliet,26194,all_chapterized_books/1112-chapters/book_clean.txt
+131,the merchant of venice,22532,all_chapterized_books/1515-chapters/book_clean.txt
+132,the ramayana,405377,all_chapterized_books/24869-chapters/book_clean.txt
+133,meditations,66747,all_chapterized_books/2680-chapters/book_clean.txt
+134,an enquiry concerning the principles of morals,47835,all_chapterized_books/4320-chapters/book_clean.txt
+135,the man in the iron mask,169384,all_chapterized_books/2759-chapters/book_clean.txt
+136,cymbeline,29531,all_chapterized_books/1799-chapters/book_clean.txt
+137,troilus and criseyde,67342,all_chapterized_books/257-chapters/book_clean.txt
+138,the sorrows of young werther,42697,all_chapterized_books/2527-chapters/book_clean.txt
+139,the hairy ape,16565,all_chapterized_books/4015-chapters/book_clean.txt
+140,all for love,22980,all_chapterized_books/2062-chapters/book_clean.txt
+141,major barbara,33421,all_chapterized_books/3790-chapters/book_clean.txt
+142,the jew of malta,25412,all_chapterized_books/901-chapters/book_clean.txt
+143,the coquette,53188,all_chapterized_books/12431-chapters/book_clean.txt
+144,the communist manifesto,11282,all_chapterized_books/61-chapters/book_clean.txt
+145,an ideal husband,31025,all_chapterized_books/885-chapters/book_clean.txt
+146,the three musketeers,229757,all_chapterized_books/1257-chapters/book_clean.txt
+147,black beauty,60340,all_chapterized_books/271-chapters/book_clean.txt
+148,cyrano de bergerac,35463,all_chapterized_books/1254-chapters/book_clean.txt
+149,evelina,155367,all_chapterized_books/6053-chapters/book_clean.txt
+150,king lear,25080,all_chapterized_books/2266-chapters/book_clean.txt
+151,timon of athens,20109,all_chapterized_books/1798-chapters/book_clean.txt
+152,antony and cleopatra,26991,all_chapterized_books/1534-chapters/book_clean.txt
+153,the adventures of huckleberry finn,114673,all_chapterized_books/32325-chapters/book_clean.txt
+154,the playboy of the western world,20670,all_chapterized_books/1240-chapters/book_clean.txt
+155,the duchess of malfi,26814,all_chapterized_books/2232-chapters/book_clean.txt
+156,the secret garden,82453,all_chapterized_books/113-chapters/book_clean.txt
+157,dombey and son,360463,all_chapterized_books/821-chapters/book_clean.txt
+158,the age of innocence,103725,all_chapterized_books/541-chapters/book_clean.txt
+159,ethan frome,30793,all_chapterized_books/4517-chapters/book_clean.txt
+160,bleak house,358366,all_chapterized_books/1023-chapters/book_clean.txt
+161,the jungle,151504,all_chapterized_books/140-chapters/book_clean.txt
+162,the education of henry adams,176209,all_chapterized_books/2044-chapters/book_clean.txt
+163,the blithedale romance,82470,all_chapterized_books/2081-chapters/book_clean.txt
+164,much ado about nothing,22836,all_chapterized_books/1783-chapters/book_clean.txt
+165,anthem,19370,all_chapterized_books/1249-chapters/book_clean.txt
+166,as you like it,23152,all_chapterized_books/1121-chapters/book_clean.txt
+167,the importance of being earnest,20800,all_chapterized_books/844-chapters/book_clean.txt
+168,the ambassadors,160969,all_chapterized_books/432-chapters/book_clean.txt
+169,the taming of the shrew,22614,all_chapterized_books/1772-chapters/book_clean.txt
+170,the brothers karamazov,357780,all_chapterized_books/28054-chapters/book_clean.txt
+171,the portrait of a lady,231847,all_chapterized_books/2833-chapters/book_clean.txt
+172,the prince,44831,all_chapterized_books/1232-chapters/book_clean.txt
+173,gargantua and pantagruel,303226,all_chapterized_books/1200-chapters/book_clean.txt
+174,the red and the black,191147,all_chapterized_books/44747-chapters/book_clean.txt
+175,the consolation of philosophy,41785,all_chapterized_books/14328-chapters/book_clean.txt
+176,the picture of dorian gray,79364,all_chapterized_books/174-chapters/book_clean.txt
+177,lord jim,130523,all_chapterized_books/5658-chapters/book_clean.txt
+178,far from the madding crowd,139336,all_chapterized_books/107-chapters/book_clean.txt
+179,sense and sensibility,120272,all_chapterized_books/161-chapters/book_clean.txt
+180,the tragedy of antony and cleopatra,27049,all_chapterized_books/1130-chapters/book_clean.txt
+181,the school for scandal,29700,all_chapterized_books/1929-chapters/book_clean.txt
+182,the white devil,27205,all_chapterized_books/12915-chapters/book_clean.txt
+183,the tempest,23500,all_chapterized_books/23042-chapters/book_clean.txt
+184,uncle vanya,16652,all_chapterized_books/1756-chapters/book_clean.txt
+185,the comedy of errors,21301,all_chapterized_books/23046-chapters/book_clean.txt
+186,the rime of the ancient mariner,3884,all_chapterized_books/151-chapters/book_clean.txt

@@ -1,0 +1,220 @@
+,Book Title,Number of Chapters
+0,paradise lost,10
+1,the federalist papers,85
+2,the rivals,13
+3,adam bede,56
+4,northanger abbey,31
+5,frankenstein,25
+6,my antonia,45
+7,a vindication of the rights of woman,13
+8,little women,47
+9,the house of mirth,29
+10,the house of the seven gables,21
+11,a study in scarlet,14
+12,the life of timon of athens,17
+13,hamlet,20
+14,othello,15
+15,a room with a view,20
+16,mary barton,33
+17,coriolanus,29
+18,around the world in eighty days,37
+19,candide,30
+20,the garden party,15
+21,sister carrie,47
+22,persuasion,24
+23,looking backward: 2000-1887,28
+24,wuthering heights,34
+25,what maisie knew,31
+26,the vicar of wakefield,32
+27,utilitarianism,5
+28,where angels fear to tread,10
+29,oliver twist,53
+30,david copperfield,64
+31,heart of darkness,3
+32,dracula,27
+33,a hero of our time,36
+34,green mansions,23
+35,the phantom of the opera,26
+36,leviathan,41
+37,the goose girl,22
+38,main street,39
+39,the canterville ghost,7
+40,middlemarch,87
+41,villette,39
+42,from the earth to the moon,28
+43,the power and the glory,4
+44,notes from underground,21
+45,on liberty,5
+46,the marrow of tradition,37
+47,the return of the native,48
+48,the scarlet letter,24
+49,babbitt,34
+50,the wind in the willows,12
+51,madame bovary,35
+52,a tale of two cities,46
+53,howards end,44
+54,the turn of the screw,25
+55,the secret agent,13
+56,jane eyre,38
+57,the pickwick papers,57
+58,ivanhoe,44
+59,mansfield park,48
+60,typee,34
+61,anne of green gables,38
+62,kidnapped,30
+63,a little princess,19
+64,regeneration,23
+65,therese raquin,32
+66,sons and lovers,15
+67,the hound of the baskervilles,15
+68,the mysteries of udolpho,57
+69,twelve years a slave,22
+70,the last of the mohicans,33
+71,house of mirth,29
+72,the deerslayer,32
+73,the rise of silas lapham,27
+74,the good soldier,18
+75,the red badge of courage,24
+76,the new testament,
+77,o pioneers,30
+78,the mill on the floss,58
+79,treasure island,34
+80,henry viii,17
+81,the time machine,12
+82,kim,15
+83,the valley of fear,11
+84,the invisible man,
+85,vanity fair,67
+86,news from nowhere,32
+87,the way of all flesh,89
+88,little dorrit,71
+89,incidents in the life of a slave girl,41
+90,henry iv part 2,17
+91,macbeth,26
+92,troilus and cressida,25
+93,richard ii,19
+94,henry iv part 1,19
+95,king john,17
+96,henry vi part 1,25
+97,richard iii,9
+98,henry v,5
+99,every man in his humour,12
+100,titus andronicus,14
+101,julius caesar,18
+102,two gentlemen of verona,20
+103,second treatise of government,14
+104,she stoops to conquer,5
+105,the wonderful wizard of oz,24
+106,pygmalion,5
+107,twelfth night,19
+108,the boxcar children,13
+109,the piazza tales,15
+110,the return of sherlock holmes,11
+111,arms and the man,3
+112,the aeneid,12
+113,ghosts,3
+114,hedda gabler,4
+115,merry wives of windsor,23
+116,the spanish tragedy,24
+117,daisy miller,2
+118,tartuffe,33
+119,a christmas carol,5
+120,an enemy of the people,5
+121,siddhartha,12
+122,measure for measure,18
+123,the seagull,4
+124,alice's adventure in wonderland,
+125,idylls of the king,14
+126,jude the obscure,53
+127,pride and prejudice,60
+128,emma,55
+129,white fang,25
+130,romeo and juliet,24
+131,the merchant of venice,20
+132,the ramayana,535
+133,meditations,12
+134,an enquiry concerning the principles of morals,8
+135,the man in the iron mask,59
+136,cymbeline,27
+137,troilus and criseyde,5
+138,the sorrows of young werther,1
+139,the hairy ape,8
+140,all for love,5
+141,major barbara,3
+142,the jew of malta,5
+143,the coquette,74
+144,the communist manifesto,4
+145,an ideal husband,4
+146,the three musketeers,67
+147,black beauty,49
+148,cyrano de bergerac,46
+149,evelina,84
+150,king lear,23
+151,timon of athens,17
+152,antony and cleopatra,42
+153,the adventures of huckleberry finn,43
+154,the playboy of the western world,3
+155,the duchess of malfi,20
+156,the secret garden,27
+157,dombey and son,62
+158,the age of innocence,34
+159,ethan frome,10
+160,bleak house,67
+161,the jungle,31
+162,the education of henry adams,35
+163,the blithedale romance,29
+164,much ado about nothing,17
+165,anthem,12
+166,as you like it,22
+167,the importance of being earnest,3
+168,the ambassadors,36
+169,the taming of the shrew,14
+170,the brothers karamazov,96
+171,the portrait of a lady,
+172,the prince,26
+173,gargantua and pantagruel,222
+174,the red and the black,75
+175,the consolation of philosophy,5
+176,the picture of dorian gray,20
+177,lord jim,45
+178,far from the madding crowd,57
+179,sense and sensibility,50
+180,the tragedy of antony and cleopatra,42
+181,the school for scandal,14
+182,the white devil,16
+183,the tempest,10
+184,uncle vanya,4
+185,the comedy of errors,11
+186,the rime of the ancient mariner,7
+187,mrs. warren's profession,1
+188,invisible man,28
+189,utopia,7
+190,winesburg ohio,22
+191,alice's adventures in wonderland,12
+192,gulliver's travels,16
+193,dr. jekyll and mr. hyde,10
+194,a midsummer night's dream,9
+195,narrative of the life of frederick douglass: an american slave,11
+196,return of the native,46
+197,the confidence-man,45
+198,maggie: a girl of the streets,19
+199,the monkey's paw,3
+200,love's labour's lost,9
+201,a doll's house,3
+202,don juan,18
+203,the secret sharer,2
+204,man and superman,4
+205,njal's saga,159
+206,phaedra,30
+207,all's well that ends well,9
+208,the winter's tale,15
+209,under the greenwood tree,27
+210,of human bondage,91
+211,portrait of a lady,55
+212,beowulf,98
+213,tess of the d'urbervilles,59
+214,consolation of philosophy,5
+215,twelfth night or what you will,18
+216,the autobiography of an ex-colored man,11
+217,common sense,4
+218,king solomon's mines,20

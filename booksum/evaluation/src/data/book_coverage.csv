@@ -1,0 +1,1721 @@
+,Book Title,Source,Chapters in Book,Chapters Covered,Percentage Covered
+0,bleak house,bookwolf,67,0,0.0
+1,bleak house,cliffnotes,67,67,1.0
+2,bleak house,gradesaver,67,62,0.9253731343283582
+3,bleak house,novelguide,67,67,1.0
+4,bleak house,pinkmonkey,67,0,0.0
+5,bleak house,shmoop,67,67,1.0
+6,bleak house,sparknotes,67,67,1.0
+7,bleak house,thebestnotes,67,0,0.0
+8,the adventures of huckleberry finn,bookwolf,43,0,0.0
+9,the adventures of huckleberry finn,cliffnotes,43,42,0.9767441860465116
+10,the adventures of huckleberry finn,gradesaver,43,43,1.0
+11,the adventures of huckleberry finn,novelguide,43,0,0.0
+12,the adventures of huckleberry finn,pinkmonkey,43,0,0.0
+13,the adventures of huckleberry finn,shmoop,43,0,0.0
+14,the adventures of huckleberry finn,sparknotes,43,43,1.0
+15,the adventures of huckleberry finn,thebestnotes,43,0,0.0
+16,anthem,bookwolf,12,0,0.0
+17,anthem,cliffnotes,12,12,1.0
+18,anthem,gradesaver,12,12,1.0
+19,anthem,novelguide,12,12,1.0
+20,anthem,pinkmonkey,12,0,0.0
+21,anthem,shmoop,12,12,1.0
+22,anthem,sparknotes,12,12,1.0
+23,anthem,thebestnotes,12,0,0.0
+24,ethan frome,bookwolf,10,0,0.0
+25,ethan frome,cliffnotes,10,9,0.9
+26,ethan frome,gradesaver,10,10,1.0
+27,ethan frome,novelguide,10,9,0.9
+28,ethan frome,pinkmonkey,10,9,0.9
+29,ethan frome,shmoop,10,9,0.9
+30,ethan frome,sparknotes,10,9,0.9
+31,ethan frome,thebestnotes,10,0,0.0
+32,the jungle,bookwolf,31,0,0.0
+33,the jungle,cliffnotes,31,31,1.0
+34,the jungle,gradesaver,31,31,1.0
+35,the jungle,novelguide,31,0,0.0
+36,the jungle,pinkmonkey,31,0,0.0
+37,the jungle,shmoop,31,31,1.0
+38,the jungle,sparknotes,31,31,1.0
+39,the jungle,thebestnotes,31,0,0.0
+40,the ambassadors,bookwolf,36,0,0.0
+41,the ambassadors,cliffnotes,36,36,1.0
+42,the ambassadors,gradesaver,36,0,0.0
+43,the ambassadors,novelguide,36,0,0.0
+44,the ambassadors,pinkmonkey,36,0,0.0
+45,the ambassadors,shmoop,36,36,1.0
+46,the ambassadors,sparknotes,36,0,0.0
+47,the ambassadors,thebestnotes,36,0,0.0
+48,the age of innocence,bookwolf,34,0,0.0
+49,the age of innocence,cliffnotes,34,34,1.0
+50,the age of innocence,gradesaver,34,34,1.0
+51,the age of innocence,novelguide,34,0,0.0
+52,the age of innocence,pinkmonkey,34,0,0.0
+53,the age of innocence,shmoop,34,34,1.0
+54,the age of innocence,sparknotes,34,34,1.0
+55,the age of innocence,thebestnotes,34,0,0.0
+56,mrs. warren's profession,bookwolf,1,0,0.0
+57,mrs. warren's profession,cliffnotes,1,0,0.0
+58,mrs. warren's profession,gradesaver,1,1,1.0
+59,mrs. warren's profession,novelguide,1,0,0.0
+60,mrs. warren's profession,pinkmonkey,1,0,0.0
+61,mrs. warren's profession,shmoop,1,0,0.0
+62,mrs. warren's profession,sparknotes,1,0,0.0
+63,mrs. warren's profession,thebestnotes,1,0,0.0
+64,invisible man,bookwolf,28,0,0.0
+65,invisible man,cliffnotes,28,0,0.0
+66,invisible man,gradesaver,28,0,0.0
+67,invisible man,novelguide,28,25,0.8928571428571429
+68,invisible man,pinkmonkey,28,0,0.0
+69,invisible man,shmoop,28,28,1.0
+70,invisible man,sparknotes,28,0,0.0
+71,invisible man,thebestnotes,28,25,0.8928571428571429
+72,timon of athens,bookwolf,17,0,0.0
+73,timon of athens,cliffnotes,17,0,0.0
+74,timon of athens,gradesaver,17,0,0.0
+75,timon of athens,novelguide,17,0,0.0
+76,timon of athens,pinkmonkey,17,17,1.0
+77,timon of athens,shmoop,17,0,0.0
+78,timon of athens,sparknotes,17,17,1.0
+79,timon of athens,thebestnotes,17,0,0.0
+80,the importance of being earnest,bookwolf,3,0,0.0
+81,the importance of being earnest,cliffnotes,3,1,0.3333333333333333
+82,the importance of being earnest,gradesaver,3,0,0.0
+83,the importance of being earnest,novelguide,3,0,0.0
+84,the importance of being earnest,pinkmonkey,3,0,0.0
+85,the importance of being earnest,shmoop,3,3,1.0
+86,the importance of being earnest,sparknotes,3,0,0.0
+87,the importance of being earnest,thebestnotes,3,0,0.0
+88,the blithedale romance,bookwolf,29,0,0.0
+89,the blithedale romance,cliffnotes,29,0,0.0
+90,the blithedale romance,gradesaver,29,29,1.0
+91,the blithedale romance,novelguide,29,0,0.0
+92,the blithedale romance,pinkmonkey,29,0,0.0
+93,the blithedale romance,shmoop,29,0,0.0
+94,the blithedale romance,sparknotes,29,0,0.0
+95,the blithedale romance,thebestnotes,29,0,0.0
+96,the education of henry adams,bookwolf,35,0,0.0
+97,the education of henry adams,cliffnotes,35,35,1.0
+98,the education of henry adams,gradesaver,35,0,0.0
+99,the education of henry adams,novelguide,35,0,0.0
+100,the education of henry adams,pinkmonkey,35,0,0.0
+101,the education of henry adams,shmoop,35,0,0.0
+102,the education of henry adams,sparknotes,35,0,0.0
+103,the education of henry adams,thebestnotes,35,0,0.0
+104,utopia,bookwolf,7,0,0.0
+105,utopia,cliffnotes,7,0,0.0
+106,utopia,gradesaver,7,0,0.0
+107,utopia,novelguide,7,7,1.0
+108,utopia,pinkmonkey,7,0,0.0
+109,utopia,shmoop,7,0,0.0
+110,utopia,sparknotes,7,0,0.0
+111,utopia,thebestnotes,7,0,0.0
+112,dombey and son,bookwolf,62,0,0.0
+113,dombey and son,cliffnotes,62,0,0.0
+114,dombey and son,gradesaver,62,62,1.0
+115,dombey and son,novelguide,62,0,0.0
+116,dombey and son,pinkmonkey,62,0,0.0
+117,dombey and son,shmoop,62,0,0.0
+118,dombey and son,sparknotes,62,0,0.0
+119,dombey and son,thebestnotes,62,0,0.0
+120,much ado about nothing,bookwolf,17,0,0.0
+121,much ado about nothing,cliffnotes,17,17,1.0
+122,much ado about nothing,gradesaver,17,17,1.0
+123,much ado about nothing,novelguide,17,17,1.0
+124,much ado about nothing,pinkmonkey,17,17,1.0
+125,much ado about nothing,shmoop,17,17,1.0
+126,much ado about nothing,sparknotes,17,17,1.0
+127,much ado about nothing,thebestnotes,17,0,0.0
+128,the secret garden,bookwolf,27,0,0.0
+129,the secret garden,cliffnotes,27,0,0.0
+130,the secret garden,gradesaver,27,27,1.0
+131,the secret garden,novelguide,27,0,0.0
+132,the secret garden,pinkmonkey,27,0,0.0
+133,the secret garden,shmoop,27,27,1.0
+134,the secret garden,sparknotes,27,27,1.0
+135,the secret garden,thebestnotes,27,0,0.0
+136,the playboy of the western world,bookwolf,3,0,0.0
+137,the playboy of the western world,cliffnotes,3,0,0.0
+138,the playboy of the western world,gradesaver,3,3,1.0
+139,the playboy of the western world,novelguide,3,0,0.0
+140,the playboy of the western world,pinkmonkey,3,0,0.0
+141,the playboy of the western world,shmoop,3,0,0.0
+142,the playboy of the western world,sparknotes,3,0,0.0
+143,the playboy of the western world,thebestnotes,3,0,0.0
+144,the duchess of malfi,bookwolf,20,0,0.0
+145,the duchess of malfi,cliffnotes,20,0,0.0
+146,the duchess of malfi,gradesaver,20,20,1.0
+147,the duchess of malfi,novelguide,20,0,0.0
+148,the duchess of malfi,pinkmonkey,20,0,0.0
+149,the duchess of malfi,shmoop,20,18,0.9
+150,the duchess of malfi,sparknotes,20,0,0.0
+151,the duchess of malfi,thebestnotes,20,0,0.0
+152,the taming of the shrew,bookwolf,14,0,0.0
+153,the taming of the shrew,cliffnotes,14,12,0.8571428571428571
+154,the taming of the shrew,gradesaver,14,12,0.8571428571428571
+155,the taming of the shrew,novelguide,14,0,0.0
+156,the taming of the shrew,pinkmonkey,14,0,0.0
+157,the taming of the shrew,shmoop,14,12,0.8571428571428571
+158,the taming of the shrew,sparknotes,14,14,1.0
+159,the taming of the shrew,thebestnotes,14,0,0.0
+160,antony and cleopatra,bookwolf,42,0,0.0
+161,antony and cleopatra,cliffnotes,42,42,1.0
+162,antony and cleopatra,gradesaver,42,42,1.0
+163,antony and cleopatra,novelguide,42,42,1.0
+164,antony and cleopatra,pinkmonkey,42,0,0.0
+165,antony and cleopatra,shmoop,42,0,0.0
+166,antony and cleopatra,sparknotes,42,42,1.0
+167,antony and cleopatra,thebestnotes,42,0,0.0
+168,as you like it,bookwolf,22,0,0.0
+169,as you like it,cliffnotes,22,22,1.0
+170,as you like it,gradesaver,22,22,1.0
+171,as you like it,novelguide,22,0,0.0
+172,as you like it,pinkmonkey,22,0,0.0
+173,as you like it,shmoop,22,22,1.0
+174,as you like it,sparknotes,22,22,1.0
+175,as you like it,thebestnotes,22,0,0.0
+176,the last of the mohicans,bookwolf,33,0,0.0
+177,the last of the mohicans,cliffnotes,33,33,1.0
+178,the last of the mohicans,gradesaver,33,0,0.0
+179,the last of the mohicans,novelguide,33,0,0.0
+180,the last of the mohicans,pinkmonkey,33,0,0.0
+181,the last of the mohicans,shmoop,33,0,0.0
+182,the last of the mohicans,sparknotes,33,33,1.0
+183,the last of the mohicans,thebestnotes,33,0,0.0
+184,dracula,bookwolf,27,0,0.0
+185,dracula,cliffnotes,27,27,1.0
+186,dracula,gradesaver,27,27,1.0
+187,dracula,novelguide,27,27,1.0
+188,dracula,pinkmonkey,27,27,1.0
+189,dracula,shmoop,27,27,1.0
+190,dracula,sparknotes,27,27,1.0
+191,dracula,thebestnotes,27,0,0.0
+192,jane eyre,bookwolf,38,35,0.9210526315789473
+193,jane eyre,cliffnotes,38,38,1.0
+194,jane eyre,gradesaver,38,15,0.39473684210526316
+195,jane eyre,novelguide,38,38,1.0
+196,jane eyre,pinkmonkey,38,38,1.0
+197,jane eyre,shmoop,38,15,0.39473684210526316
+198,jane eyre,sparknotes,38,33,0.868421052631579
+199,jane eyre,thebestnotes,38,0,0.0
+200,adam bede,bookwolf,56,0,0.0
+201,adam bede,cliffnotes,56,56,1.0
+202,adam bede,gradesaver,56,54,0.9642857142857143
+203,adam bede,novelguide,56,55,0.9821428571428571
+204,adam bede,pinkmonkey,56,0,0.0
+205,adam bede,shmoop,56,56,1.0
+206,adam bede,sparknotes,56,55,0.9821428571428571
+207,adam bede,thebestnotes,56,0,0.0
+208,the hound of the baskervilles,bookwolf,15,0,0.0
+209,the hound of the baskervilles,cliffnotes,15,0,0.0
+210,the hound of the baskervilles,gradesaver,15,15,1.0
+211,the hound of the baskervilles,novelguide,15,0,0.0
+212,the hound of the baskervilles,pinkmonkey,15,0,0.0
+213,the hound of the baskervilles,shmoop,15,15,1.0
+214,the hound of the baskervilles,sparknotes,15,0,0.0
+215,the hound of the baskervilles,thebestnotes,15,0,0.0
+216,madame bovary,bookwolf,35,0,0.0
+217,madame bovary,cliffnotes,35,35,1.0
+218,madame bovary,gradesaver,35,0,0.0
+219,madame bovary,novelguide,35,35,1.0
+220,madame bovary,pinkmonkey,35,35,1.0
+221,madame bovary,shmoop,35,35,1.0
+222,madame bovary,sparknotes,35,0,0.0
+223,madame bovary,thebestnotes,35,0,0.0
+224,the aeneid,bookwolf,12,0,0.0
+225,the aeneid,cliffnotes,12,0,0.0
+226,the aeneid,gradesaver,12,12,1.0
+227,the aeneid,novelguide,12,0,0.0
+228,the aeneid,pinkmonkey,12,0,0.0
+229,the aeneid,shmoop,12,12,1.0
+230,the aeneid,sparknotes,12,12,1.0
+231,the aeneid,thebestnotes,12,0,0.0
+232,main street,bookwolf,39,0,0.0
+233,main street,cliffnotes,39,39,1.0
+234,main street,gradesaver,39,0,0.0
+235,main street,novelguide,39,36,0.9230769230769231
+236,main street,pinkmonkey,39,39,1.0
+237,main street,shmoop,39,39,1.0
+238,main street,sparknotes,39,39,1.0
+239,main street,thebestnotes,39,0,0.0
+240,the deerslayer,bookwolf,32,0,0.0
+241,the deerslayer,cliffnotes,32,32,1.0
+242,the deerslayer,gradesaver,32,0,0.0
+243,the deerslayer,novelguide,32,0,0.0
+244,the deerslayer,pinkmonkey,32,0,0.0
+245,the deerslayer,shmoop,32,0,0.0
+246,the deerslayer,sparknotes,32,0,0.0
+247,the deerslayer,thebestnotes,32,0,0.0
+248,oliver twist,bookwolf,53,0,0.0
+249,oliver twist,cliffnotes,53,53,1.0
+250,oliver twist,gradesaver,53,53,1.0
+251,oliver twist,novelguide,53,53,1.0
+252,oliver twist,pinkmonkey,53,0,0.0
+253,oliver twist,shmoop,53,53,1.0
+254,oliver twist,sparknotes,53,53,1.0
+255,oliver twist,thebestnotes,53,0,0.0
+256,the house of the seven gables,bookwolf,21,0,0.0
+257,the house of the seven gables,cliffnotes,21,21,1.0
+258,the house of the seven gables,gradesaver,21,21,1.0
+259,the house of the seven gables,novelguide,21,0,0.0
+260,the house of the seven gables,pinkmonkey,21,0,0.0
+261,the house of the seven gables,shmoop,21,21,1.0
+262,the house of the seven gables,sparknotes,21,21,1.0
+263,the house of the seven gables,thebestnotes,21,0,0.0
+264,vanity fair,bookwolf,67,0,0.0
+265,vanity fair,cliffnotes,67,67,1.0
+266,vanity fair,gradesaver,67,61,0.9104477611940298
+267,vanity fair,novelguide,67,67,1.0
+268,vanity fair,pinkmonkey,67,3,0.04477611940298507
+269,vanity fair,shmoop,67,67,1.0
+270,vanity fair,sparknotes,67,0,0.0
+271,vanity fair,thebestnotes,67,0,0.0
+272,winesburg ohio,bookwolf,22,0,0.0
+273,winesburg ohio,cliffnotes,22,22,1.0
+274,winesburg ohio,gradesaver,22,0,0.0
+275,winesburg ohio,novelguide,22,15,0.6818181818181818
+276,winesburg ohio,pinkmonkey,22,22,1.0
+277,winesburg ohio,shmoop,22,0,0.0
+278,winesburg ohio,sparknotes,22,0,0.0
+279,winesburg ohio,thebestnotes,22,0,0.0
+280,little women,bookwolf,47,0,0.0
+281,little women,cliffnotes,47,0,0.0
+282,little women,gradesaver,47,47,1.0
+283,little women,novelguide,47,33,0.7021276595744681
+284,little women,pinkmonkey,47,0,0.0
+285,little women,shmoop,47,47,1.0
+286,little women,sparknotes,47,47,1.0
+287,little women,thebestnotes,47,46,0.9787234042553191
+288,babbitt,bookwolf,34,0,0.0
+289,babbitt,cliffnotes,34,34,1.0
+290,babbitt,gradesaver,34,34,1.0
+291,babbitt,novelguide,34,34,1.0
+292,babbitt,pinkmonkey,34,0,0.0
+293,babbitt,shmoop,34,34,1.0
+294,babbitt,sparknotes,34,34,1.0
+295,babbitt,thebestnotes,34,0,0.0
+296,sons and lovers,bookwolf,15,0,0.0
+297,sons and lovers,cliffnotes,15,0,0.0
+298,sons and lovers,gradesaver,15,0,0.0
+299,sons and lovers,novelguide,15,0,0.0
+300,sons and lovers,pinkmonkey,15,0,0.0
+301,sons and lovers,shmoop,15,15,1.0
+302,sons and lovers,sparknotes,15,15,1.0
+303,sons and lovers,thebestnotes,15,0,0.0
+304,a tale of two cities,bookwolf,46,45,0.9782608695652174
+305,a tale of two cities,cliffnotes,46,45,0.9782608695652174
+306,a tale of two cities,gradesaver,46,45,0.9782608695652174
+307,a tale of two cities,novelguide,46,46,1.0
+308,a tale of two cities,pinkmonkey,46,0,0.0
+309,a tale of two cities,shmoop,46,45,0.9782608695652174
+310,a tale of two cities,sparknotes,46,45,0.9782608695652174
+311,a tale of two cities,thebestnotes,46,45,0.9782608695652174
+312,the house of mirth,bookwolf,29,0,0.0
+313,the house of mirth,cliffnotes,29,29,1.0
+314,the house of mirth,gradesaver,29,0,0.0
+315,the house of mirth,novelguide,29,0,0.0
+316,the house of mirth,pinkmonkey,29,0,0.0
+317,the house of mirth,shmoop,29,29,1.0
+318,the house of mirth,sparknotes,29,29,1.0
+319,the house of mirth,thebestnotes,29,0,0.0
+320,house of mirth,bookwolf,29,0,0.0
+321,house of mirth,cliffnotes,29,0,0.0
+322,house of mirth,gradesaver,29,29,1.0
+323,house of mirth,novelguide,29,0,0.0
+324,house of mirth,pinkmonkey,29,0,0.0
+325,house of mirth,shmoop,29,0,0.0
+326,house of mirth,sparknotes,29,0,0.0
+327,house of mirth,thebestnotes,29,0,0.0
+328,the scarlet letter,bookwolf,24,0,0.0
+329,the scarlet letter,cliffnotes,24,24,1.0
+330,the scarlet letter,gradesaver,24,24,1.0
+331,the scarlet letter,novelguide,24,0,0.0
+332,the scarlet letter,pinkmonkey,24,0,0.0
+333,the scarlet letter,shmoop,24,24,1.0
+334,the scarlet letter,sparknotes,24,24,1.0
+335,the scarlet letter,thebestnotes,24,0,0.0
+336,emma,bookwolf,55,0,0.0
+337,emma,cliffnotes,55,0,0.0
+338,emma,gradesaver,55,50,0.9090909090909091
+339,emma,novelguide,55,55,1.0
+340,emma,pinkmonkey,55,54,0.9818181818181818
+341,emma,shmoop,55,55,1.0
+342,emma,sparknotes,55,55,1.0
+343,emma,thebestnotes,55,0,0.0
+344,alice's adventures in wonderland,bookwolf,12,0,0.0
+345,alice's adventures in wonderland,cliffnotes,12,12,1.0
+346,alice's adventures in wonderland,gradesaver,12,12,1.0
+347,alice's adventures in wonderland,novelguide,12,10,0.8333333333333334
+348,alice's adventures in wonderland,pinkmonkey,12,10,0.8333333333333334
+349,alice's adventures in wonderland,shmoop,12,0,0.0
+350,alice's adventures in wonderland,sparknotes,12,12,1.0
+351,alice's adventures in wonderland,thebestnotes,12,0,0.0
+352,persuasion,bookwolf,24,0,0.0
+353,persuasion,cliffnotes,24,0,0.0
+354,persuasion,gradesaver,24,24,1.0
+355,persuasion,novelguide,24,7,0.2916666666666667
+356,persuasion,pinkmonkey,24,0,0.0
+357,persuasion,shmoop,24,24,1.0
+358,persuasion,sparknotes,24,24,1.0
+359,persuasion,thebestnotes,24,0,0.0
+360,pride and prejudice,bookwolf,60,60,1.0
+361,pride and prejudice,cliffnotes,60,23,0.38333333333333336
+362,pride and prejudice,gradesaver,60,23,0.38333333333333336
+363,pride and prejudice,novelguide,60,56,0.9333333333333333
+364,pride and prejudice,pinkmonkey,60,0,0.0
+365,pride and prejudice,shmoop,60,0,0.0
+366,pride and prejudice,sparknotes,60,0,0.0
+367,pride and prejudice,thebestnotes,60,51,0.85
+368,gulliver's travels,bookwolf,16,0,0.0
+369,gulliver's travels,cliffnotes,16,16,1.0
+370,gulliver's travels,gradesaver,16,9,0.5625
+371,gulliver's travels,novelguide,16,0,0.0
+372,gulliver's travels,pinkmonkey,16,0,0.0
+373,gulliver's travels,shmoop,16,16,1.0
+374,gulliver's travels,sparknotes,16,0,0.0
+375,gulliver's travels,thebestnotes,16,0,0.0
+376,wuthering heights,bookwolf,34,34,1.0
+377,wuthering heights,cliffnotes,34,34,1.0
+378,wuthering heights,gradesaver,34,34,1.0
+379,wuthering heights,novelguide,34,32,0.9411764705882353
+380,wuthering heights,pinkmonkey,34,34,1.0
+381,wuthering heights,shmoop,34,34,1.0
+382,wuthering heights,sparknotes,34,34,1.0
+383,wuthering heights,thebestnotes,34,0,0.0
+384,frankenstein,bookwolf,25,24,0.96
+385,frankenstein,cliffnotes,25,25,1.0
+386,frankenstein,gradesaver,25,23,0.92
+387,frankenstein,novelguide,25,23,0.92
+388,frankenstein,pinkmonkey,25,24,0.96
+389,frankenstein,shmoop,25,24,0.96
+390,frankenstein,sparknotes,25,24,0.96
+391,frankenstein,thebestnotes,25,0,0.0
+392,jude the obscure,bookwolf,53,0,0.0
+393,jude the obscure,cliffnotes,53,53,1.0
+394,jude the obscure,gradesaver,53,0,0.0
+395,jude the obscure,novelguide,53,0,0.0
+396,jude the obscure,pinkmonkey,53,53,1.0
+397,jude the obscure,shmoop,53,0,0.0
+398,jude the obscure,sparknotes,53,0,0.0
+399,jude the obscure,thebestnotes,53,0,0.0
+400,mansfield park,bookwolf,48,0,0.0
+401,mansfield park,cliffnotes,48,0,0.0
+402,mansfield park,gradesaver,48,48,1.0
+403,mansfield park,novelguide,48,48,1.0
+404,mansfield park,pinkmonkey,48,0,0.0
+405,mansfield park,shmoop,48,48,1.0
+406,mansfield park,sparknotes,48,48,1.0
+407,mansfield park,thebestnotes,48,0,0.0
+408,middlemarch,bookwolf,87,0,0.0
+409,middlemarch,cliffnotes,87,0,0.0
+410,middlemarch,gradesaver,87,56,0.6436781609195402
+411,middlemarch,novelguide,87,87,1.0
+412,middlemarch,pinkmonkey,87,86,0.9885057471264368
+413,middlemarch,shmoop,87,87,1.0
+414,middlemarch,sparknotes,87,86,0.9885057471264368
+415,middlemarch,thebestnotes,87,0,0.0
+416,siddhartha,bookwolf,12,0,0.0
+417,siddhartha,cliffnotes,12,11,0.9166666666666666
+418,siddhartha,gradesaver,12,12,1.0
+419,siddhartha,novelguide,12,10,0.8333333333333334
+420,siddhartha,pinkmonkey,12,12,1.0
+421,siddhartha,shmoop,12,12,1.0
+422,siddhartha,sparknotes,12,0,0.0
+423,siddhartha,thebestnotes,12,0,0.0
+424,ivanhoe,bookwolf,44,0,0.0
+425,ivanhoe,cliffnotes,44,44,1.0
+426,ivanhoe,gradesaver,44,0,0.0
+427,ivanhoe,novelguide,44,44,1.0
+428,ivanhoe,pinkmonkey,44,0,0.0
+429,ivanhoe,shmoop,44,44,1.0
+430,ivanhoe,sparknotes,44,44,1.0
+431,ivanhoe,thebestnotes,44,44,1.0
+432,treasure island,bookwolf,34,0,0.0
+433,treasure island,cliffnotes,34,34,1.0
+434,treasure island,gradesaver,34,34,1.0
+435,treasure island,novelguide,34,0,0.0
+436,treasure island,pinkmonkey,34,0,0.0
+437,treasure island,shmoop,34,34,1.0
+438,treasure island,sparknotes,34,0,0.0
+439,treasure island,thebestnotes,34,34,1.0
+440,david copperfield,bookwolf,64,0,0.0
+441,david copperfield,cliffnotes,64,64,1.0
+442,david copperfield,gradesaver,64,64,1.0
+443,david copperfield,novelguide,64,64,1.0
+444,david copperfield,pinkmonkey,64,0,0.0
+445,david copperfield,shmoop,64,64,1.0
+446,david copperfield,sparknotes,64,64,1.0
+447,david copperfield,thebestnotes,64,0,0.0
+448,sister carrie,bookwolf,47,0,0.0
+449,sister carrie,cliffnotes,47,47,1.0
+450,sister carrie,gradesaver,47,47,1.0
+451,sister carrie,novelguide,47,27,0.574468085106383
+452,sister carrie,pinkmonkey,47,0,0.0
+453,sister carrie,shmoop,47,47,1.0
+454,sister carrie,sparknotes,47,47,1.0
+455,sister carrie,thebestnotes,47,0,0.0
+456,kidnapped,bookwolf,30,0,0.0
+457,kidnapped,cliffnotes,30,0,0.0
+458,kidnapped,gradesaver,30,30,1.0
+459,kidnapped,novelguide,30,30,1.0
+460,kidnapped,pinkmonkey,30,30,1.0
+461,kidnapped,shmoop,30,30,1.0
+462,kidnapped,sparknotes,30,26,0.8666666666666667
+463,kidnapped,thebestnotes,30,0,0.0
+464,a christmas carol,bookwolf,5,0,0.0
+465,a christmas carol,cliffnotes,5,0,0.0
+466,a christmas carol,gradesaver,5,5,1.0
+467,a christmas carol,novelguide,5,0,0.0
+468,a christmas carol,pinkmonkey,5,0,0.0
+469,a christmas carol,shmoop,5,0,0.0
+470,a christmas carol,sparknotes,5,0,0.0
+471,a christmas carol,thebestnotes,5,0,0.0
+472,dr. jekyll and mr. hyde,bookwolf,10,0,0.0
+473,dr. jekyll and mr. hyde,cliffnotes,10,10,1.0
+474,dr. jekyll and mr. hyde,gradesaver,10,10,1.0
+475,dr. jekyll and mr. hyde,novelguide,10,10,1.0
+476,dr. jekyll and mr. hyde,pinkmonkey,10,10,1.0
+477,dr. jekyll and mr. hyde,shmoop,10,0,0.0
+478,dr. jekyll and mr. hyde,sparknotes,10,10,1.0
+479,dr. jekyll and mr. hyde,thebestnotes,10,0,0.0
+480,the turn of the screw,bookwolf,25,0,0.0
+481,the turn of the screw,cliffnotes,25,22,0.88
+482,the turn of the screw,gradesaver,25,24,0.96
+483,the turn of the screw,novelguide,25,0,0.0
+484,the turn of the screw,pinkmonkey,25,0,0.0
+485,the turn of the screw,shmoop,25,25,1.0
+486,the turn of the screw,sparknotes,25,23,0.92
+487,the turn of the screw,thebestnotes,25,0,0.0
+488,candide,bookwolf,30,0,0.0
+489,candide,cliffnotes,30,29,0.9666666666666667
+490,candide,gradesaver,30,30,1.0
+491,candide,novelguide,30,18,0.6
+492,candide,pinkmonkey,30,0,0.0
+493,candide,shmoop,30,30,1.0
+494,candide,sparknotes,30,30,1.0
+495,candide,thebestnotes,30,0,0.0
+496,paradise lost,bookwolf,10,0,0.0
+497,paradise lost,cliffnotes,10,10,1.0
+498,paradise lost,gradesaver,10,10,1.0
+499,paradise lost,novelguide,10,0,0.0
+500,paradise lost,pinkmonkey,10,0,0.0
+501,paradise lost,shmoop,10,10,1.0
+502,paradise lost,sparknotes,10,10,1.0
+503,paradise lost,thebestnotes,10,0,0.0
+504,the federalist papers,bookwolf,85,0,0.0
+505,the federalist papers,cliffnotes,85,0,0.0
+506,the federalist papers,gradesaver,85,85,1.0
+507,the federalist papers,novelguide,85,0,0.0
+508,the federalist papers,pinkmonkey,85,0,0.0
+509,the federalist papers,shmoop,85,0,0.0
+510,the federalist papers,sparknotes,85,0,0.0
+511,the federalist papers,thebestnotes,85,0,0.0
+512,the rivals,bookwolf,13,0,0.0
+513,the rivals,cliffnotes,13,0,0.0
+514,the rivals,gradesaver,13,13,1.0
+515,the rivals,novelguide,13,0,0.0
+516,the rivals,pinkmonkey,13,0,0.0
+517,the rivals,shmoop,13,0,0.0
+518,the rivals,sparknotes,13,0,0.0
+519,the rivals,thebestnotes,13,0,0.0
+520,northanger abbey,bookwolf,31,0,0.0
+521,northanger abbey,cliffnotes,31,0,0.0
+522,northanger abbey,gradesaver,31,16,0.5161290322580645
+523,northanger abbey,novelguide,31,0,0.0
+524,northanger abbey,pinkmonkey,31,0,0.0
+525,northanger abbey,shmoop,31,31,1.0
+526,northanger abbey,sparknotes,31,16,0.5161290322580645
+527,northanger abbey,thebestnotes,31,0,0.0
+528,my antonia,bookwolf,45,0,0.0
+529,my antonia,cliffnotes,45,45,1.0
+530,my antonia,gradesaver,45,45,1.0
+531,my antonia,novelguide,45,45,1.0
+532,my antonia,pinkmonkey,45,45,1.0
+533,my antonia,shmoop,45,45,1.0
+534,my antonia,sparknotes,45,6,0.13333333333333333
+535,my antonia,thebestnotes,45,0,0.0
+536,a vindication of the rights of woman,bookwolf,13,0,0.0
+537,a vindication of the rights of woman,cliffnotes,13,0,0.0
+538,a vindication of the rights of woman,gradesaver,13,13,1.0
+539,a vindication of the rights of woman,novelguide,13,0,0.0
+540,a vindication of the rights of woman,pinkmonkey,13,0,0.0
+541,a vindication of the rights of woman,shmoop,13,13,1.0
+542,a vindication of the rights of woman,sparknotes,13,0,0.0
+543,a vindication of the rights of woman,thebestnotes,13,0,0.0
+544,a study in scarlet,bookwolf,14,0,0.0
+545,a study in scarlet,cliffnotes,14,0,0.0
+546,a study in scarlet,gradesaver,14,14,1.0
+547,a study in scarlet,novelguide,14,0,0.0
+548,a study in scarlet,pinkmonkey,14,0,0.0
+549,a study in scarlet,shmoop,14,0,0.0
+550,a study in scarlet,sparknotes,14,0,0.0
+551,a study in scarlet,thebestnotes,14,0,0.0
+552,the life of timon of athens,bookwolf,17,0,0.0
+553,the life of timon of athens,cliffnotes,17,0,0.0
+554,the life of timon of athens,gradesaver,17,0,0.0
+555,the life of timon of athens,novelguide,17,0,0.0
+556,the life of timon of athens,pinkmonkey,17,0,0.0
+557,the life of timon of athens,shmoop,17,17,1.0
+558,the life of timon of athens,sparknotes,17,0,0.0
+559,the life of timon of athens,thebestnotes,17,0,0.0
+560,hamlet,bookwolf,20,18,0.9
+561,hamlet,cliffnotes,20,20,1.0
+562,hamlet,gradesaver,20,20,1.0
+563,hamlet,novelguide,20,20,1.0
+564,hamlet,pinkmonkey,20,20,1.0
+565,hamlet,shmoop,20,20,1.0
+566,hamlet,sparknotes,20,20,1.0
+567,hamlet,thebestnotes,20,0,0.0
+568,a midsummer night's dream,bookwolf,9,0,0.0
+569,a midsummer night's dream,cliffnotes,9,9,1.0
+570,a midsummer night's dream,gradesaver,9,9,1.0
+571,a midsummer night's dream,novelguide,9,9,1.0
+572,a midsummer night's dream,pinkmonkey,9,9,1.0
+573,a midsummer night's dream,shmoop,9,6,0.6666666666666666
+574,a midsummer night's dream,sparknotes,9,0,0.0
+575,a midsummer night's dream,thebestnotes,9,0,0.0
+576,othello,bookwolf,15,15,1.0
+577,othello,cliffnotes,15,15,1.0
+578,othello,gradesaver,15,15,1.0
+579,othello,novelguide,15,14,0.9333333333333333
+580,othello,pinkmonkey,15,15,1.0
+581,othello,shmoop,15,15,1.0
+582,othello,sparknotes,15,15,1.0
+583,othello,thebestnotes,15,0,0.0
+584,henry iv part 1,bookwolf,19,0,0.0
+585,henry iv part 1,cliffnotes,19,19,1.0
+586,henry iv part 1,gradesaver,19,15,0.7894736842105263
+587,henry iv part 1,novelguide,19,15,0.7894736842105263
+588,henry iv part 1,pinkmonkey,19,15,0.7894736842105263
+589,henry iv part 1,shmoop,19,15,0.7894736842105263
+590,henry iv part 1,sparknotes,19,15,0.7894736842105263
+591,henry iv part 1,thebestnotes,19,0,0.0
+592,a room with a view,bookwolf,20,0,0.0
+593,a room with a view,cliffnotes,20,0,0.0
+594,a room with a view,gradesaver,20,17,0.85
+595,a room with a view,novelguide,20,17,0.85
+596,a room with a view,pinkmonkey,20,0,0.0
+597,a room with a view,shmoop,20,20,1.0
+598,a room with a view,sparknotes,20,20,1.0
+599,a room with a view,thebestnotes,20,0,0.0
+600,mary barton,bookwolf,33,0,0.0
+601,mary barton,cliffnotes,33,0,0.0
+602,mary barton,gradesaver,33,33,1.0
+603,mary barton,novelguide,33,0,0.0
+604,mary barton,pinkmonkey,33,0,0.0
+605,mary barton,shmoop,33,0,0.0
+606,mary barton,sparknotes,33,0,0.0
+607,mary barton,thebestnotes,33,0,0.0
+608,coriolanus,bookwolf,29,0,0.0
+609,coriolanus,cliffnotes,29,0,0.0
+610,coriolanus,gradesaver,29,29,1.0
+611,coriolanus,novelguide,29,28,0.9655172413793104
+612,coriolanus,pinkmonkey,29,29,1.0
+613,coriolanus,shmoop,29,29,1.0
+614,coriolanus,sparknotes,29,21,0.7241379310344828
+615,coriolanus,thebestnotes,29,0,0.0
+616,around the world in eighty days,bookwolf,37,0,0.0
+617,around the world in eighty days,cliffnotes,37,0,0.0
+618,around the world in eighty days,gradesaver,37,37,1.0
+619,around the world in eighty days,novelguide,37,37,1.0
+620,around the world in eighty days,pinkmonkey,37,37,1.0
+621,around the world in eighty days,shmoop,37,37,1.0
+622,around the world in eighty days,sparknotes,37,0,0.0
+623,around the world in eighty days,thebestnotes,37,37,1.0
+624,narrative of the life of frederick douglass: an american slave,bookwolf,11,0,0.0
+625,narrative of the life of frederick douglass: an american slave,cliffnotes,11,11,1.0
+626,narrative of the life of frederick douglass: an american slave,gradesaver,11,0,0.0
+627,narrative of the life of frederick douglass: an american slave,novelguide,11,0,0.0
+628,narrative of the life of frederick douglass: an american slave,pinkmonkey,11,0,0.0
+629,narrative of the life of frederick douglass: an american slave,shmoop,11,0,0.0
+630,narrative of the life of frederick douglass: an american slave,sparknotes,11,0,0.0
+631,narrative of the life of frederick douglass: an american slave,thebestnotes,11,0,0.0
+632,the garden party,bookwolf,15,0,0.0
+633,the garden party,cliffnotes,15,0,0.0
+634,the garden party,gradesaver,15,15,1.0
+635,the garden party,novelguide,15,0,0.0
+636,the garden party,pinkmonkey,15,0,0.0
+637,the garden party,shmoop,15,0,0.0
+638,the garden party,sparknotes,15,0,0.0
+639,the garden party,thebestnotes,15,0,0.0
+640,looking backward: 2000-1887,bookwolf,28,0,0.0
+641,looking backward: 2000-1887,cliffnotes,28,0,0.0
+642,looking backward: 2000-1887,gradesaver,28,0,0.0
+643,looking backward: 2000-1887,novelguide,28,0,0.0
+644,looking backward: 2000-1887,pinkmonkey,28,0,0.0
+645,looking backward: 2000-1887,shmoop,28,0,0.0
+646,looking backward: 2000-1887,sparknotes,28,28,1.0
+647,looking backward: 2000-1887,thebestnotes,28,28,1.0
+648,what maisie knew,bookwolf,31,0,0.0
+649,what maisie knew,cliffnotes,31,0,0.0
+650,what maisie knew,gradesaver,31,31,1.0
+651,what maisie knew,novelguide,31,0,0.0
+652,what maisie knew,pinkmonkey,31,0,0.0
+653,what maisie knew,shmoop,31,31,1.0
+654,what maisie knew,sparknotes,31,0,0.0
+655,what maisie knew,thebestnotes,31,0,0.0
+656,the vicar of wakefield,bookwolf,32,0,0.0
+657,the vicar of wakefield,cliffnotes,32,0,0.0
+658,the vicar of wakefield,gradesaver,32,32,1.0
+659,the vicar of wakefield,novelguide,32,0,0.0
+660,the vicar of wakefield,pinkmonkey,32,0,0.0
+661,the vicar of wakefield,shmoop,32,0,0.0
+662,the vicar of wakefield,sparknotes,32,0,0.0
+663,the vicar of wakefield,thebestnotes,32,0,0.0
+664,utilitarianism,bookwolf,5,0,0.0
+665,utilitarianism,cliffnotes,5,0,0.0
+666,utilitarianism,gradesaver,5,5,1.0
+667,utilitarianism,novelguide,5,0,0.0
+668,utilitarianism,pinkmonkey,5,0,0.0
+669,utilitarianism,shmoop,5,0,0.0
+670,utilitarianism,sparknotes,5,0,0.0
+671,utilitarianism,thebestnotes,5,0,0.0
+672,where angels fear to tread,bookwolf,10,0,0.0
+673,where angels fear to tread,cliffnotes,10,0,0.0
+674,where angels fear to tread,gradesaver,10,0,0.0
+675,where angels fear to tread,novelguide,10,0,0.0
+676,where angels fear to tread,pinkmonkey,10,0,0.0
+677,where angels fear to tread,shmoop,10,10,1.0
+678,where angels fear to tread,sparknotes,10,0,0.0
+679,where angels fear to tread,thebestnotes,10,0,0.0
+680,heart of darkness,bookwolf,3,0,0.0
+681,heart of darkness,cliffnotes,3,3,1.0
+682,heart of darkness,gradesaver,3,3,1.0
+683,heart of darkness,novelguide,3,3,1.0
+684,heart of darkness,pinkmonkey,3,3,1.0
+685,heart of darkness,shmoop,3,3,1.0
+686,heart of darkness,sparknotes,3,3,1.0
+687,heart of darkness,thebestnotes,3,0,0.0
+688,a hero of our time,bookwolf,36,0,0.0
+689,a hero of our time,cliffnotes,36,0,0.0
+690,a hero of our time,gradesaver,36,36,1.0
+691,a hero of our time,novelguide,36,0,0.0
+692,a hero of our time,pinkmonkey,36,0,0.0
+693,a hero of our time,shmoop,36,0,0.0
+694,a hero of our time,sparknotes,36,0,0.0
+695,a hero of our time,thebestnotes,36,0,0.0
+696,green mansions,bookwolf,23,0,0.0
+697,green mansions,cliffnotes,23,23,1.0
+698,green mansions,gradesaver,23,0,0.0
+699,green mansions,novelguide,23,0,0.0
+700,green mansions,pinkmonkey,23,0,0.0
+701,green mansions,shmoop,23,0,0.0
+702,green mansions,sparknotes,23,0,0.0
+703,green mansions,thebestnotes,23,0,0.0
+704,the phantom of the opera,bookwolf,26,0,0.0
+705,the phantom of the opera,cliffnotes,26,0,0.0
+706,the phantom of the opera,gradesaver,26,26,1.0
+707,the phantom of the opera,novelguide,26,0,0.0
+708,the phantom of the opera,pinkmonkey,26,0,0.0
+709,the phantom of the opera,shmoop,26,0,0.0
+710,the phantom of the opera,sparknotes,26,0,0.0
+711,the phantom of the opera,thebestnotes,26,0,0.0
+712,leviathan,bookwolf,41,0,0.0
+713,leviathan,cliffnotes,41,0,0.0
+714,leviathan,gradesaver,41,31,0.7560975609756098
+715,leviathan,novelguide,41,0,0.0
+716,leviathan,pinkmonkey,41,0,0.0
+717,leviathan,shmoop,41,41,1.0
+718,leviathan,sparknotes,41,0,0.0
+719,leviathan,thebestnotes,41,0,0.0
+720,the goose girl,bookwolf,22,0,0.0
+721,the goose girl,cliffnotes,22,0,0.0
+722,the goose girl,gradesaver,22,0,0.0
+723,the goose girl,novelguide,22,0,0.0
+724,the goose girl,pinkmonkey,22,0,0.0
+725,the goose girl,shmoop,22,22,1.0
+726,the goose girl,sparknotes,22,0,0.0
+727,the goose girl,thebestnotes,22,0,0.0
+728,the canterville ghost,bookwolf,7,0,0.0
+729,the canterville ghost,cliffnotes,7,0,0.0
+730,the canterville ghost,gradesaver,7,7,1.0
+731,the canterville ghost,novelguide,7,0,0.0
+732,the canterville ghost,pinkmonkey,7,0,0.0
+733,the canterville ghost,shmoop,7,0,0.0
+734,the canterville ghost,sparknotes,7,0,0.0
+735,the canterville ghost,thebestnotes,7,0,0.0
+736,villette,bookwolf,39,0,0.0
+737,villette,cliffnotes,39,0,0.0
+738,villette,gradesaver,39,39,1.0
+739,villette,novelguide,39,0,0.0
+740,villette,pinkmonkey,39,0,0.0
+741,villette,shmoop,39,0,0.0
+742,villette,sparknotes,39,0,0.0
+743,villette,thebestnotes,39,0,0.0
+744,from the earth to the moon,bookwolf,28,0,0.0
+745,from the earth to the moon,cliffnotes,28,0,0.0
+746,from the earth to the moon,gradesaver,28,0,0.0
+747,from the earth to the moon,novelguide,28,0,0.0
+748,from the earth to the moon,pinkmonkey,28,0,0.0
+749,from the earth to the moon,shmoop,28,28,1.0
+750,from the earth to the moon,sparknotes,28,0,0.0
+751,from the earth to the moon,thebestnotes,28,0,0.0
+752,the power and the glory,bookwolf,4,0,0.0
+753,the power and the glory,cliffnotes,4,4,1.0
+754,the power and the glory,gradesaver,4,0,0.0
+755,the power and the glory,novelguide,4,0,0.0
+756,the power and the glory,pinkmonkey,4,0,0.0
+757,the power and the glory,shmoop,4,4,1.0
+758,the power and the glory,sparknotes,4,4,1.0
+759,the power and the glory,thebestnotes,4,0,0.0
+760,notes from underground,bookwolf,21,0,0.0
+761,notes from underground,cliffnotes,21,0,0.0
+762,notes from underground,gradesaver,21,0,0.0
+763,notes from underground,novelguide,21,21,1.0
+764,notes from underground,pinkmonkey,21,21,1.0
+765,notes from underground,shmoop,21,21,1.0
+766,notes from underground,sparknotes,21,0,0.0
+767,notes from underground,thebestnotes,21,0,0.0
+768,on liberty,bookwolf,5,0,0.0
+769,on liberty,cliffnotes,5,0,0.0
+770,on liberty,gradesaver,5,5,1.0
+771,on liberty,novelguide,5,0,0.0
+772,on liberty,pinkmonkey,5,0,0.0
+773,on liberty,shmoop,5,0,0.0
+774,on liberty,sparknotes,5,0,0.0
+775,on liberty,thebestnotes,5,0,0.0
+776,the marrow of tradition,bookwolf,37,0,0.0
+777,the marrow of tradition,cliffnotes,37,0,0.0
+778,the marrow of tradition,gradesaver,37,37,1.0
+779,the marrow of tradition,novelguide,37,0,0.0
+780,the marrow of tradition,pinkmonkey,37,0,0.0
+781,the marrow of tradition,shmoop,37,0,0.0
+782,the marrow of tradition,sparknotes,37,0,0.0
+783,the marrow of tradition,thebestnotes,37,0,0.0
+784,the return of the native,bookwolf,48,0,0.0
+785,the return of the native,cliffnotes,48,48,1.0
+786,the return of the native,gradesaver,48,0,0.0
+787,the return of the native,novelguide,48,0,0.0
+788,the return of the native,pinkmonkey,48,0,0.0
+789,the return of the native,shmoop,48,48,1.0
+790,the return of the native,sparknotes,48,48,1.0
+791,the return of the native,thebestnotes,48,0,0.0
+792,return of the native,bookwolf,46,0,0.0
+793,return of the native,cliffnotes,46,0,0.0
+794,return of the native,gradesaver,46,0,0.0
+795,return of the native,novelguide,46,0,0.0
+796,return of the native,pinkmonkey,46,46,1.0
+797,return of the native,shmoop,46,0,0.0
+798,return of the native,sparknotes,46,0,0.0
+799,return of the native,thebestnotes,46,0,0.0
+800,the wind in the willows,bookwolf,12,0,0.0
+801,the wind in the willows,cliffnotes,12,0,0.0
+802,the wind in the willows,gradesaver,12,12,1.0
+803,the wind in the willows,novelguide,12,0,0.0
+804,the wind in the willows,pinkmonkey,12,0,0.0
+805,the wind in the willows,shmoop,12,0,0.0
+806,the wind in the willows,sparknotes,12,0,0.0
+807,the wind in the willows,thebestnotes,12,0,0.0
+808,howards end,bookwolf,44,0,0.0
+809,howards end,cliffnotes,44,0,0.0
+810,howards end,gradesaver,44,44,1.0
+811,howards end,novelguide,44,0,0.0
+812,howards end,pinkmonkey,44,0,0.0
+813,howards end,shmoop,44,44,1.0
+814,howards end,sparknotes,44,44,1.0
+815,howards end,thebestnotes,44,0,0.0
+816,the secret agent,bookwolf,13,0,0.0
+817,the secret agent,cliffnotes,13,0,0.0
+818,the secret agent,gradesaver,13,13,1.0
+819,the secret agent,novelguide,13,0,0.0
+820,the secret agent,pinkmonkey,13,0,0.0
+821,the secret agent,shmoop,13,13,1.0
+822,the secret agent,sparknotes,13,0,0.0
+823,the secret agent,thebestnotes,13,0,0.0
+824,the confidence-man,bookwolf,45,0,0.0
+825,the confidence-man,cliffnotes,45,0,0.0
+826,the confidence-man,gradesaver,45,0,0.0
+827,the confidence-man,novelguide,45,0,0.0
+828,the confidence-man,pinkmonkey,45,0,0.0
+829,the confidence-man,shmoop,45,45,1.0
+830,the confidence-man,sparknotes,45,0,0.0
+831,the confidence-man,thebestnotes,45,0,0.0
+832,the pickwick papers,bookwolf,57,0,0.0
+833,the pickwick papers,cliffnotes,57,57,1.0
+834,the pickwick papers,gradesaver,57,0,0.0
+835,the pickwick papers,novelguide,57,0,0.0
+836,the pickwick papers,pinkmonkey,57,0,0.0
+837,the pickwick papers,shmoop,57,0,0.0
+838,the pickwick papers,sparknotes,57,0,0.0
+839,the pickwick papers,thebestnotes,57,0,0.0
+840,typee,bookwolf,34,0,0.0
+841,typee,cliffnotes,34,0,0.0
+842,typee,gradesaver,34,0,0.0
+843,typee,novelguide,34,0,0.0
+844,typee,pinkmonkey,34,3,0.08823529411764706
+845,typee,shmoop,34,34,1.0
+846,typee,sparknotes,34,32,0.9411764705882353
+847,typee,thebestnotes,34,0,0.0
+848,anne of green gables,bookwolf,38,0,0.0
+849,anne of green gables,cliffnotes,38,0,0.0
+850,anne of green gables,gradesaver,38,38,1.0
+851,anne of green gables,novelguide,38,0,0.0
+852,anne of green gables,pinkmonkey,38,0,0.0
+853,anne of green gables,shmoop,38,38,1.0
+854,anne of green gables,sparknotes,38,38,1.0
+855,anne of green gables,thebestnotes,38,0,0.0
+856,a little princess,bookwolf,19,0,0.0
+857,a little princess,cliffnotes,19,0,0.0
+858,a little princess,gradesaver,19,19,1.0
+859,a little princess,novelguide,19,0,0.0
+860,a little princess,pinkmonkey,19,0,0.0
+861,a little princess,shmoop,19,19,1.0
+862,a little princess,sparknotes,19,0,0.0
+863,a little princess,thebestnotes,19,0,0.0
+864,regeneration,bookwolf,23,0,0.0
+865,regeneration,cliffnotes,23,0,0.0
+866,regeneration,gradesaver,23,23,1.0
+867,regeneration,novelguide,23,0,0.0
+868,regeneration,pinkmonkey,23,0,0.0
+869,regeneration,shmoop,23,0,0.0
+870,regeneration,sparknotes,23,23,1.0
+871,regeneration,thebestnotes,23,0,0.0
+872,therese raquin,bookwolf,32,0,0.0
+873,therese raquin,cliffnotes,32,0,0.0
+874,therese raquin,gradesaver,32,32,1.0
+875,therese raquin,novelguide,32,0,0.0
+876,therese raquin,pinkmonkey,32,0,0.0
+877,therese raquin,shmoop,32,0,0.0
+878,therese raquin,sparknotes,32,0,0.0
+879,therese raquin,thebestnotes,32,0,0.0
+880,maggie: a girl of the streets,bookwolf,19,0,0.0
+881,maggie: a girl of the streets,cliffnotes,19,0,0.0
+882,maggie: a girl of the streets,gradesaver,19,0,0.0
+883,maggie: a girl of the streets,novelguide,19,19,1.0
+884,maggie: a girl of the streets,pinkmonkey,19,19,1.0
+885,maggie: a girl of the streets,shmoop,19,19,1.0
+886,maggie: a girl of the streets,sparknotes,19,19,1.0
+887,maggie: a girl of the streets,thebestnotes,19,0,0.0
+888,the monkey's paw,bookwolf,3,0,0.0
+889,the monkey's paw,cliffnotes,3,0,0.0
+890,the monkey's paw,gradesaver,3,3,1.0
+891,the monkey's paw,novelguide,3,0,0.0
+892,the monkey's paw,pinkmonkey,3,0,0.0
+893,the monkey's paw,shmoop,3,3,1.0
+894,the monkey's paw,sparknotes,3,0,0.0
+895,the monkey's paw,thebestnotes,3,0,0.0
+896,the mysteries of udolpho,bookwolf,57,0,0.0
+897,the mysteries of udolpho,cliffnotes,57,0,0.0
+898,the mysteries of udolpho,gradesaver,57,0,0.0
+899,the mysteries of udolpho,novelguide,57,0,0.0
+900,the mysteries of udolpho,pinkmonkey,57,0,0.0
+901,the mysteries of udolpho,shmoop,57,57,1.0
+902,the mysteries of udolpho,sparknotes,57,0,0.0
+903,the mysteries of udolpho,thebestnotes,57,0,0.0
+904,twelve years a slave,bookwolf,22,0,0.0
+905,twelve years a slave,cliffnotes,22,0,0.0
+906,twelve years a slave,gradesaver,22,22,1.0
+907,twelve years a slave,novelguide,22,0,0.0
+908,twelve years a slave,pinkmonkey,22,0,0.0
+909,twelve years a slave,shmoop,22,0,0.0
+910,twelve years a slave,sparknotes,22,0,0.0
+911,twelve years a slave,thebestnotes,22,0,0.0
+912,the rise of silas lapham,bookwolf,27,0,0.0
+913,the rise of silas lapham,cliffnotes,27,27,1.0
+914,the rise of silas lapham,gradesaver,27,27,1.0
+915,the rise of silas lapham,novelguide,27,0,0.0
+916,the rise of silas lapham,pinkmonkey,27,0,0.0
+917,the rise of silas lapham,shmoop,27,0,0.0
+918,the rise of silas lapham,sparknotes,27,0,0.0
+919,the rise of silas lapham,thebestnotes,27,0,0.0
+920,the good soldier,bookwolf,18,0,0.0
+921,the good soldier,cliffnotes,18,0,0.0
+922,the good soldier,gradesaver,18,0,0.0
+923,the good soldier,novelguide,18,0,0.0
+924,the good soldier,pinkmonkey,18,0,0.0
+925,the good soldier,shmoop,18,0,0.0
+926,the good soldier,sparknotes,18,18,1.0
+927,the good soldier,thebestnotes,18,0,0.0
+928,the red badge of courage,bookwolf,24,0,0.0
+929,the red badge of courage,cliffnotes,24,24,1.0
+930,the red badge of courage,gradesaver,24,24,1.0
+931,the red badge of courage,novelguide,24,0,0.0
+932,the red badge of courage,pinkmonkey,24,0,0.0
+933,the red badge of courage,shmoop,24,24,1.0
+934,the red badge of courage,sparknotes,24,24,1.0
+935,the red badge of courage,thebestnotes,24,0,0.0
+936,o pioneers,bookwolf,30,0,0.0
+937,o pioneers,cliffnotes,30,0,0.0
+938,o pioneers,gradesaver,30,28,0.9333333333333333
+939,o pioneers,novelguide,30,0,0.0
+940,o pioneers,pinkmonkey,30,0,0.0
+941,o pioneers,shmoop,30,30,1.0
+942,o pioneers,sparknotes,30,30,1.0
+943,o pioneers,thebestnotes,30,0,0.0
+944,the mill on the floss,bookwolf,58,0,0.0
+945,the mill on the floss,cliffnotes,58,58,1.0
+946,the mill on the floss,gradesaver,58,58,1.0
+947,the mill on the floss,novelguide,58,0,0.0
+948,the mill on the floss,pinkmonkey,58,0,0.0
+949,the mill on the floss,shmoop,58,58,1.0
+950,the mill on the floss,sparknotes,58,0,0.0
+951,the mill on the floss,thebestnotes,58,0,0.0
+952,henry viii,bookwolf,17,0,0.0
+953,henry viii,cliffnotes,17,0,0.0
+954,henry viii,gradesaver,17,0,0.0
+955,henry viii,novelguide,17,13,0.7647058823529411
+956,henry viii,pinkmonkey,17,17,1.0
+957,henry viii,shmoop,17,17,1.0
+958,henry viii,sparknotes,17,16,0.9411764705882353
+959,henry viii,thebestnotes,17,0,0.0
+960,the time machine,bookwolf,12,0,0.0
+961,the time machine,cliffnotes,12,0,0.0
+962,the time machine,gradesaver,12,12,1.0
+963,the time machine,novelguide,12,0,0.0
+964,the time machine,pinkmonkey,12,0,0.0
+965,the time machine,shmoop,12,12,1.0
+966,the time machine,sparknotes,12,12,1.0
+967,the time machine,thebestnotes,12,0,0.0
+968,kim,bookwolf,15,0,0.0
+969,kim,cliffnotes,15,0,0.0
+970,kim,gradesaver,15,0,0.0
+971,kim,novelguide,15,0,0.0
+972,kim,pinkmonkey,15,0,0.0
+973,kim,shmoop,15,15,1.0
+974,kim,sparknotes,15,0,0.0
+975,kim,thebestnotes,15,0,0.0
+976,the valley of fear,bookwolf,11,0,0.0
+977,the valley of fear,cliffnotes,11,0,0.0
+978,the valley of fear,gradesaver,11,11,1.0
+979,the valley of fear,novelguide,11,0,0.0
+980,the valley of fear,pinkmonkey,11,0,0.0
+981,the valley of fear,shmoop,11,0,0.0
+982,the valley of fear,sparknotes,11,0,0.0
+983,the valley of fear,thebestnotes,11,0,0.0
+984,news from nowhere,bookwolf,32,0,0.0
+985,news from nowhere,cliffnotes,32,0,0.0
+986,news from nowhere,gradesaver,32,32,1.0
+987,news from nowhere,novelguide,32,0,0.0
+988,news from nowhere,pinkmonkey,32,0,0.0
+989,news from nowhere,shmoop,32,0,0.0
+990,news from nowhere,sparknotes,32,0,0.0
+991,news from nowhere,thebestnotes,32,0,0.0
+992,the way of all flesh,bookwolf,89,0,0.0
+993,the way of all flesh,cliffnotes,89,89,1.0
+994,the way of all flesh,gradesaver,89,0,0.0
+995,the way of all flesh,novelguide,89,0,0.0
+996,the way of all flesh,pinkmonkey,89,0,0.0
+997,the way of all flesh,shmoop,89,0,0.0
+998,the way of all flesh,sparknotes,89,0,0.0
+999,the way of all flesh,thebestnotes,89,0,0.0
+1000,little dorrit,bookwolf,71,0,0.0
+1001,little dorrit,cliffnotes,71,0,0.0
+1002,little dorrit,gradesaver,71,70,0.9859154929577465
+1003,little dorrit,novelguide,71,0,0.0
+1004,little dorrit,pinkmonkey,71,0,0.0
+1005,little dorrit,shmoop,71,71,1.0
+1006,little dorrit,sparknotes,71,0,0.0
+1007,little dorrit,thebestnotes,71,0,0.0
+1008,incidents in the life of a slave girl,bookwolf,41,0,0.0
+1009,incidents in the life of a slave girl,cliffnotes,41,41,1.0
+1010,incidents in the life of a slave girl,gradesaver,41,41,1.0
+1011,incidents in the life of a slave girl,novelguide,41,0,0.0
+1012,incidents in the life of a slave girl,pinkmonkey,41,0,0.0
+1013,incidents in the life of a slave girl,shmoop,41,41,1.0
+1014,incidents in the life of a slave girl,sparknotes,41,0,0.0
+1015,incidents in the life of a slave girl,thebestnotes,41,0,0.0
+1016,henry iv part 2,bookwolf,17,0,0.0
+1017,henry iv part 2,cliffnotes,17,0,0.0
+1018,henry iv part 2,gradesaver,17,17,1.0
+1019,henry iv part 2,novelguide,17,14,0.8235294117647058
+1020,henry iv part 2,pinkmonkey,17,0,0.0
+1021,henry iv part 2,shmoop,17,14,0.8235294117647058
+1022,henry iv part 2,sparknotes,17,16,0.9411764705882353
+1023,henry iv part 2,thebestnotes,17,0,0.0
+1024,macbeth,bookwolf,26,24,0.9230769230769231
+1025,macbeth,cliffnotes,26,26,1.0
+1026,macbeth,gradesaver,26,26,1.0
+1027,macbeth,novelguide,26,22,0.8461538461538461
+1028,macbeth,pinkmonkey,26,25,0.9615384615384616
+1029,macbeth,shmoop,26,26,1.0
+1030,macbeth,sparknotes,26,26,1.0
+1031,macbeth,thebestnotes,26,0,0.0
+1032,troilus and cressida,bookwolf,25,0,0.0
+1033,troilus and cressida,cliffnotes,25,0,0.0
+1034,troilus and cressida,gradesaver,25,23,0.92
+1035,troilus and cressida,novelguide,25,0,0.0
+1036,troilus and cressida,pinkmonkey,25,25,1.0
+1037,troilus and cressida,shmoop,25,25,1.0
+1038,troilus and cressida,sparknotes,25,22,0.88
+1039,troilus and cressida,thebestnotes,25,0,0.0
+1040,richard ii,bookwolf,19,0,0.0
+1041,richard ii,cliffnotes,19,18,0.9473684210526315
+1042,richard ii,gradesaver,19,18,0.9473684210526315
+1043,richard ii,novelguide,19,18,0.9473684210526315
+1044,richard ii,pinkmonkey,19,18,0.9473684210526315
+1045,richard ii,shmoop,19,18,0.9473684210526315
+1046,richard ii,sparknotes,19,19,1.0
+1047,richard ii,thebestnotes,19,0,0.0
+1048,king john,bookwolf,17,0,0.0
+1049,king john,cliffnotes,17,0,0.0
+1050,king john,gradesaver,17,0,0.0
+1051,king john,novelguide,17,0,0.0
+1052,king john,pinkmonkey,17,0,0.0
+1053,king john,shmoop,17,16,0.9411764705882353
+1054,king john,sparknotes,17,17,1.0
+1055,king john,thebestnotes,17,0,0.0
+1056,henry vi part 1,bookwolf,25,0,0.0
+1057,henry vi part 1,cliffnotes,25,0,0.0
+1058,henry vi part 1,gradesaver,25,0,0.0
+1059,henry vi part 1,novelguide,25,19,0.76
+1060,henry vi part 1,pinkmonkey,25,0,0.0
+1061,henry vi part 1,shmoop,25,22,0.88
+1062,henry vi part 1,sparknotes,25,25,1.0
+1063,henry vi part 1,thebestnotes,25,0,0.0
+1064,richard iii,bookwolf,9,0,0.0
+1065,richard iii,cliffnotes,9,5,0.5555555555555556
+1066,richard iii,gradesaver,9,5,0.5555555555555556
+1067,richard iii,novelguide,9,5,0.5555555555555556
+1068,richard iii,pinkmonkey,9,0,0.0
+1069,richard iii,shmoop,9,5,0.5555555555555556
+1070,richard iii,sparknotes,9,9,1.0
+1071,richard iii,thebestnotes,9,0,0.0
+1072,henry v,bookwolf,5,0,0.0
+1073,henry v,cliffnotes,5,1,0.2
+1074,henry v,gradesaver,5,5,1.0
+1075,henry v,novelguide,5,4,0.8
+1076,henry v,pinkmonkey,5,0,0.0
+1077,henry v,shmoop,5,1,0.2
+1078,henry v,sparknotes,5,0,0.0
+1079,henry v,thebestnotes,5,0,0.0
+1080,every man in his humour,bookwolf,12,0,0.0
+1081,every man in his humour,cliffnotes,12,0,0.0
+1082,every man in his humour,gradesaver,12,12,1.0
+1083,every man in his humour,novelguide,12,0,0.0
+1084,every man in his humour,pinkmonkey,12,0,0.0
+1085,every man in his humour,shmoop,12,0,0.0
+1086,every man in his humour,sparknotes,12,0,0.0
+1087,every man in his humour,thebestnotes,12,0,0.0
+1088,titus andronicus,bookwolf,14,0,0.0
+1089,titus andronicus,cliffnotes,14,0,0.0
+1090,titus andronicus,gradesaver,14,14,1.0
+1091,titus andronicus,novelguide,14,0,0.0
+1092,titus andronicus,pinkmonkey,14,14,1.0
+1093,titus andronicus,shmoop,14,14,1.0
+1094,titus andronicus,sparknotes,14,14,1.0
+1095,titus andronicus,thebestnotes,14,0,0.0
+1096,julius caesar,bookwolf,18,18,1.0
+1097,julius caesar,cliffnotes,18,18,1.0
+1098,julius caesar,gradesaver,18,17,0.9444444444444444
+1099,julius caesar,novelguide,18,17,0.9444444444444444
+1100,julius caesar,pinkmonkey,18,18,1.0
+1101,julius caesar,shmoop,18,18,1.0
+1102,julius caesar,sparknotes,18,7,0.3888888888888889
+1103,julius caesar,thebestnotes,18,0,0.0
+1104,love's labour's lost,bookwolf,9,0,0.0
+1105,love's labour's lost,cliffnotes,9,9,1.0
+1106,love's labour's lost,gradesaver,9,0,0.0
+1107,love's labour's lost,novelguide,9,9,1.0
+1108,love's labour's lost,pinkmonkey,9,9,1.0
+1109,love's labour's lost,shmoop,9,9,1.0
+1110,love's labour's lost,sparknotes,9,5,0.5555555555555556
+1111,love's labour's lost,thebestnotes,9,0,0.0
+1112,two gentlemen of verona,bookwolf,20,0,0.0
+1113,two gentlemen of verona,cliffnotes,20,20,1.0
+1114,two gentlemen of verona,gradesaver,20,0,0.0
+1115,two gentlemen of verona,novelguide,20,0,0.0
+1116,two gentlemen of verona,pinkmonkey,20,0,0.0
+1117,two gentlemen of verona,shmoop,20,17,0.85
+1118,two gentlemen of verona,sparknotes,20,18,0.9
+1119,two gentlemen of verona,thebestnotes,20,0,0.0
+1120,second treatise of government,bookwolf,14,0,0.0
+1121,second treatise of government,cliffnotes,14,0,0.0
+1122,second treatise of government,gradesaver,14,14,1.0
+1123,second treatise of government,novelguide,14,0,0.0
+1124,second treatise of government,pinkmonkey,14,0,0.0
+1125,second treatise of government,shmoop,14,0,0.0
+1126,second treatise of government,sparknotes,14,0,0.0
+1127,second treatise of government,thebestnotes,14,0,0.0
+1128,she stoops to conquer,bookwolf,5,0,0.0
+1129,she stoops to conquer,cliffnotes,5,0,0.0
+1130,she stoops to conquer,gradesaver,5,5,1.0
+1131,she stoops to conquer,novelguide,5,0,0.0
+1132,she stoops to conquer,pinkmonkey,5,0,0.0
+1133,she stoops to conquer,shmoop,5,0,0.0
+1134,she stoops to conquer,sparknotes,5,0,0.0
+1135,she stoops to conquer,thebestnotes,5,0,0.0
+1136,the wonderful wizard of oz,bookwolf,24,0,0.0
+1137,the wonderful wizard of oz,cliffnotes,24,0,0.0
+1138,the wonderful wizard of oz,gradesaver,24,20,0.8333333333333334
+1139,the wonderful wizard of oz,novelguide,24,0,0.0
+1140,the wonderful wizard of oz,pinkmonkey,24,0,0.0
+1141,the wonderful wizard of oz,shmoop,24,24,1.0
+1142,the wonderful wizard of oz,sparknotes,24,0,0.0
+1143,the wonderful wizard of oz,thebestnotes,24,0,0.0
+1144,pygmalion,bookwolf,5,0,0.0
+1145,pygmalion,cliffnotes,5,5,1.0
+1146,pygmalion,gradesaver,5,5,1.0
+1147,pygmalion,novelguide,5,4,0.8
+1148,pygmalion,pinkmonkey,5,5,1.0
+1149,pygmalion,shmoop,5,5,1.0
+1150,pygmalion,sparknotes,5,5,1.0
+1151,pygmalion,thebestnotes,5,0,0.0
+1152,twelfth night,bookwolf,19,0,0.0
+1153,twelfth night,cliffnotes,19,18,0.9473684210526315
+1154,twelfth night,gradesaver,19,19,1.0
+1155,twelfth night,novelguide,19,0,0.0
+1156,twelfth night,pinkmonkey,19,0,0.0
+1157,twelfth night,shmoop,19,0,0.0
+1158,twelfth night,sparknotes,19,16,0.8421052631578947
+1159,twelfth night,thebestnotes,19,0,0.0
+1160,a doll's house,bookwolf,3,0,0.0
+1161,a doll's house,cliffnotes,3,3,1.0
+1162,a doll's house,gradesaver,3,3,1.0
+1163,a doll's house,novelguide,3,3,1.0
+1164,a doll's house,pinkmonkey,3,0,0.0
+1165,a doll's house,shmoop,3,3,1.0
+1166,a doll's house,sparknotes,3,0,0.0
+1167,a doll's house,thebestnotes,3,0,0.0
+1168,the boxcar children,bookwolf,13,0,0.0
+1169,the boxcar children,cliffnotes,13,0,0.0
+1170,the boxcar children,gradesaver,13,0,0.0
+1171,the boxcar children,novelguide,13,0,0.0
+1172,the boxcar children,pinkmonkey,13,0,0.0
+1173,the boxcar children,shmoop,13,13,1.0
+1174,the boxcar children,sparknotes,13,0,0.0
+1175,the boxcar children,thebestnotes,13,0,0.0
+1176,the piazza tales,bookwolf,15,0,0.0
+1177,the piazza tales,cliffnotes,15,0,0.0
+1178,the piazza tales,gradesaver,15,0,0.0
+1179,the piazza tales,novelguide,15,0,0.0
+1180,the piazza tales,pinkmonkey,15,0,0.0
+1181,the piazza tales,shmoop,15,15,1.0
+1182,the piazza tales,sparknotes,15,0,0.0
+1183,the piazza tales,thebestnotes,15,0,0.0
+1184,the return of sherlock holmes,bookwolf,11,0,0.0
+1185,the return of sherlock holmes,cliffnotes,11,0,0.0
+1186,the return of sherlock holmes,gradesaver,11,0,0.0
+1187,the return of sherlock holmes,novelguide,11,0,0.0
+1188,the return of sherlock holmes,pinkmonkey,11,0,0.0
+1189,the return of sherlock holmes,shmoop,11,11,1.0
+1190,the return of sherlock holmes,sparknotes,11,0,0.0
+1191,the return of sherlock holmes,thebestnotes,11,0,0.0
+1192,arms and the man,bookwolf,3,0,0.0
+1193,arms and the man,cliffnotes,3,3,1.0
+1194,arms and the man,gradesaver,3,3,1.0
+1195,arms and the man,novelguide,3,0,0.0
+1196,arms and the man,pinkmonkey,3,2,0.6666666666666666
+1197,arms and the man,shmoop,3,0,0.0
+1198,arms and the man,sparknotes,3,0,0.0
+1199,arms and the man,thebestnotes,3,0,0.0
+1200,ghosts,bookwolf,3,0,0.0
+1201,ghosts,cliffnotes,3,3,1.0
+1202,ghosts,gradesaver,3,3,1.0
+1203,ghosts,novelguide,3,0,0.0
+1204,ghosts,pinkmonkey,3,0,0.0
+1205,ghosts,shmoop,3,3,1.0
+1206,ghosts,sparknotes,3,0,0.0
+1207,ghosts,thebestnotes,3,0,0.0
+1208,hedda gabler,bookwolf,4,0,0.0
+1209,hedda gabler,cliffnotes,4,4,1.0
+1210,hedda gabler,gradesaver,4,0,0.0
+1211,hedda gabler,novelguide,4,4,1.0
+1212,hedda gabler,pinkmonkey,4,4,1.0
+1213,hedda gabler,shmoop,4,4,1.0
+1214,hedda gabler,sparknotes,4,0,0.0
+1215,hedda gabler,thebestnotes,4,0,0.0
+1216,merry wives of windsor,bookwolf,23,0,0.0
+1217,merry wives of windsor,cliffnotes,23,23,1.0
+1218,merry wives of windsor,gradesaver,23,0,0.0
+1219,merry wives of windsor,novelguide,23,22,0.9565217391304348
+1220,merry wives of windsor,pinkmonkey,23,0,0.0
+1221,merry wives of windsor,shmoop,23,23,1.0
+1222,merry wives of windsor,sparknotes,23,23,1.0
+1223,merry wives of windsor,thebestnotes,23,0,0.0
+1224,the spanish tragedy,bookwolf,24,0,0.0
+1225,the spanish tragedy,cliffnotes,24,0,0.0
+1226,the spanish tragedy,gradesaver,24,24,1.0
+1227,the spanish tragedy,novelguide,24,0,0.0
+1228,the spanish tragedy,pinkmonkey,24,0,0.0
+1229,the spanish tragedy,shmoop,24,23,0.9583333333333334
+1230,the spanish tragedy,sparknotes,24,0,0.0
+1231,the spanish tragedy,thebestnotes,24,0,0.0
+1232,daisy miller,bookwolf,2,0,0.0
+1233,daisy miller,cliffnotes,2,0,0.0
+1234,daisy miller,gradesaver,2,0,0.0
+1235,daisy miller,novelguide,2,2,1.0
+1236,daisy miller,pinkmonkey,2,0,0.0
+1237,daisy miller,shmoop,2,2,1.0
+1238,daisy miller,sparknotes,2,0,0.0
+1239,daisy miller,thebestnotes,2,0,0.0
+1240,don juan,bookwolf,18,0,0.0
+1241,don juan,cliffnotes,18,18,1.0
+1242,don juan,gradesaver,18,0,0.0
+1243,don juan,novelguide,18,0,0.0
+1244,don juan,pinkmonkey,18,0,0.0
+1245,don juan,shmoop,18,0,0.0
+1246,don juan,sparknotes,18,0,0.0
+1247,don juan,thebestnotes,18,0,0.0
+1248,tartuffe,bookwolf,33,0,0.0
+1249,tartuffe,cliffnotes,33,31,0.9393939393939394
+1250,tartuffe,gradesaver,33,33,1.0
+1251,tartuffe,novelguide,33,0,0.0
+1252,tartuffe,pinkmonkey,33,0,0.0
+1253,tartuffe,shmoop,33,31,0.9393939393939394
+1254,tartuffe,sparknotes,33,0,0.0
+1255,tartuffe,thebestnotes,33,0,0.0
+1256,an enemy of the people,bookwolf,5,0,0.0
+1257,an enemy of the people,cliffnotes,5,5,1.0
+1258,an enemy of the people,gradesaver,5,2,0.4
+1259,an enemy of the people,novelguide,5,4,0.8
+1260,an enemy of the people,pinkmonkey,5,5,1.0
+1261,an enemy of the people,shmoop,5,5,1.0
+1262,an enemy of the people,sparknotes,5,5,1.0
+1263,an enemy of the people,thebestnotes,5,0,0.0
+1264,measure for measure,bookwolf,18,0,0.0
+1265,measure for measure,cliffnotes,18,0,0.0
+1266,measure for measure,gradesaver,18,17,0.9444444444444444
+1267,measure for measure,novelguide,18,0,0.0
+1268,measure for measure,pinkmonkey,18,0,0.0
+1269,measure for measure,shmoop,18,17,0.9444444444444444
+1270,measure for measure,sparknotes,18,18,1.0
+1271,measure for measure,thebestnotes,18,0,0.0
+1272,the secret sharer,bookwolf,2,0,0.0
+1273,the secret sharer,cliffnotes,2,2,1.0
+1274,the secret sharer,gradesaver,2,0,0.0
+1275,the secret sharer,novelguide,2,0,0.0
+1276,the secret sharer,pinkmonkey,2,0,0.0
+1277,the secret sharer,shmoop,2,0,0.0
+1278,the secret sharer,sparknotes,2,0,0.0
+1279,the secret sharer,thebestnotes,2,0,0.0
+1280,the seagull,bookwolf,4,0,0.0
+1281,the seagull,cliffnotes,4,0,0.0
+1282,the seagull,gradesaver,4,4,1.0
+1283,the seagull,novelguide,4,0,0.0
+1284,the seagull,pinkmonkey,4,0,0.0
+1285,the seagull,shmoop,4,4,1.0
+1286,the seagull,sparknotes,4,0,0.0
+1287,the seagull,thebestnotes,4,0,0.0
+1288,man and superman,bookwolf,4,0,0.0
+1289,man and superman,cliffnotes,4,4,1.0
+1290,man and superman,gradesaver,4,0,0.0
+1291,man and superman,novelguide,4,0,0.0
+1292,man and superman,pinkmonkey,4,2,0.5
+1293,man and superman,shmoop,4,0,0.0
+1294,man and superman,sparknotes,4,0,0.0
+1295,man and superman,thebestnotes,4,0,0.0
+1296,njal's saga,bookwolf,159,0,0.0
+1297,njal's saga,cliffnotes,159,0,0.0
+1298,njal's saga,gradesaver,159,159,1.0
+1299,njal's saga,novelguide,159,0,0.0
+1300,njal's saga,pinkmonkey,159,0,0.0
+1301,njal's saga,shmoop,159,0,0.0
+1302,njal's saga,sparknotes,159,0,0.0
+1303,njal's saga,thebestnotes,159,0,0.0
+1304,idylls of the king,bookwolf,14,0,0.0
+1305,idylls of the king,cliffnotes,14,12,0.8571428571428571
+1306,idylls of the king,gradesaver,14,0,0.0
+1307,idylls of the king,novelguide,14,0,0.0
+1308,idylls of the king,pinkmonkey,14,0,0.0
+1309,idylls of the king,shmoop,14,14,1.0
+1310,idylls of the king,sparknotes,14,0,0.0
+1311,idylls of the king,thebestnotes,14,0,0.0
+1312,white fang,bookwolf,25,0,0.0
+1313,white fang,cliffnotes,25,0,0.0
+1314,white fang,gradesaver,25,25,1.0
+1315,white fang,novelguide,25,25,1.0
+1316,white fang,pinkmonkey,25,0,0.0
+1317,white fang,shmoop,25,25,1.0
+1318,white fang,sparknotes,25,25,1.0
+1319,white fang,thebestnotes,25,25,1.0
+1320,romeo and juliet,bookwolf,24,0,0.0
+1321,romeo and juliet,cliffnotes,24,24,1.0
+1322,romeo and juliet,gradesaver,24,24,1.0
+1323,romeo and juliet,novelguide,24,0,0.0
+1324,romeo and juliet,pinkmonkey,24,0,0.0
+1325,romeo and juliet,shmoop,24,24,1.0
+1326,romeo and juliet,sparknotes,24,22,0.9166666666666666
+1327,romeo and juliet,thebestnotes,24,0,0.0
+1328,phaedra,bookwolf,30,0,0.0
+1329,phaedra,cliffnotes,30,30,1.0
+1330,phaedra,gradesaver,30,0,0.0
+1331,phaedra,novelguide,30,0,0.0
+1332,phaedra,pinkmonkey,30,0,0.0
+1333,phaedra,shmoop,30,0,0.0
+1334,phaedra,sparknotes,30,0,0.0
+1335,phaedra,thebestnotes,30,0,0.0
+1336,the merchant of venice,bookwolf,20,0,0.0
+1337,the merchant of venice,cliffnotes,20,20,1.0
+1338,the merchant of venice,gradesaver,20,0,0.0
+1339,the merchant of venice,novelguide,20,0,0.0
+1340,the merchant of venice,pinkmonkey,20,0,0.0
+1341,the merchant of venice,shmoop,20,20,1.0
+1342,the merchant of venice,sparknotes,20,20,1.0
+1343,the merchant of venice,thebestnotes,20,0,0.0
+1344,the ramayana,bookwolf,535,0,0.0
+1345,the ramayana,cliffnotes,535,0,0.0
+1346,the ramayana,gradesaver,535,535,1.0
+1347,the ramayana,novelguide,535,0,0.0
+1348,the ramayana,pinkmonkey,535,0,0.0
+1349,the ramayana,shmoop,535,0,0.0
+1350,the ramayana,sparknotes,535,0,0.0
+1351,the ramayana,thebestnotes,535,0,0.0
+1352,meditations,bookwolf,12,0,0.0
+1353,meditations,cliffnotes,12,0,0.0
+1354,meditations,gradesaver,12,0,0.0
+1355,meditations,novelguide,12,0,0.0
+1356,meditations,pinkmonkey,12,0,0.0
+1357,meditations,shmoop,12,12,1.0
+1358,meditations,sparknotes,12,0,0.0
+1359,meditations,thebestnotes,12,0,0.0
+1360,an enquiry concerning the principles of morals,bookwolf,8,0,0.0
+1361,an enquiry concerning the principles of morals,cliffnotes,8,0,0.0
+1362,an enquiry concerning the principles of morals,gradesaver,8,0,0.0
+1363,an enquiry concerning the principles of morals,novelguide,8,0,0.0
+1364,an enquiry concerning the principles of morals,pinkmonkey,8,0,0.0
+1365,an enquiry concerning the principles of morals,shmoop,8,8,1.0
+1366,an enquiry concerning the principles of morals,sparknotes,8,0,0.0
+1367,an enquiry concerning the principles of morals,thebestnotes,8,0,0.0
+1368,the man in the iron mask,bookwolf,59,0,0.0
+1369,the man in the iron mask,cliffnotes,59,0,0.0
+1370,the man in the iron mask,gradesaver,59,0,0.0
+1371,the man in the iron mask,novelguide,59,0,0.0
+1372,the man in the iron mask,pinkmonkey,59,0,0.0
+1373,the man in the iron mask,shmoop,59,59,1.0
+1374,the man in the iron mask,sparknotes,59,0,0.0
+1375,the man in the iron mask,thebestnotes,59,0,0.0
+1376,cymbeline,bookwolf,27,0,0.0
+1377,cymbeline,cliffnotes,27,0,0.0
+1378,cymbeline,gradesaver,27,27,1.0
+1379,cymbeline,novelguide,27,26,0.9629629629629629
+1380,cymbeline,pinkmonkey,27,27,1.0
+1381,cymbeline,shmoop,27,0,0.0
+1382,cymbeline,sparknotes,27,0,0.0
+1383,cymbeline,thebestnotes,27,0,0.0
+1384,all's well that ends well,bookwolf,9,0,0.0
+1385,all's well that ends well,cliffnotes,9,5,0.5555555555555556
+1386,all's well that ends well,gradesaver,9,0,0.0
+1387,all's well that ends well,novelguide,9,3,0.3333333333333333
+1388,all's well that ends well,pinkmonkey,9,5,0.5555555555555556
+1389,all's well that ends well,shmoop,9,5,0.5555555555555556
+1390,all's well that ends well,sparknotes,9,9,1.0
+1391,all's well that ends well,thebestnotes,9,0,0.0
+1392,troilus and criseyde,bookwolf,5,0,0.0
+1393,troilus and criseyde,cliffnotes,5,0,0.0
+1394,troilus and criseyde,gradesaver,5,5,1.0
+1395,troilus and criseyde,novelguide,5,0,0.0
+1396,troilus and criseyde,pinkmonkey,5,0,0.0
+1397,troilus and criseyde,shmoop,5,0,0.0
+1398,troilus and criseyde,sparknotes,5,0,0.0
+1399,troilus and criseyde,thebestnotes,5,0,0.0
+1400,the sorrows of young werther,bookwolf,1,0,0.0
+1401,the sorrows of young werther,cliffnotes,1,0,0.0
+1402,the sorrows of young werther,gradesaver,1,1,1.0
+1403,the sorrows of young werther,novelguide,1,0,0.0
+1404,the sorrows of young werther,pinkmonkey,1,0,0.0
+1405,the sorrows of young werther,shmoop,1,0,0.0
+1406,the sorrows of young werther,sparknotes,1,0,0.0
+1407,the sorrows of young werther,thebestnotes,1,0,0.0
+1408,the hairy ape,bookwolf,8,0,0.0
+1409,the hairy ape,cliffnotes,8,0,0.0
+1410,the hairy ape,gradesaver,8,8,1.0
+1411,the hairy ape,novelguide,8,0,0.0
+1412,the hairy ape,pinkmonkey,8,0,0.0
+1413,the hairy ape,shmoop,8,0,0.0
+1414,the hairy ape,sparknotes,8,0,0.0
+1415,the hairy ape,thebestnotes,8,0,0.0
+1416,all for love,bookwolf,5,0,0.0
+1417,all for love,cliffnotes,5,0,0.0
+1418,all for love,gradesaver,5,5,1.0
+1419,all for love,novelguide,5,0,0.0
+1420,all for love,pinkmonkey,5,0,0.0
+1421,all for love,shmoop,5,0,0.0
+1422,all for love,sparknotes,5,0,0.0
+1423,all for love,thebestnotes,5,0,0.0
+1424,major barbara,bookwolf,3,0,0.0
+1425,major barbara,cliffnotes,3,3,1.0
+1426,major barbara,gradesaver,3,0,0.0
+1427,major barbara,novelguide,3,0,0.0
+1428,major barbara,pinkmonkey,3,3,1.0
+1429,major barbara,shmoop,3,3,1.0
+1430,major barbara,sparknotes,3,3,1.0
+1431,major barbara,thebestnotes,3,0,0.0
+1432,the jew of malta,bookwolf,5,0,0.0
+1433,the jew of malta,cliffnotes,5,0,0.0
+1434,the jew of malta,gradesaver,5,5,1.0
+1435,the jew of malta,novelguide,5,0,0.0
+1436,the jew of malta,pinkmonkey,5,0,0.0
+1437,the jew of malta,shmoop,5,0,0.0
+1438,the jew of malta,sparknotes,5,5,1.0
+1439,the jew of malta,thebestnotes,5,0,0.0
+1440,the coquette,bookwolf,74,0,0.0
+1441,the coquette,cliffnotes,74,0,0.0
+1442,the coquette,gradesaver,74,74,1.0
+1443,the coquette,novelguide,74,0,0.0
+1444,the coquette,pinkmonkey,74,0,0.0
+1445,the coquette,shmoop,74,0,0.0
+1446,the coquette,sparknotes,74,0,0.0
+1447,the coquette,thebestnotes,74,0,0.0
+1448,the communist manifesto,bookwolf,4,0,0.0
+1449,the communist manifesto,cliffnotes,4,0,0.0
+1450,the communist manifesto,gradesaver,4,0,0.0
+1451,the communist manifesto,novelguide,4,0,0.0
+1452,the communist manifesto,pinkmonkey,4,0,0.0
+1453,the communist manifesto,shmoop,4,4,1.0
+1454,the communist manifesto,sparknotes,4,0,0.0
+1455,the communist manifesto,thebestnotes,4,0,0.0
+1456,an ideal husband,bookwolf,4,0,0.0
+1457,an ideal husband,cliffnotes,4,0,0.0
+1458,an ideal husband,gradesaver,4,4,1.0
+1459,an ideal husband,novelguide,4,0,0.0
+1460,an ideal husband,pinkmonkey,4,0,0.0
+1461,an ideal husband,shmoop,4,4,1.0
+1462,an ideal husband,sparknotes,4,4,1.0
+1463,an ideal husband,thebestnotes,4,0,0.0
+1464,the three musketeers,bookwolf,67,0,0.0
+1465,the three musketeers,cliffnotes,67,66,0.9850746268656716
+1466,the three musketeers,gradesaver,67,67,1.0
+1467,the three musketeers,novelguide,67,0,0.0
+1468,the three musketeers,pinkmonkey,67,0,0.0
+1469,the three musketeers,shmoop,67,67,1.0
+1470,the three musketeers,sparknotes,67,67,1.0
+1471,the three musketeers,thebestnotes,67,0,0.0
+1472,black beauty,bookwolf,49,0,0.0
+1473,black beauty,cliffnotes,49,0,0.0
+1474,black beauty,gradesaver,49,49,1.0
+1475,black beauty,novelguide,49,0,0.0
+1476,black beauty,pinkmonkey,49,0,0.0
+1477,black beauty,shmoop,49,49,1.0
+1478,black beauty,sparknotes,49,0,0.0
+1479,black beauty,thebestnotes,49,0,0.0
+1480,cyrano de bergerac,bookwolf,46,0,0.0
+1481,cyrano de bergerac,cliffnotes,46,46,1.0
+1482,cyrano de bergerac,gradesaver,46,0,0.0
+1483,cyrano de bergerac,novelguide,46,45,0.9782608695652174
+1484,cyrano de bergerac,pinkmonkey,46,46,1.0
+1485,cyrano de bergerac,shmoop,46,0,0.0
+1486,cyrano de bergerac,sparknotes,46,45,0.9782608695652174
+1487,cyrano de bergerac,thebestnotes,46,0,0.0
+1488,evelina,bookwolf,84,0,0.0
+1489,evelina,cliffnotes,84,0,0.0
+1490,evelina,gradesaver,84,84,1.0
+1491,evelina,novelguide,84,0,0.0
+1492,evelina,pinkmonkey,84,0,0.0
+1493,evelina,shmoop,84,0,0.0
+1494,evelina,sparknotes,84,0,0.0
+1495,evelina,thebestnotes,84,0,0.0
+1496,the winter's tale,bookwolf,15,0,0.0
+1497,the winter's tale,cliffnotes,15,15,1.0
+1498,the winter's tale,gradesaver,15,15,1.0
+1499,the winter's tale,novelguide,15,0,0.0
+1500,the winter's tale,pinkmonkey,15,0,0.0
+1501,the winter's tale,shmoop,15,0,0.0
+1502,the winter's tale,sparknotes,15,11,0.7333333333333333
+1503,the winter's tale,thebestnotes,15,0,0.0
+1504,king lear,bookwolf,23,23,1.0
+1505,king lear,cliffnotes,23,23,1.0
+1506,king lear,gradesaver,23,23,1.0
+1507,king lear,novelguide,23,22,0.9565217391304348
+1508,king lear,pinkmonkey,23,22,0.9565217391304348
+1509,king lear,shmoop,23,23,1.0
+1510,king lear,sparknotes,23,23,1.0
+1511,king lear,thebestnotes,23,0,0.0
+1512,under the greenwood tree,bookwolf,27,0,0.0
+1513,under the greenwood tree,cliffnotes,27,0,0.0
+1514,under the greenwood tree,gradesaver,27,0,0.0
+1515,under the greenwood tree,novelguide,27,27,1.0
+1516,under the greenwood tree,pinkmonkey,27,4,0.14814814814814814
+1517,under the greenwood tree,shmoop,27,0,0.0
+1518,under the greenwood tree,sparknotes,27,0,0.0
+1519,under the greenwood tree,thebestnotes,27,0,0.0
+1520,of human bondage,bookwolf,91,0,0.0
+1521,of human bondage,cliffnotes,91,0,0.0
+1522,of human bondage,gradesaver,91,0,0.0
+1523,of human bondage,novelguide,91,91,1.0
+1524,of human bondage,pinkmonkey,91,31,0.34065934065934067
+1525,of human bondage,shmoop,91,0,0.0
+1526,of human bondage,sparknotes,91,0,0.0
+1527,of human bondage,thebestnotes,91,0,0.0
+1528,portrait of a lady,bookwolf,55,0,0.0
+1529,portrait of a lady,cliffnotes,55,55,1.0
+1530,portrait of a lady,gradesaver,55,55,1.0
+1531,portrait of a lady,novelguide,55,0,0.0
+1532,portrait of a lady,pinkmonkey,55,55,1.0
+1533,portrait of a lady,shmoop,55,55,1.0
+1534,portrait of a lady,sparknotes,55,55,1.0
+1535,portrait of a lady,thebestnotes,55,0,0.0
+1536,beowulf,bookwolf,98,0,0.0
+1537,beowulf,cliffnotes,98,0,0.0
+1538,beowulf,gradesaver,98,0,0.0
+1539,beowulf,novelguide,98,98,1.0
+1540,beowulf,pinkmonkey,98,0,0.0
+1541,beowulf,shmoop,98,0,0.0
+1542,beowulf,sparknotes,98,0,0.0
+1543,beowulf,thebestnotes,98,0,0.0
+1544,the prince,bookwolf,26,0,0.0
+1545,the prince,cliffnotes,26,26,1.0
+1546,the prince,gradesaver,26,25,0.9615384615384616
+1547,the prince,novelguide,26,0,0.0
+1548,the prince,pinkmonkey,26,0,0.0
+1549,the prince,shmoop,26,26,1.0
+1550,the prince,sparknotes,26,26,1.0
+1551,the prince,thebestnotes,26,0,0.0
+1552,sense and sensibility,bookwolf,50,0,0.0
+1553,sense and sensibility,cliffnotes,50,50,1.0
+1554,sense and sensibility,gradesaver,50,50,1.0
+1555,sense and sensibility,novelguide,50,22,0.44
+1556,sense and sensibility,pinkmonkey,50,47,0.94
+1557,sense and sensibility,shmoop,50,50,1.0
+1558,sense and sensibility,sparknotes,50,50,1.0
+1559,sense and sensibility,thebestnotes,50,0,0.0
+1560,far from the madding crowd,bookwolf,57,0,0.0
+1561,far from the madding crowd,cliffnotes,57,57,1.0
+1562,far from the madding crowd,gradesaver,57,57,1.0
+1563,far from the madding crowd,novelguide,57,0,0.0
+1564,far from the madding crowd,pinkmonkey,57,0,0.0
+1565,far from the madding crowd,shmoop,57,57,1.0
+1566,far from the madding crowd,sparknotes,57,57,1.0
+1567,far from the madding crowd,thebestnotes,57,0,0.0
+1568,tess of the d'urbervilles,bookwolf,59,0,0.0
+1569,tess of the d'urbervilles,cliffnotes,59,59,1.0
+1570,tess of the d'urbervilles,gradesaver,59,59,1.0
+1571,tess of the d'urbervilles,novelguide,59,59,1.0
+1572,tess of the d'urbervilles,pinkmonkey,59,56,0.9491525423728814
+1573,tess of the d'urbervilles,shmoop,59,59,1.0
+1574,tess of the d'urbervilles,sparknotes,59,0,0.0
+1575,tess of the d'urbervilles,thebestnotes,59,0,0.0
+1576,the brothers karamazov,bookwolf,96,0,0.0
+1577,the brothers karamazov,cliffnotes,96,96,1.0
+1578,the brothers karamazov,gradesaver,96,96,1.0
+1579,the brothers karamazov,novelguide,96,0,0.0
+1580,the brothers karamazov,pinkmonkey,96,0,0.0
+1581,the brothers karamazov,shmoop,96,96,1.0
+1582,the brothers karamazov,sparknotes,96,96,1.0
+1583,the brothers karamazov,thebestnotes,96,0,0.0
+1584,the picture of dorian gray,bookwolf,20,0,0.0
+1585,the picture of dorian gray,cliffnotes,20,20,1.0
+1586,the picture of dorian gray,gradesaver,20,20,1.0
+1587,the picture of dorian gray,novelguide,20,0,0.0
+1588,the picture of dorian gray,pinkmonkey,20,0,0.0
+1589,the picture of dorian gray,shmoop,20,20,1.0
+1590,the picture of dorian gray,sparknotes,20,20,1.0
+1591,the picture of dorian gray,thebestnotes,20,0,0.0
+1592,lord jim,bookwolf,45,0,0.0
+1593,lord jim,cliffnotes,45,45,1.0
+1594,lord jim,gradesaver,45,45,1.0
+1595,lord jim,novelguide,45,45,1.0
+1596,lord jim,pinkmonkey,45,45,1.0
+1597,lord jim,shmoop,45,45,1.0
+1598,lord jim,sparknotes,45,45,1.0
+1599,lord jim,thebestnotes,45,0,0.0
+1600,the consolation of philosophy,bookwolf,5,0,0.0
+1601,the consolation of philosophy,cliffnotes,5,0,0.0
+1602,the consolation of philosophy,gradesaver,5,5,1.0
+1603,the consolation of philosophy,novelguide,5,0,0.0
+1604,the consolation of philosophy,pinkmonkey,5,0,0.0
+1605,the consolation of philosophy,shmoop,5,0,0.0
+1606,the consolation of philosophy,sparknotes,5,0,0.0
+1607,the consolation of philosophy,thebestnotes,5,0,0.0
+1608,consolation of philosophy,bookwolf,5,0,0.0
+1609,consolation of philosophy,cliffnotes,5,0,0.0
+1610,consolation of philosophy,gradesaver,5,0,0.0
+1611,consolation of philosophy,novelguide,5,5,1.0
+1612,consolation of philosophy,pinkmonkey,5,0,0.0
+1613,consolation of philosophy,shmoop,5,0,0.0
+1614,consolation of philosophy,sparknotes,5,0,0.0
+1615,consolation of philosophy,thebestnotes,5,0,0.0
+1616,the rime of the ancient mariner,bookwolf,7,0,0.0
+1617,the rime of the ancient mariner,cliffnotes,7,0,0.0
+1618,the rime of the ancient mariner,gradesaver,7,7,1.0
+1619,the rime of the ancient mariner,novelguide,7,0,0.0
+1620,the rime of the ancient mariner,pinkmonkey,7,0,0.0
+1621,the rime of the ancient mariner,shmoop,7,0,0.0
+1622,the rime of the ancient mariner,sparknotes,7,0,0.0
+1623,the rime of the ancient mariner,thebestnotes,7,0,0.0
+1624,twelfth night or what you will,bookwolf,18,0,0.0
+1625,twelfth night or what you will,cliffnotes,18,0,0.0
+1626,twelfth night or what you will,gradesaver,18,0,0.0
+1627,twelfth night or what you will,novelguide,18,0,0.0
+1628,twelfth night or what you will,pinkmonkey,18,0,0.0
+1629,twelfth night or what you will,shmoop,18,18,1.0
+1630,twelfth night or what you will,sparknotes,18,0,0.0
+1631,twelfth night or what you will,thebestnotes,18,0,0.0
+1632,the autobiography of an ex-colored man,bookwolf,11,0,0.0
+1633,the autobiography of an ex-colored man,cliffnotes,11,0,0.0
+1634,the autobiography of an ex-colored man,gradesaver,11,11,1.0
+1635,the autobiography of an ex-colored man,novelguide,11,0,0.0
+1636,the autobiography of an ex-colored man,pinkmonkey,11,0,0.0
+1637,the autobiography of an ex-colored man,shmoop,11,0,0.0
+1638,the autobiography of an ex-colored man,sparknotes,11,0,0.0
+1639,the autobiography of an ex-colored man,thebestnotes,11,0,0.0
+1640,the red and the black,bookwolf,75,0,0.0
+1641,the red and the black,cliffnotes,75,75,1.0
+1642,the red and the black,gradesaver,75,0,0.0
+1643,the red and the black,novelguide,75,0,0.0
+1644,the red and the black,pinkmonkey,75,0,0.0
+1645,the red and the black,shmoop,75,75,1.0
+1646,the red and the black,sparknotes,75,71,0.9466666666666667
+1647,the red and the black,thebestnotes,75,0,0.0
+1648,the comedy of errors,bookwolf,11,0,0.0
+1649,the comedy of errors,cliffnotes,11,0,0.0
+1650,the comedy of errors,gradesaver,11,0,0.0
+1651,the comedy of errors,novelguide,11,0,0.0
+1652,the comedy of errors,pinkmonkey,11,0,0.0
+1653,the comedy of errors,shmoop,11,11,1.0
+1654,the comedy of errors,sparknotes,11,8,0.7272727272727273
+1655,the comedy of errors,thebestnotes,11,0,0.0
+1656,the white devil,bookwolf,16,0,0.0
+1657,the white devil,cliffnotes,16,0,0.0
+1658,the white devil,gradesaver,16,16,1.0
+1659,the white devil,novelguide,16,0,0.0
+1660,the white devil,pinkmonkey,16,0,0.0
+1661,the white devil,shmoop,16,16,1.0
+1662,the white devil,sparknotes,16,0,0.0
+1663,the white devil,thebestnotes,16,0,0.0
+1664,the tempest,bookwolf,10,0,0.0
+1665,the tempest,cliffnotes,10,10,1.0
+1666,the tempest,gradesaver,10,9,0.9
+1667,the tempest,novelguide,10,0,0.0
+1668,the tempest,pinkmonkey,10,0,0.0
+1669,the tempest,shmoop,10,9,0.9
+1670,the tempest,sparknotes,10,9,0.9
+1671,the tempest,thebestnotes,10,0,0.0
+1672,common sense,bookwolf,4,0,0.0
+1673,common sense,cliffnotes,4,0,0.0
+1674,common sense,gradesaver,4,0,0.0
+1675,common sense,novelguide,4,4,1.0
+1676,common sense,pinkmonkey,4,0,0.0
+1677,common sense,shmoop,4,0,0.0
+1678,common sense,sparknotes,4,0,0.0
+1679,common sense,thebestnotes,4,0,0.0
+1680,the tragedy of antony and cleopatra,bookwolf,42,0,0.0
+1681,the tragedy of antony and cleopatra,cliffnotes,42,0,0.0
+1682,the tragedy of antony and cleopatra,gradesaver,42,0,0.0
+1683,the tragedy of antony and cleopatra,novelguide,42,0,0.0
+1684,the tragedy of antony and cleopatra,pinkmonkey,42,0,0.0
+1685,the tragedy of antony and cleopatra,shmoop,42,42,1.0
+1686,the tragedy of antony and cleopatra,sparknotes,42,0,0.0
+1687,the tragedy of antony and cleopatra,thebestnotes,42,0,0.0
+1688,king solomon's mines,bookwolf,20,0,0.0
+1689,king solomon's mines,cliffnotes,20,0,0.0
+1690,king solomon's mines,gradesaver,20,20,1.0
+1691,king solomon's mines,novelguide,20,0,0.0
+1692,king solomon's mines,pinkmonkey,20,0,0.0
+1693,king solomon's mines,shmoop,20,0,0.0
+1694,king solomon's mines,sparknotes,20,0,0.0
+1695,king solomon's mines,thebestnotes,20,0,0.0
+1696,gargantua and pantagruel,bookwolf,222,0,0.0
+1697,gargantua and pantagruel,cliffnotes,222,0,0.0
+1698,gargantua and pantagruel,gradesaver,222,222,1.0
+1699,gargantua and pantagruel,novelguide,222,0,0.0
+1700,gargantua and pantagruel,pinkmonkey,222,0,0.0
+1701,gargantua and pantagruel,shmoop,222,0,0.0
+1702,gargantua and pantagruel,sparknotes,222,0,0.0
+1703,gargantua and pantagruel,thebestnotes,222,0,0.0
+1704,uncle vanya,bookwolf,4,0,0.0
+1705,uncle vanya,cliffnotes,4,0,0.0
+1706,uncle vanya,gradesaver,4,4,1.0
+1707,uncle vanya,novelguide,4,0,0.0
+1708,uncle vanya,pinkmonkey,4,0,0.0
+1709,uncle vanya,shmoop,4,4,1.0
+1710,uncle vanya,sparknotes,4,4,1.0
+1711,uncle vanya,thebestnotes,4,0,0.0
+1712,the school for scandal,bookwolf,14,0,0.0
+1713,the school for scandal,cliffnotes,14,0,0.0
+1714,the school for scandal,gradesaver,14,14,1.0
+1715,the school for scandal,novelguide,14,0,0.0
+1716,the school for scandal,pinkmonkey,14,0,0.0
+1717,the school for scandal,shmoop,14,0,0.0
+1718,the school for scandal,sparknotes,14,0,0.0
+1719,the school for scandal,thebestnotes,14,0,0.0

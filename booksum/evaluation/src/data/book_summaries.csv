@@ -1,0 +1,406 @@
+,Book Title,Source,Word Count,Summary Path
+0,paradise lost,gradesaver,1136,finished_summaries/gradesaver/Paradise Lost/overview.json
+1,paradise lost,shmoop,430,finished_summaries/shmoop/Paradise Lost/overview.txt
+2,paradise lost,sparknotes,1534,finished_summaries/sparknotes/Paradise Lost/overview.txt
+3,the federalist papers,gradesaver,0,finished_summaries/gradesaver/The Federalist Papers/overview.json
+4,the rivals,gradesaver,2158,finished_summaries/gradesaver/The Rivals/overview.json
+5,adam bede,gradesaver,1243,finished_summaries/gradesaver/Adam Bede/overview.json
+6,adam bede,shmoop,768,finished_summaries/shmoop/Adam Bede/overview.txt
+7,adam bede,cliffnotes,1618,finished_summaries/cliffnotes/Adam Bede/overview.txt
+8,adam bede,sparknotes,950,finished_summaries/sparknotes/Adam Bede/overview.txt
+9,northanger abbey,gradesaver,1017,finished_summaries/gradesaver/Northanger Abbey/overview.json
+10,northanger abbey,shmoop,596,finished_summaries/shmoop/Northanger Abbey/overview.txt
+11,northanger abbey,sparknotes,1149,finished_summaries/sparknotes/Northanger Abbey/overview.txt
+12,frankenstein,gradesaver,1894,finished_summaries/gradesaver/Frankenstein/overview.json
+13,frankenstein,shmoop,653,finished_summaries/shmoop/Frankenstein/overview.txt
+14,frankenstein,cliffnotes,469,finished_summaries/cliffnotes/Frankenstein/overview.txt
+15,frankenstein,sparknotes,976,finished_summaries/sparknotes/Frankenstein/overview.txt
+16,my antonia,shmoop,924,finished_summaries/shmoop/My Antonia/overview.txt
+17,my antonia,cliffnotes,1794,finished_summaries/cliffnotes/My Antonia/overview.txt
+18,my antonia,sparknotes,686,finished_summaries/sparknotes/My Antonia/overview.txt
+19,a vindication of the rights of woman,gradesaver,716,finished_summaries/gradesaver/A Vindication of the Rights of Woman/overview.json
+20,a vindication of the rights of woman,shmoop,399,finished_summaries/shmoop/A Vindication of the Rights of Woman/overview.txt
+21,little women,gradesaver,821,finished_summaries/gradesaver/Little Women/overview.json
+22,little women,shmoop,436,finished_summaries/shmoop/Little Women/overview.txt
+23,little women,sparknotes,921,finished_summaries/sparknotes/Little Women/overview.txt
+24,the house of mirth,shmoop,1013,finished_summaries/shmoop/The House of Mirth/overview.txt
+25,the house of mirth,cliffnotes,927,finished_summaries/cliffnotes/The House of Mirth/overview.txt
+26,the house of mirth,sparknotes,546,finished_summaries/sparknotes/The House of Mirth/overview.txt
+27,the house of the seven gables,gradesaver,1345,finished_summaries/gradesaver/The House of the Seven Gables/overview.json
+28,the house of the seven gables,shmoop,1364,finished_summaries/shmoop/The House of the Seven Gables/overview.txt
+29,the house of the seven gables,cliffnotes,803,finished_summaries/cliffnotes/The House of the Seven Gables/overview.txt
+30,the house of the seven gables,sparknotes,1059,finished_summaries/sparknotes/The House of the Seven Gables/overview.txt
+31,a study in scarlet,gradesaver,1238,finished_summaries/gradesaver/A Study in Scarlet/overview.json
+32,the life of timon of athens,shmoop,487,finished_summaries/shmoop/The Life of Timon of Athens/overview.txt
+33,hamlet,gradesaver,1328,finished_summaries/gradesaver/Hamlet/overview.json
+34,hamlet,shmoop,702,finished_summaries/shmoop/Hamlet/overview.txt
+35,hamlet,sparknotes,867,finished_summaries/sparknotes/Hamlet/overview.txt
+36,othello,gradesaver,997,finished_summaries/gradesaver/Othello/overview.json
+37,othello,shmoop,1326,finished_summaries/shmoop/Othello/overview.txt
+38,othello,sparknotes,1765,finished_summaries/sparknotes/Othello/overview.txt
+39,a room with a view,gradesaver,970,finished_summaries/gradesaver/A Room With a View/overview.json
+40,a room with a view,shmoop,816,finished_summaries/shmoop/A Room with a View/overview.txt
+41,a room with a view,sparknotes,1036,finished_summaries/sparknotes/A Room with a View/overview.txt
+42,mary barton,gradesaver,1436,finished_summaries/gradesaver/Mary Barton/overview.json
+43,coriolanus,gradesaver,2959,finished_summaries/gradesaver/Coriolanus/overview.json
+44,coriolanus,shmoop,520,finished_summaries/shmoop/Coriolanus/overview.txt
+45,coriolanus,sparknotes,410,finished_summaries/sparknotes/Coriolanus/overview.txt
+46,around the world in eighty days,shmoop,503,finished_summaries/shmoop/Around the World in Eighty Days/overview.txt
+47,candide,gradesaver,1443,finished_summaries/gradesaver/Candide/overview.json
+48,candide,shmoop,643,finished_summaries/shmoop/Candide/overview.txt
+49,candide,cliffnotes,1193,finished_summaries/cliffnotes/Candide/overview.txt
+50,candide,sparknotes,980,finished_summaries/sparknotes/Candide/overview.txt
+51,the garden party,gradesaver,3048,finished_summaries/gradesaver/The Garden Party/overview.json
+52,around the world in eighty days,gradesaver,1406,finished_summaries/gradesaver/Around the World in 80 Days/overview.json
+53,sister carrie,gradesaver,1267,finished_summaries/gradesaver/Sister Carrie/overview.json
+54,sister carrie,shmoop,1150,finished_summaries/shmoop/Sister Carrie/overview.txt
+55,sister carrie,cliffnotes,1048,finished_summaries/cliffnotes/Sister Carrie/overview.txt
+56,sister carrie,sparknotes,188,finished_summaries/sparknotes/Sister Carrie/overview.txt
+57,persuasion,gradesaver,1091,finished_summaries/gradesaver/Persuasion/overview.json
+58,persuasion,shmoop,820,finished_summaries/shmoop/Persuasion/overview.txt
+59,persuasion,sparknotes,973,finished_summaries/sparknotes/Persuasion/overview.txt
+60,looking backward: 2000-1887,sparknotes,513,finished_summaries/sparknotes/Looking Backward/overview.txt
+61,wuthering heights,gradesaver,1738,finished_summaries/gradesaver/Wuthering Heights/overview.json
+62,wuthering heights,shmoop,1138,finished_summaries/shmoop/Wuthering Heights/overview.txt
+63,wuthering heights,cliffnotes,439,finished_summaries/cliffnotes/Wuthering Heights/overview.txt
+64,wuthering heights,sparknotes,1485,finished_summaries/sparknotes/Wuthering Heights/overview.txt
+65,what maisie knew,gradesaver,280,finished_summaries/gradesaver/What Maisie Knew/overview.json
+66,what maisie knew,shmoop,639,finished_summaries/shmoop/What Maisie Knew/overview.txt
+67,the vicar of wakefield,gradesaver,1699,finished_summaries/gradesaver/The Vicar of Wakefield/overview.json
+68,utilitarianism,gradesaver,111,finished_summaries/gradesaver/Utilitarianism/overview.json
+69,where angels fear to tread,shmoop,637,finished_summaries/shmoop/Where Angels Fear to Tread/overview.txt
+70,oliver twist,gradesaver,803,finished_summaries/gradesaver/Oliver Twist/overview.json
+71,oliver twist,shmoop,919,finished_summaries/shmoop/Oliver Twist/overview.txt
+72,oliver twist,cliffnotes,1454,finished_summaries/cliffnotes/Oliver Twist/overview.txt
+73,oliver twist,sparknotes,579,finished_summaries/sparknotes/Oliver Twist/overview.txt
+74,david copperfield,gradesaver,1136,finished_summaries/gradesaver/David Copperfield/overview.json
+75,david copperfield,shmoop,3053,finished_summaries/shmoop/David Copperfield/overview.txt
+76,david copperfield,cliffnotes,507,finished_summaries/cliffnotes/David Copperfield/overview.txt
+77,david copperfield,sparknotes,830,finished_summaries/sparknotes/David Copperfield/overview.txt
+78,heart of darkness,gradesaver,1133,finished_summaries/gradesaver/Heart of Darkness/overview.json
+79,heart of darkness,shmoop,607,finished_summaries/shmoop/Heart of Darkness/overview.txt
+80,heart of darkness,cliffnotes,473,finished_summaries/cliffnotes/Heart of Darkness/overview.txt
+81,heart of darkness,sparknotes,805,finished_summaries/sparknotes/Heart of Darkness/overview.txt
+82,dracula,gradesaver,1041,finished_summaries/gradesaver/Dracula/overview.json
+83,dracula,shmoop,630,finished_summaries/shmoop/Dracula/overview.txt
+84,dracula,cliffnotes,1179,finished_summaries/cliffnotes/Dracula/overview.txt
+85,dracula,sparknotes,840,finished_summaries/sparknotes/Dracula/overview.txt
+86,a hero of our time,gradesaver,1400,finished_summaries/gradesaver/A Hero of Our Time/overview.json
+87,green mansions,cliffnotes,1598,finished_summaries/cliffnotes/Green Mansions/overview.txt
+88,the phantom of the opera,gradesaver,237,finished_summaries/gradesaver/The Phantom of the Opera/overview.json
+89,leviathan,gradesaver,692,finished_summaries/gradesaver/Leviathan/overview.json
+90,leviathan,shmoop,220,finished_summaries/shmoop/Leviathan/overview.txt
+91,the goose girl,shmoop,627,finished_summaries/shmoop/The Goose Girl/overview.txt
+92,main street,shmoop,634,finished_summaries/shmoop/Main Street/overview.txt
+93,main street,cliffnotes,850,finished_summaries/cliffnotes/Main Street/overview.txt
+94,main street,sparknotes,1069,finished_summaries/sparknotes/Main Street/overview.txt
+95,the canterville ghost,gradesaver,1057,finished_summaries/gradesaver/The Canterville Ghost/overview.json
+96,middlemarch,gradesaver,1803,finished_summaries/gradesaver/Middlemarch/overview.json
+97,middlemarch,shmoop,485,finished_summaries/shmoop/Middlemarch/overview.txt
+98,middlemarch,sparknotes,672,finished_summaries/sparknotes/Middlemarch/overview.txt
+99,villette,gradesaver,868,finished_summaries/gradesaver/Villette/overview.json
+100,from the earth to the moon,shmoop,334,finished_summaries/shmoop/From the Earth to the Moon/overview.txt
+101,the power and the glory,shmoop,511,finished_summaries/shmoop/The Power and the Glory/overview.txt
+102,the power and the glory,sparknotes,994,finished_summaries/sparknotes/The Power and the Glory/overview.txt
+103,notes from underground,shmoop,874,finished_summaries/shmoop/Notes from the Underground/overview.txt
+104,on liberty,gradesaver,1381,finished_summaries/gradesaver/On Liberty/overview.json
+105,the marrow of tradition,gradesaver,1567,finished_summaries/gradesaver/The Marrow of Tradition/overview.json
+106,the return of the native,shmoop,325,finished_summaries/shmoop/The Return of the Native/overview.txt
+107,the return of the native,cliffnotes,1482,finished_summaries/cliffnotes/The Return of the Native/overview.txt
+108,the return of the native,sparknotes,522,finished_summaries/sparknotes/The Return of the Native/overview.txt
+109,the scarlet letter,gradesaver,713,finished_summaries/gradesaver/The Scarlet Letter/overview.json
+110,the scarlet letter,shmoop,476,finished_summaries/shmoop/The Scarlet Letter/overview.txt
+111,the scarlet letter,cliffnotes,910,finished_summaries/cliffnotes/The Scarlet Letter/overview.txt
+112,the scarlet letter,sparknotes,853,finished_summaries/sparknotes/The Scarlet Letter/overview.txt
+113,my antonia,gradesaver,1087,finished_summaries/gradesaver/My Antonia/overview.json
+114,babbitt,gradesaver,427,finished_summaries/gradesaver/Babbitt/overview.json
+115,babbitt,shmoop,459,finished_summaries/shmoop/Babbitt/overview.txt
+116,babbitt,sparknotes,673,finished_summaries/sparknotes/Babbitt/overview.txt
+117,the wind in the willows,gradesaver,961,finished_summaries/gradesaver/The Wind in the Willows/overview.json
+118,madame bovary,shmoop,756,finished_summaries/shmoop/Madame Bovary/overview.txt
+119,madame bovary,cliffnotes,354,finished_summaries/cliffnotes/Madame Bovary/overview.txt
+120,a tale of two cities,gradesaver,669,finished_summaries/gradesaver/A Tale of Two Cities/overview.json
+121,a tale of two cities,shmoop,1348,finished_summaries/shmoop/A Tale of Two Cities/overview.txt
+122,a tale of two cities,cliffnotes,515,finished_summaries/cliffnotes/A Tale of Two Cities/overview.txt
+123,a tale of two cities,sparknotes,1051,finished_summaries/sparknotes/A Tale of Two Cities/overview.txt
+124,howards end,gradesaver,1524,finished_summaries/gradesaver/Howards End/overview.json
+125,howards end,shmoop,575,finished_summaries/shmoop/Howards End/overview.txt
+126,howards end,sparknotes,783,finished_summaries/sparknotes/Howards End/overview.txt
+127,the turn of the screw,gradesaver,1623,finished_summaries/gradesaver/The Turn of the Screw/overview.json
+128,the turn of the screw,shmoop,765,finished_summaries/shmoop/The Turn of the Screw/overview.txt
+129,the turn of the screw,cliffnotes,602,finished_summaries/cliffnotes/The Turn of the Screw/overview.txt
+130,the turn of the screw,sparknotes,1061,finished_summaries/sparknotes/The Turn of the Screw/overview.txt
+131,the secret agent,gradesaver,516,finished_summaries/gradesaver/The Secret Agent/overview.json
+132,the secret agent,shmoop,920,finished_summaries/shmoop/The Secret Agent/overview.txt
+133,jane eyre,gradesaver,1225,finished_summaries/gradesaver/Jane Eyre/overview.json
+134,jane eyre,shmoop,1486,finished_summaries/shmoop/Jane Eyre/overview.txt
+135,jane eyre,cliffnotes,1590,finished_summaries/cliffnotes/Jane Eyre/overview.txt
+136,jane eyre,sparknotes,866,finished_summaries/sparknotes/Jane Eyre/overview.txt
+137,the pickwick papers,cliffnotes,1113,finished_summaries/cliffnotes/The Pickwick Papers/overview.txt
+138,ivanhoe,shmoop,2976,finished_summaries/shmoop/Ivanhoe/overview.txt
+139,ivanhoe,cliffnotes,297,finished_summaries/cliffnotes/Ivanhoe/overview.txt
+140,ivanhoe,sparknotes,701,finished_summaries/sparknotes/Ivanhoe/overview.txt
+141,mansfield park,gradesaver,1102,finished_summaries/gradesaver/Mansfield Park/overview.json
+142,mansfield park,shmoop,460,finished_summaries/shmoop/Mansfield Park/overview.txt
+143,mansfield park,sparknotes,792,finished_summaries/sparknotes/Mansfield Park/overview.txt
+144,typee,shmoop,1040,finished_summaries/shmoop/Typee/overview.txt
+145,typee,sparknotes,952,finished_summaries/sparknotes/Typee/overview.txt
+146,anne of green gables,gradesaver,335,finished_summaries/gradesaver/Anne of Green Gables/overview.json
+147,anne of green gables,shmoop,768,finished_summaries/shmoop/Anne of Green Gables/overview.txt
+148,anne of green gables,sparknotes,670,finished_summaries/sparknotes/Anne of Green Gables/overview.txt
+149,kidnapped,gradesaver,3303,finished_summaries/gradesaver/Kidnapped/overview.json
+150,kidnapped,shmoop,1098,finished_summaries/shmoop/Kidnapped/overview.txt
+151,kidnapped,sparknotes,1779,finished_summaries/sparknotes/Kidnapped/overview.txt
+152,a little princess,gradesaver,817,finished_summaries/gradesaver/A Little Princess/overview.json
+153,a little princess,shmoop,690,finished_summaries/shmoop/A Little Princess/overview.txt
+154,regeneration,gradesaver,1439,finished_summaries/gradesaver/Regeneration/overview.json
+155,regeneration,sparknotes,1005,finished_summaries/sparknotes/Regeneration/overview.txt
+156,therese raquin,gradesaver,553,finished_summaries/gradesaver/Therese Raquin/overview.json
+157,sons and lovers,shmoop,598,finished_summaries/shmoop/Sons and Lovers/overview.txt
+158,sons and lovers,sparknotes,378,finished_summaries/sparknotes/Sons and Lovers/overview.txt
+159,the hound of the baskervilles,gradesaver,1184,finished_summaries/gradesaver/The Hound of the Baskervilles/overview.json
+160,the hound of the baskervilles,shmoop,1441,finished_summaries/shmoop/The Hound of the Baskervilles/overview.txt
+161,the mysteries of udolpho,shmoop,2688,finished_summaries/shmoop/The Mysteries of Udolpho/overview.txt
+162,twelve years a slave,gradesaver,297,finished_summaries/gradesaver/Twelve Years a Slave/overview.json
+163,the last of the mohicans,cliffnotes,535,finished_summaries/cliffnotes/The Last of the Mohicans/overview.txt
+164,the last of the mohicans,sparknotes,633,finished_summaries/sparknotes/The Last of the Mohicans/overview.txt
+165,house of mirth,gradesaver,1397,finished_summaries/gradesaver/House of Mirth/overview.json
+166,the deerslayer,cliffnotes,1429,finished_summaries/cliffnotes/The Deerslayer/overview.txt
+167,the rise of silas lapham,gradesaver,2159,finished_summaries/gradesaver/The Rise of Silas Lapham/overview.json
+168,the good soldier,sparknotes,1015,finished_summaries/sparknotes/The Good Soldier/overview.txt
+169,the red badge of courage,gradesaver,1901,finished_summaries/gradesaver/The Red Badge of Courage/overview.json
+170,the red badge of courage,shmoop,599,finished_summaries/shmoop/The Red Badge of Courage/overview.txt
+171,the red badge of courage,cliffnotes,658,finished_summaries/cliffnotes/The Red Badge of Courage/overview.txt
+172,the red badge of courage,sparknotes,838,finished_summaries/sparknotes/The Red Badge of Courage/overview.txt
+173,the new testament,sparknotes,540,finished_summaries/sparknotes/The New Testament/overview.txt
+174,o pioneers,gradesaver,1045,finished_summaries/gradesaver/O Pioneers/overview.json
+175,the mill on the floss,gradesaver,1480,finished_summaries/gradesaver/The Mill on the Floss/overview.json
+176,the mill on the floss,shmoop,506,finished_summaries/shmoop/The Mill on the Floss/overview.txt
+177,the mill on the floss,cliffnotes,1526,finished_summaries/cliffnotes/The Mill on the Floss/overview.txt
+178,treasure island,gradesaver,844,finished_summaries/gradesaver/Treasure Island/overview.json
+179,treasure island,shmoop,1683,finished_summaries/shmoop/Treasure Island/overview.txt
+180,treasure island,cliffnotes,948,finished_summaries/cliffnotes/Treasure Island/overview.txt
+181,henry viii,sparknotes,840,finished_summaries/sparknotes/Henry VIII/overview.txt
+182,the time machine,gradesaver,2232,finished_summaries/gradesaver/The Time Machine/overview.json
+183,the time machine,shmoop,472,finished_summaries/shmoop/The Time Machine/overview.txt
+184,the time machine,sparknotes,458,finished_summaries/sparknotes/The Time Machine/overview.txt
+185,kim,shmoop,2115,finished_summaries/shmoop/Kim/overview.txt
+186,the valley of fear,gradesaver,961,finished_summaries/gradesaver/The Valley of Fear/overview.json
+187,the invisible man,shmoop,489,finished_summaries/shmoop/The Invisible Man/overview.txt
+188,vanity fair,gradesaver,711,finished_summaries/gradesaver/Vanity Fair/overview.json
+189,vanity fair,shmoop,2852,finished_summaries/shmoop/Vanity Fair/overview.txt
+190,vanity fair,cliffnotes,568,finished_summaries/cliffnotes/Vanity Fair/overview.txt
+191,news from nowhere,gradesaver,251,finished_summaries/gradesaver/News from Nowhere/overview.json
+192,the way of all flesh,cliffnotes,1404,finished_summaries/cliffnotes/The Way of All Flesh/overview.txt
+193,little dorrit,gradesaver,4911,finished_summaries/gradesaver/Little Dorrit/overview.json
+194,little dorrit,shmoop,1715,finished_summaries/shmoop/Little Dorrit/overview.txt
+195,incidents in the life of a slave girl,gradesaver,1943,finished_summaries/gradesaver/Incidents in the Life of a Slave Girl/overview.json
+196,incidents in the life of a slave girl,shmoop,553,finished_summaries/shmoop/Incidents in the Life of a Slave Girl/overview.txt
+197,henry iv part 2,gradesaver,884,finished_summaries/gradesaver/Henry IV Part 2/overview.json
+198,henry iv part 2,shmoop,14,finished_summaries/shmoop/Henry IV Part 2/overview.txt
+199,henry iv part 2,sparknotes,459,finished_summaries/sparknotes/Henry IV Part 2/overview.txt
+200,macbeth,gradesaver,1032,finished_summaries/gradesaver/Macbeth/overview.json
+201,macbeth,shmoop,602,finished_summaries/shmoop/Macbeth/overview.txt
+202,macbeth,sparknotes,874,finished_summaries/sparknotes/Macbeth/overview.txt
+203,troilus and cressida,gradesaver,516,finished_summaries/gradesaver/Troilus and Cressida/overview.json
+204,troilus and cressida,shmoop,1044,finished_summaries/shmoop/Troilus and Cressida/overview.txt
+205,troilus and cressida,sparknotes,487,finished_summaries/sparknotes/Troilus and Cressida/overview.txt
+206,richard ii,gradesaver,798,finished_summaries/gradesaver/Richard II/overview.json
+207,richard ii,shmoop,1460,finished_summaries/shmoop/Richard II/overview.txt
+208,richard ii,sparknotes,466,finished_summaries/sparknotes/Richard II/overview.txt
+209,henry iv part 1,gradesaver,814,finished_summaries/gradesaver/Henry IV Part 1/overview.json
+210,henry iv part 1,shmoop,1755,finished_summaries/shmoop/Henry IV Part 1/overview.txt
+211,henry iv part 1,sparknotes,718,finished_summaries/sparknotes/Henry IV Part 1/overview.txt
+212,king john,shmoop,688,finished_summaries/shmoop/King John/overview.txt
+213,king john,sparknotes,1040,finished_summaries/sparknotes/King John/overview.txt
+214,henry vi part 1,shmoop,564,finished_summaries/shmoop/Henry VI Part 1/overview.txt
+215,henry vi part 1,sparknotes,1527,finished_summaries/sparknotes/Henry VI Part 1/overview.txt
+216,richard iii,gradesaver,501,finished_summaries/gradesaver/Richard III/overview.json
+217,richard iii,shmoop,1087,finished_summaries/shmoop/Richard III/overview.txt
+218,richard iii,sparknotes,504,finished_summaries/sparknotes/Richard III/overview.txt
+219,henry v,gradesaver,2128,finished_summaries/gradesaver/Henry V/overview.json
+220,henry v,shmoop,1650,finished_summaries/shmoop/Henry V/overview.txt
+221,every man in his humour,gradesaver,2336,finished_summaries/gradesaver/Every Man in His Humour/overview.json
+222,henry viii,shmoop,720,finished_summaries/shmoop/Henry VIII/overview.txt
+223,titus andronicus,gradesaver,1241,finished_summaries/gradesaver/Titus Andronicus/overview.json
+224,titus andronicus,shmoop,578,finished_summaries/shmoop/Titus Andronicus/overview.txt
+225,titus andronicus,sparknotes,413,finished_summaries/sparknotes/Titus Andronicus/overview.txt
+226,julius caesar,gradesaver,1713,finished_summaries/gradesaver/Julius Caesar/overview.json
+227,julius caesar,shmoop,1326,finished_summaries/shmoop/Julius Caesar/overview.txt
+228,julius caesar,sparknotes,1443,finished_summaries/sparknotes/Julius Caesar/overview.txt
+229,two gentlemen of verona,shmoop,895,finished_summaries/shmoop/The Two Gentlemen of Verona/overview.txt
+230,two gentlemen of verona,sparknotes,514,finished_summaries/sparknotes/The Two Gentlemen of Verona/overview.txt
+231,second treatise of government,gradesaver,665,finished_summaries/gradesaver/Second Treatise of Government/overview.json
+232,she stoops to conquer,gradesaver,1143,finished_summaries/gradesaver/She Stoops to Conquer/overview.json
+233,the wonderful wizard of oz,gradesaver,1258,finished_summaries/gradesaver/The Wonderful Wizard of Oz/overview.json
+234,the wonderful wizard of oz,shmoop,1207,finished_summaries/shmoop/The Wonderful Wizard of Oz/overview.txt
+235,pygmalion,gradesaver,725,finished_summaries/gradesaver/Pygmalion/overview.json
+236,pygmalion,shmoop,704,finished_summaries/shmoop/Pygmalion/overview.txt
+237,pygmalion,sparknotes,560,finished_summaries/sparknotes/Pygmalion/overview.txt
+238,twelfth night,gradesaver,2344,finished_summaries/gradesaver/Twelfth Night/overview.json
+239,twelfth night,sparknotes,835,finished_summaries/sparknotes/Twelfth Night/overview.txt
+240,the boxcar children,shmoop,557,finished_summaries/shmoop/The Boxcar Children/overview.txt
+241,the piazza tales,shmoop,1152,finished_summaries/shmoop/The Piazza Tales/overview.txt
+242,the return of sherlock holmes,shmoop,1305,finished_summaries/shmoop/The Return of Sherlock Holmes/overview.txt
+243,arms and the man,gradesaver,1010,finished_summaries/gradesaver/Arms and the Man/overview.json
+244,the aeneid,gradesaver,875,finished_summaries/gradesaver/The Aeneid/overview.json
+245,the aeneid,shmoop,764,finished_summaries/shmoop/The Aeneid/overview.txt
+246,the aeneid,sparknotes,724,finished_summaries/sparknotes/The Aeneid/overview.txt
+247,ghosts,gradesaver,1062,finished_summaries/gradesaver/Ghosts/overview.json
+248,ghosts,shmoop,413,finished_summaries/shmoop/Ghosts/overview.txt
+249,hedda gabler,shmoop,856,finished_summaries/shmoop/Hedda Gabler/overview.txt
+250,merry wives of windsor,shmoop,781,finished_summaries/shmoop/The Merry Wives of Windsor/overview.txt
+251,merry wives of windsor,sparknotes,1549,finished_summaries/sparknotes/The Merry Wives of Windsor/overview.txt
+252,the spanish tragedy,gradesaver,688,finished_summaries/gradesaver/The Spanish Tragedy/overview.json
+253,the spanish tragedy,shmoop,853,finished_summaries/shmoop/The Spanish Tragedy/overview.txt
+254,daisy miller,shmoop,308,finished_summaries/shmoop/Daisy Miller/overview.txt
+255,tartuffe,gradesaver,840,finished_summaries/gradesaver/Tartuffe/overview.json
+256,tartuffe,shmoop,975,finished_summaries/shmoop/Tartuffe/overview.txt
+257,a christmas carol,gradesaver,509,finished_summaries/gradesaver/A Christmas Carol/overview.json
+258,an enemy of the people,gradesaver,1074,finished_summaries/gradesaver/An Enemy of the People/overview.json
+259,an enemy of the people,shmoop,314,finished_summaries/shmoop/An Enemy of the People/overview.txt
+260,an enemy of the people,sparknotes,268,finished_summaries/sparknotes/An Enemy of the People/overview.txt
+261,siddhartha,gradesaver,1593,finished_summaries/gradesaver/Siddhartha/overview.json
+262,siddhartha,shmoop,356,finished_summaries/shmoop/Siddhartha/overview.txt
+263,measure for measure,gradesaver,2129,finished_summaries/gradesaver/Measure for Measure/overview.json
+264,measure for measure,shmoop,614,finished_summaries/shmoop/Measure for Measure/overview.txt
+265,measure for measure,sparknotes,450,finished_summaries/sparknotes/Measure for Measure/overview.txt
+266,the seagull,gradesaver,1239,finished_summaries/gradesaver/The Seagull/overview.json
+267,the seagull,shmoop,452,finished_summaries/shmoop/The Seagull/overview.txt
+268,alice's adventure in wonderland,gradesaver,831,finished_summaries/gradesaver/Alice in Wonderland/overview.json
+269,alice's adventure in wonderland,sparknotes,1082,finished_summaries/sparknotes/Alice in Wonderland/overview.txt
+270,idylls of the king,shmoop,1326,finished_summaries/shmoop/Idylls of the King/overview.txt
+271,jude the obscure,cliffnotes,907,finished_summaries/cliffnotes/Jude the Obscure/overview.txt
+272,pride and prejudice,gradesaver,2295,finished_summaries/gradesaver/Pride and Prejudice/overview.json
+273,pride and prejudice,cliffnotes,916,finished_summaries/cliffnotes/Pride and Prejudice/overview.txt
+274,emma,gradesaver,1614,finished_summaries/gradesaver/Emma/overview.json
+275,emma,shmoop,427,finished_summaries/shmoop/Emma/overview.txt
+276,emma,sparknotes,774,finished_summaries/sparknotes/Emma/overview.txt
+277,white fang,gradesaver,1078,finished_summaries/gradesaver/White Fang/overview.json
+278,white fang,shmoop,603,finished_summaries/shmoop/White Fang/overview.txt
+279,white fang,sparknotes,324,finished_summaries/sparknotes/White Fang/overview.txt
+280,romeo and juliet,gradesaver,1006,finished_summaries/gradesaver/Romeo and Juliet/overview.json
+281,romeo and juliet,shmoop,668,finished_summaries/shmoop/Romeo and Juliet/overview.txt
+282,romeo and juliet,sparknotes,1250,finished_summaries/sparknotes/Romeo and Juliet/overview.txt
+283,the merchant of venice,shmoop,1618,finished_summaries/shmoop/The Merchant of Venice/overview.txt
+284,the merchant of venice,sparknotes,989,finished_summaries/sparknotes/The Merchant of Venice/overview.txt
+285,the ramayana,gradesaver,285,finished_summaries/gradesaver/The Ramayana/overview.json
+286,meditations,shmoop,317,finished_summaries/shmoop/Meditations/overview.txt
+287,an enquiry concerning the principles of morals,shmoop,683,finished_summaries/shmoop/An Enquiry Concerning the Principles of Morals/overview.txt
+288,the man in the iron mask,shmoop,2052,finished_summaries/shmoop/The Man in the Iron Mask/overview.txt
+289,cymbeline,gradesaver,1510,finished_summaries/gradesaver/Cymbeline/overview.json
+290,troilus and criseyde,gradesaver,1688,finished_summaries/gradesaver/Troilus and Criseyde/overview.json
+291,the sorrows of young werther,gradesaver,758,finished_summaries/gradesaver/The Sorrows of Young Werther/overview.json
+292,the hairy ape,gradesaver,732,finished_summaries/gradesaver/The Hairy Ape/overview.json
+293,all for love,gradesaver,539,finished_summaries/gradesaver/All for Love/overview.json
+294,major barbara,shmoop,813,finished_summaries/shmoop/Major Barbara/overview.txt
+295,major barbara,sparknotes,1112,finished_summaries/sparknotes/Major Barbara/overview.txt
+296,the jew of malta,gradesaver,640,finished_summaries/gradesaver/The Jew of Malta/overview.json
+297,the jew of malta,sparknotes,957,finished_summaries/sparknotes/The Jew of Malta/overview.txt
+298,the coquette,gradesaver,768,finished_summaries/gradesaver/The Coquette/overview.json
+299,the communist manifesto,shmoop,535,finished_summaries/shmoop/The Communist Manifesto/overview.txt
+300,an ideal husband,gradesaver,1270,finished_summaries/gradesaver/An Ideal Husband/overview.json
+301,an ideal husband,shmoop,757,finished_summaries/shmoop/An Ideal Husband/overview.txt
+302,an ideal husband,sparknotes,905,finished_summaries/sparknotes/An Ideal Husband/overview.txt
+303,the three musketeers,gradesaver,534,finished_summaries/gradesaver/The Three Musketeers/overview.json
+304,the three musketeers,shmoop,1077,finished_summaries/shmoop/The Three Musketeers/overview.txt
+305,the three musketeers,cliffnotes,1720,finished_summaries/cliffnotes/The Three Musketeers/overview.txt
+306,the three musketeers,sparknotes,690,finished_summaries/sparknotes/The Three Musketeers/overview.txt
+307,black beauty,gradesaver,2243,finished_summaries/gradesaver/Black Beauty/overview.json
+308,black beauty,shmoop,520,finished_summaries/shmoop/Black Beauty/overview.txt
+309,cyrano de bergerac,sparknotes,976,finished_summaries/sparknotes/Cyrano de Bergerac/overview.txt
+310,evelina,gradesaver,874,finished_summaries/gradesaver/Evelina/overview.json
+311,king lear,gradesaver,2487,finished_summaries/gradesaver/King Lear/overview.json
+312,king lear,shmoop,1190,finished_summaries/shmoop/King Lear/overview.txt
+313,king lear,sparknotes,477,finished_summaries/sparknotes/King Lear/overview.txt
+314,timon of athens,sparknotes,980,finished_summaries/sparknotes/Timon of Athens/overview.txt
+315,antony and cleopatra,gradesaver,981,finished_summaries/gradesaver/Antony and Cleopatra/overview.json
+316,antony and cleopatra,sparknotes,824,finished_summaries/sparknotes/Antony and Cleopatra/overview.txt
+317,the adventures of huckleberry finn,gradesaver,1794,finished_summaries/gradesaver/The Adventures of Huckleberry Finn/overview.json
+318,the adventures of huckleberry finn,cliffnotes,707,finished_summaries/cliffnotes/The Adventures of Huckleberry Finn/overview.txt
+319,the adventures of huckleberry finn,sparknotes,1438,finished_summaries/sparknotes/The Adventures of Huckleberry Finn/overview.txt
+320,the playboy of the western world,gradesaver,1448,finished_summaries/gradesaver/The Playboy of the Western World/overview.json
+321,the duchess of malfi,gradesaver,1113,finished_summaries/gradesaver/The Duchess of Malfi/overview.json
+322,the duchess of malfi,shmoop,675,finished_summaries/shmoop/The Duchess of Malfi/overview.txt
+323,the secret garden,gradesaver,382,finished_summaries/gradesaver/The Secret Garden/overview.json
+324,the secret garden,shmoop,823,finished_summaries/shmoop/The Secret Garden/overview.txt
+325,the secret garden,sparknotes,975,finished_summaries/sparknotes/The Secret Garden/overview.txt
+326,dombey and son,gradesaver,2892,finished_summaries/gradesaver/Dombey and Son/overview.json
+327,the age of innocence,shmoop,645,finished_summaries/shmoop/The Age of Innocence/overview.txt
+328,the age of innocence,cliffnotes,755,finished_summaries/cliffnotes/The Age of Innocence/overview.txt
+329,the age of innocence,sparknotes,508,finished_summaries/sparknotes/The Age of Innocence/overview.txt
+330,ethan frome,gradesaver,844,finished_summaries/gradesaver/Ethan Frome/overview.json
+331,ethan frome,shmoop,665,finished_summaries/shmoop/Ethan Frome/overview.txt
+332,ethan frome,cliffnotes,1269,finished_summaries/cliffnotes/Ethan Frome/overview.txt
+333,ethan frome,sparknotes,1191,finished_summaries/sparknotes/Ethan Frome/overview.txt
+334,bleak house,gradesaver,805,finished_summaries/gradesaver/Bleak House/overview.json
+335,bleak house,shmoop,987,finished_summaries/shmoop/Bleak House/overview.txt
+336,bleak house,cliffnotes,724,finished_summaries/cliffnotes/Bleak House/overview.txt
+337,bleak house,sparknotes,1630,finished_summaries/sparknotes/Bleak House/overview.txt
+338,the jungle,gradesaver,2146,finished_summaries/gradesaver/The Jungle/overview.json
+339,the jungle,shmoop,1817,finished_summaries/shmoop/The Jungle/overview.txt
+340,the jungle,sparknotes,1193,finished_summaries/sparknotes/The Jungle/overview.txt
+341,the education of henry adams,cliffnotes,900,finished_summaries/cliffnotes/The Education of Henry Adams/overview.txt
+342,the blithedale romance,gradesaver,950,finished_summaries/gradesaver/The Blithedale Romance/overview.json
+343,much ado about nothing,gradesaver,1724,finished_summaries/gradesaver/Much Ado About Nothing/overview.json
+344,much ado about nothing,shmoop,2270,finished_summaries/shmoop/Much Ado About Nothing/overview.txt
+345,much ado about nothing,sparknotes,494,finished_summaries/sparknotes/Much Ado About Nothing/overview.txt
+346,anthem,gradesaver,1096,finished_summaries/gradesaver/Anthem/overview.json
+347,anthem,shmoop,1118,finished_summaries/shmoop/Anthem/overview.txt
+348,anthem,cliffnotes,1400,finished_summaries/cliffnotes/Anthem/overview.txt
+349,anthem,sparknotes,694,finished_summaries/sparknotes/Anthem/overview.txt
+350,as you like it,gradesaver,1929,finished_summaries/gradesaver/As You Like It/overview.json
+351,as you like it,shmoop,1314,finished_summaries/shmoop/As You Like It/overview.txt
+352,as you like it,sparknotes,944,finished_summaries/sparknotes/As You Like It/overview.txt
+353,the importance of being earnest,shmoop,1184,finished_summaries/shmoop/The Importance of Being Earnest/overview.txt
+354,the ambassadors,shmoop,567,finished_summaries/shmoop/The Ambassadors/overview.txt
+355,the ambassadors,cliffnotes,606,finished_summaries/cliffnotes/The Ambassadors/overview.txt
+356,the taming of the shrew,gradesaver,937,finished_summaries/gradesaver/The Taming of the Shrew/overview.json
+357,the taming of the shrew,shmoop,990,finished_summaries/shmoop/The Taming of the Shrew/overview.txt
+358,the taming of the shrew,sparknotes,909,finished_summaries/sparknotes/The Taming of the Shrew/overview.txt
+359,the brothers karamazov,gradesaver,2101,finished_summaries/gradesaver/The Brothers Karamazov/overview.json
+360,the brothers karamazov,shmoop,1161,finished_summaries/shmoop/The Brothers Karamazov/overview.txt
+361,the brothers karamazov,cliffnotes,1536,finished_summaries/cliffnotes/The Brothers Karamazov/overview.txt
+362,the brothers karamazov,sparknotes,1622,finished_summaries/sparknotes/The Brothers Karamazov/overview.txt
+363,the portrait of a lady,gradesaver,1404,finished_summaries/gradesaver/The Portrait of a Lady/overview.json
+364,the portrait of a lady,shmoop,622,finished_summaries/shmoop/The Portrait of a Lady/overview.txt
+365,the portrait of a lady,cliffnotes,581,finished_summaries/cliffnotes/The Portrait of a Lady/overview.txt
+366,the portrait of a lady,sparknotes,1255,finished_summaries/sparknotes/The Portrait of a Lady/overview.txt
+367,the prince,gradesaver,420,finished_summaries/gradesaver/The Prince/overview.json
+368,the prince,shmoop,499,finished_summaries/shmoop/The Prince/overview.txt
+369,the prince,cliffnotes,458,finished_summaries/cliffnotes/The Prince/overview.txt
+370,the prince,sparknotes,431,finished_summaries/sparknotes/The Prince/overview.txt
+371,gargantua and pantagruel,gradesaver,1708,finished_summaries/gradesaver/Gargantua and Pantagruel/overview.json
+372,the red and the black,shmoop,400,finished_summaries/shmoop/The Red and the Black/overview.txt
+373,the red and the black,cliffnotes,1397,finished_summaries/cliffnotes/The Red and the Black/overview.txt
+374,the red and the black,sparknotes,373,finished_summaries/sparknotes/The Red and the Black/overview.txt
+375,the consolation of philosophy,gradesaver,586,finished_summaries/gradesaver/The Consolation of Philosophy/overview.json
+376,the picture of dorian gray,gradesaver,973,finished_summaries/gradesaver/The Picture of Dorian Gray/overview.json
+377,the picture of dorian gray,shmoop,1018,finished_summaries/shmoop/The Picture of Dorian Gray/overview.txt
+378,the picture of dorian gray,cliffnotes,936,finished_summaries/cliffnotes/The Picture of Dorian Gray/overview.txt
+379,the picture of dorian gray,sparknotes,859,finished_summaries/sparknotes/The Picture of Dorian Gray/overview.txt
+380,lord jim,gradesaver,1423,finished_summaries/gradesaver/Lord Jim/overview.json
+381,lord jim,shmoop,207,finished_summaries/shmoop/Lord Jim/overview.txt
+382,lord jim,cliffnotes,1633,finished_summaries/cliffnotes/Lord Jim/overview.txt
+383,lord jim,sparknotes,566,finished_summaries/sparknotes/Lord Jim/overview.txt
+384,far from the madding crowd,gradesaver,1369,finished_summaries/gradesaver/Far from the Madding Crowd/overview.json
+385,far from the madding crowd,shmoop,487,finished_summaries/shmoop/Far From the Madding Crowd/overview.txt
+386,far from the madding crowd,cliffnotes,486,finished_summaries/cliffnotes/Far from the Madding Crowd/overview.txt
+387,far from the madding crowd,sparknotes,369,finished_summaries/sparknotes/Far from the Madding Crowd/overview.txt
+388,sense and sensibility,gradesaver,2352,finished_summaries/gradesaver/Sense and Sensibility/overview.json
+389,sense and sensibility,shmoop,1278,finished_summaries/shmoop/Sense and Sensibility/overview.txt
+390,sense and sensibility,cliffnotes,1123,finished_summaries/cliffnotes/Sense and Sensibility/overview.txt
+391,sense and sensibility,sparknotes,571,finished_summaries/sparknotes/Sense and Sensibility/overview.txt
+392,the tragedy of antony and cleopatra,shmoop,1766,finished_summaries/shmoop/The Tragedy of Antony and Cleopatra/overview.txt
+393,the school for scandal,gradesaver,451,finished_summaries/gradesaver/The School for Scandal/overview.json
+394,the white devil,gradesaver,1257,finished_summaries/gradesaver/The White Devil/overview.json
+395,the white devil,shmoop,704,finished_summaries/shmoop/The White Devil/overview.txt
+396,the tempest,gradesaver,1814,finished_summaries/gradesaver/The Tempest/overview.json
+397,the tempest,shmoop,1089,finished_summaries/shmoop/The Tempest/overview.txt
+398,the tempest,sparknotes,1715,finished_summaries/sparknotes/The Tempest/overview.txt
+399,uncle vanya,gradesaver,1177,finished_summaries/gradesaver/Uncle Vanya/overview.json
+400,uncle vanya,shmoop,627,finished_summaries/shmoop/Uncle Vanya/overview.txt
+401,uncle vanya,sparknotes,1111,finished_summaries/sparknotes/Uncle Vanya/overview.txt
+402,the comedy of errors,shmoop,1466,finished_summaries/shmoop/The Comedy of Errors/overview.txt
+403,the comedy of errors,sparknotes,403,finished_summaries/sparknotes/The Comedy of Errors/overview.txt
+404,the rime of the ancient mariner,gradesaver,979,finished_summaries/gradesaver/The Rime of the Ancient Mariner/overview.json

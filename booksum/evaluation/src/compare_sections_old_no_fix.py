@@ -113,11 +113,9 @@ def calculate_F1(function):
 
       # if there are no related summary documents, then just print.
       if len(related_summaries) == 0:
-         print("No related summary documents were found for {}.".format(
-               summary['chapter_title']))
+         print("No related summary documents were found for {}.".format(summary['chapter_title']))
          continue
-      related_summary_texts = [curr_summary['summary_text']
-                              for curr_summary in related_summaries]
+      related_summary_texts = [curr_summary['summary_text'] for curr_summary in related_summaries]
 
 
       ref_doc = tokenize.sent_tokenize(summary['summary_text'])

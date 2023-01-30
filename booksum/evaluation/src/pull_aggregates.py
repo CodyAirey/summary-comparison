@@ -115,6 +115,8 @@ def fix_aggregates():
             book_title = summary['book_id'].split(".")[0:1][0].replace(",","").replace("!","") #extracts book title as a string
             if summary['book_id'].split(".")[0:3] == ["Dr"," Jekyll and Mr", " Hyde"]:
                 book_title = "Dr. Jekyll and Mr. Hyde"
+            if summary['book_id'].split(".")[0:2] == ["Mrs", " Warren's Profession"]:
+                book_title = "Mrs. Warren's Profession"
             if book_title == "The New Testament": #acts of the apostles causes issues because "acts", only 1 book with no other copys from another source
                 continue
 
@@ -146,12 +148,14 @@ def fix_aggregates():
     return fixed_file
 
 def fix_romans(corrected_title):
+    keywordsz = ['act', 'canto', 'epilogue', 'scene', 'finale', 'prologue', 'chapter', 'volume', 'part', 'book', 'chapters', 'scenes']
     id_split = corrected_title.split("-")
     for i, each in enumerate(id_split):
          if each == "Mill": 
             continue
          if(romanToInt(each.upper()) >= 1):
-               id_split[i] = str(romanToInt(each.upper()))
+               if id_split[i-1] in keywordsz:
+                id_split[i] = str(romanToInt(each.upper()))
     corrected_title = "-".join(id_split)
     return corrected_title
 
@@ -230,23 +234,55 @@ def normalize_titles(inputfile):
             temp_id.append(id_split[i])
             i += 1
             continue
+        
+        corrected_section = "-".join(temp_id).lower().replace(",","").replace("!","")
 
-        corrected_section = "-".join(temp_id)
+        if temp_id[0].lower() == "the" and temp_id[1].lower() in ["two", "merry", "portrait"]:
+            corrected_section = "-".join(temp_id[1:])
+
+        if "king-henry-iv-part-1" in corrected_section:
+            corrected_section = corrected_section.replace("king-henry-iv-part-1", "henry-iv-part-1")
+        if "alice-in-wonderland" in corrected_section:
+            corrected_section = corrected_section.replace("alice-in-wonderland", "alice's-adventures-in-wonderland")
+        if "looking-backward" in corrected_section:
+            corrected_section = corrected_section.replace("looking-backward", "looking-backward:-2000-1887")
+        if "notes-from-the-underground":
+            corrected_section = corrected_section.replace("notes-from-the-underground", "notes-from-underground")
+        if "love's-labours-lost" in corrected_section:
+            corrected_section = corrected_section.replace("love's-labours-lost", "love's-labour's-lost")
+        if "maggie-a-girl-of-the-streets" in corrected_section:
+            corrected_section = corrected_section.replace("maggie-a-girl-of-the-streets", "maggie:-a-girl-of-the-streets")
+
+
+        # if title_temp[0].lower() == "the" and title_temp[1].lower() in ["two", "merry", "portrait", "invisible"]:
+            # book_title = " ".join(title_temp[1:])
+
+        # "The Merry Wives of Windsor | The Portrait of a Lady | The Two Gentlemen of Verona | The Invisible Man
+
+        if "the-merry-wives-of-windsor" in corrected_section:
+            corrected_section = corrected_section.replace("the-merry-wives-of-windsor", "merry-wives-of-windsor")
+        if "the-portrait-of-a-lady" in corrected_section:
+            corrected_section = corrected_section.replace("the-portrait-of-a-lady", "portrait-of-a-lady")
+        if "the-two-gentlemen-of-verona" in corrected_section:
+            corrected_section = corrected_section.replace("the-two-gentlemen-of-verona", "two-gentlemen-of-verona")
+        if "the-invisible-man" in corrected_section:
+            corrected_section = corrected_section.replace("the-invisible-man", "invisible-man")
+        
         corrected_section = fix_romans(corrected_section)
 
         #Hardcode section fixes for few outliers
-        if corrected_section == "The-Ramayana-book-1-chapter-canto-chapter-1-canto-77":
-            corrected_section = "The-Ramayana-book-1-canto-1-canto-77"
-        if corrected_section == "The-Ramayana-book-2-chapter-canto-chapter-1-canto-119":
-            corrected_section = "The-Ramayana-book-2-canto-1-canto-119"
-        if corrected_section == "The-Ramayana-book-3-chapter-canto-chapter-1-canto-76":
-            corrected_section = "The-Ramayana-book-3-canto-1-canto-76"
-        if corrected_section == "The-Ramayana-book-4-chapter-canto-chapter-1-canto-67":
-            corrected_section = "The-Ramayana-book-4-canto-1-canto-67"
-        if corrected_section == "The-Ramayana-book-5-chapter-canto-chapter-1-canto-66":
-            corrected_section = "The-Ramayana-book-6-canto-1-canto-130"
-        if corrected_section == "The-Ramayana-book-6-chapter-canto-chapter-1-canto-130":
-            corrected_section = "The-Ramayana-book-5-canto-1-canto-66"
+        if corrected_section == "the-ramayana-book-1-chapter-canto-chapter-1-canto-77":
+            corrected_section = "the-ramayana-book-1-canto-1-canto-77"
+        if corrected_section == "the-ramayana-book-2-chapter-canto-chapter-1-canto-119":
+            corrected_section = "the-ramayana-book-2-canto-1-canto-119"
+        if corrected_section == "the-ramayana-book-3-chapter-canto-chapter-1-canto-76":
+            corrected_section = "the-ramayana-book-3-canto-1-canto-76"
+        if corrected_section == "the-ramayana-book-4-chapter-canto-chapter-1-canto-67":
+            corrected_section = "the-ramayana-book-4-canto-1-canto-67"
+        if corrected_section == "the-ramayana-book-5-chapter-canto-chapter-1-canto-66":
+            corrected_section = "the-ramayana-book-6-canto-1-canto-130"
+        if corrected_section == "the-ramayana-book-6-chapter-canto-chapter-1-canto-130":
+            corrected_section = "the-ramayana-book-5-canto-1-canto-66"
 
         content["corrected_section"] =  corrected_section
 
@@ -269,6 +305,8 @@ def normalize_titles(inputfile):
         #its honestly so much easier to just hardcode these.
         if content['book_id'].split(".")[0:3] == ["Dr"," Jekyll and Mr", " Hyde"]:
             book_title = "Dr. Jekyll and Mr. Hyde"
+        if content['book_id'].split(".")[0:2] == ["Mrs", " Warren's Profession"]:
+            book_title = "Mrs. Warren's Profession"
         if book_title == "The New Testament": #acts of the apostles causes issues because "acts", only 1 book with no other copys from another source
             continue
         if book_title == "King Henry IV Part 1":
@@ -287,8 +325,7 @@ def normalize_titles(inputfile):
         
         title_temp = book_title.split(" ")
 
-
-        if title_temp[0].lower() == "the" and title_temp[1].lower() in ["two", "merry", "portrait"]:
+        if title_temp[0].lower() == "the" and title_temp[1].lower() in ["two", "merry", "portrait", "invisible"]:
             book_title = " ".join(title_temp[1:])
 
         content['cleaned_title'] = book_title
@@ -304,6 +341,7 @@ def normalize_titles(inputfile):
 def setup_library(inputfile):
     for content in inputfile:
         book = content['normalized_title']
+
         library[book] = {
             'total_individual_chapters': 0,
             'coverage': []
@@ -353,11 +391,11 @@ def create_number_of_chapters(inputfile):
                                 chapter_coverage = int(second_chapter_number) - (int(first_chapter_number)-1) # chapter 1 - chapter 3 should = 3 covered chapters.
                     
                     #three hardcoded fixes
-                    if summary['corrected_section'] == "Middlemarch-book-8-chapter-84-chapter-finale":
+                    if summary['corrected_section'] == "middlemarch-book-8-chapter-84-chapter-finale":
                         chapter_coverage = 4
-                    if summary['corrected_section'] == "Coriolanus-act-4-5-scene-5-scene-1":
+                    if summary['corrected_section'] == "coriolanus-act-4-5-scene-5-scene-1":
                         chapter_coverage = 4
-                    if summary['corrected_section'] == "The-Winter's-Tale-act-3-4-scene-3-3":
+                    if summary['corrected_section'] == "the-winter's-tale-act-3-4-scene-3-3":
                         chapter_coverage = 4 #act3-s3, act4-s1, s2 and, s3
                     
 
@@ -370,7 +408,7 @@ def create_number_of_chapters(inputfile):
 
         library[book]['total_individual_chapters'] = max(number_of_matches.values())
 
-    with open(f"chapter_numbers_{data_type}.jsonl", 'w') as f:
+    with open(f"chapter_numbers/chapter_numbers_{data_type}.jsonl", 'w') as f:
         f.write(json.dumps(library))
 
 
@@ -414,16 +452,16 @@ def calculate_source_coverage(inputfile):
                                 # end_chapter = second_chapter_number
                     
                     #three hardcoded fixes
-                    if summary['corrected_section'] == "Middlemarch-book-8-chapter-84-chapter-finale":
+                    if summary['corrected_section'] == "middlemarch-book-8-chapter-84-chapter-finale":
                         chapter_coverage = 4
                         # start_chapter = 84
                         # end_chapter = 87
-                    if summary['corrected_section'] == "Coriolanus-act-4-5-scene-5-scene-1":
+                    if summary['corrected_section'] == "coriolanus-act-4-5-scene-5-scene-1":
                         chapter_coverage = 4
                         # start_chapter = 21s
                         # end_chapter = 24
 
-                    if summary['corrected_section'] == "The-Winter's-Tale-act-3-4-scene-3-3":
+                    if summary['corrected_section'] == "the-Winter's-Tale-act-3-4-scene-3-3":
                         chapter_coverage = 4 #act3-s3, act4-s1, s2 and, s3
                         # start_chapter = 8
                         # end_chapter = 11
@@ -443,7 +481,7 @@ def calculate_source_coverage(inputfile):
 
             
 
-    with open(f"book_coverage_{data_type}.jsonl", 'w') as f:
+    with open(f"book_coverage/book_coverage_{data_type}.jsonl", 'w') as f:
         f.write(json.dumps(library, default=vars))
 
 
@@ -479,8 +517,155 @@ def fix_book_summaries():
             n.write(json.dumps(each))
             n.write('\n')
 
-    
 
+    
+# def calculate_source_coverage_all():
+#     f = open(pathlib.Path(f"../../alignments/chapter-level-summary-alignments/fixed_chapter_summaries_all_final.jsonl"),
+#             encoding='utf-8')
+    
+#     keywords = ['act', 'canto', 'epilogue', 'scene', 'finale', 'prologue', 'chapter', 'volume', 'part', 'book']
+#     sources = ["bookwolf", "cliffnotes", "gradesaver", "novelguide", "pinkmonkey", "shmoop", "sparknotes", "thebestnotes"]
+
+#     for book in library:
+#         for source in sources:
+#             library[book]['coverage'].append( book_coverage_item(source=source, book_name=book, chapters_covered=0, percentage=0.0) )
+
+#     for line in f:
+#         summary = json.loads(line)
+#         for book in library:
+
+#             for source in sources:
+
+#             # print(type(library[book]['coverage']))
+
+                
+
+
+#                 chapter_coverage = 0
+#                 # start_chapter = None
+#                 # end_chapter = Nones
+
+#                 if summary['is_aggregate'] and summary['source'] == source and summary['normalized_title']:
+
+#                     section_t_split = summary['corrected_section'].split("-")
+
+#                     for word in keywords:
+#                         if section_t_split.count(word) >= 2:
+
+#                             first_chapter_number = section_t_split[section_t_split.index(word)+1] #get numbers (3 & 4) from string: "Dracula-chapter-3-chapter-4"
+#                             section_t_split.reverse()
+#                             second_chapter_number = section_t_split[section_t_split.index(word)-1] # ^^
+
+#                             if first_chapter_number.isnumeric() and second_chapter_number.isnumeric(): #avoid things like: chapter-1-chapter-finale
+#                                 chapter_coverage = int(second_chapter_number) - (int(first_chapter_number)-1) # chapter 1 - chapter 3 should = 3 covered chapters.
+#                                 # start_chapter = first_chapter_number
+#                                 # end_chapter = second_chapter_number
+                    
+#                     #three hardcoded fixes
+#                     if summary['corrected_section'] == "middlemarch-book-8-chapter-84-chapter-finale":
+#                         chapter_coverage = 4
+#                         # start_chapter = 84
+#                         # end_chapter = 87
+#                     if summary['corrected_section'] == "coriolanus-act-4-5-scene-5-scene-1":
+#                         chapter_coverage = 4
+#                         # start_chapter = 21s
+#                         # end_chapter = 24
+
+#                     if summary['corrected_section'] == "the-Winter's-Tale-act-3-4-scene-3-3":
+#                         chapter_coverage = 4 #act3-s3, act4-s1, s2 and, s3
+#                         # start_chapter = 8
+#                         # end_chapter = 11
+
+#                 elif summary['source'] == source and summary['normalized_title'] == book: #not aggregate, thank god!
+#                     chapter_coverage += 1
+
+#                 for item in library[book]['coverage']:
+#                         if item.source == source:
+#                             item.chapters_covered += chapter_coverage
+            
+    
+#     for book in library:
+#         for coverage_item in library[book]['coverage']:
+#             if coverage_item.chapters_covered != 0:
+#                 coverage_item.percentage =  coverage_item.chapters_covered / library[book]['total_individual_chapters']
+
+            
+
+#     with open(f"book_coverage_all.jsonl", 'w') as f:
+#         f.write(json.dumps(library, default=vars))
+
+# def create_number_of_chapters_all():
+#     f = open(pathlib.Path(f"../../alignments/chapter-level-summary-alignments/fixed_chapter_summaries_all_final.jsonl"),
+#             encoding='utf-8')
+    
+#     inputfile = []
+    
+#     for line in f:
+#         summary = json.loads(line)
+#         inputfile.append(summary)
+    
+#     setup_library(inputfile)
+
+#     keywords = ['act', 'canto', 'epilogue', 'scene', 'finale', 'prologue', 'chapter', 'volume', 'part', 'book']
+
+    
+#     # issues
+#     #   middlemarch book 8 goes from chapters 72 - 86 +  a finale = 16 chapters covered(including finale)
+#     #   Coriolanus-act-4-5-scene-5-scene-1,  scenes span over multiple acts, really stupid, only 1 instance of issue, so just hardcode. (A4,s5-s7 + A5,s1 = 4 scenes)
+#     # The-Winter's-Tale-act-3-4-scene-3-3, covers a whole act from scene3 to scene 3. hardcode.
+#     # no issues for prologues, as none are aggregates, so can just += 1 for each like normal. also no issues for anything else that im aware of.
+
+
+#     for book in library:
+#         number_of_matches = {
+#             "bookwolf"     : 0,
+#             "cliffnotes"   : 0,
+#             "gradesaver"   : 0,
+#             "novelguide"   : 0,
+#             "pinkmonkey"   : 0,
+#             "shmoop"       : 0,
+#             "sparknotes"   : 0,
+#             "thebestnotes" : 0
+#         }
+#         for summary in inputfile:
+
+#             if summary['normalized_title'] == book:
+
+#                 if summary['is_aggregate']:
+
+#                     section_t_split = summary['corrected_section'].split("-")
+#                     chapter_coverage = None
+
+#                     for word in keywords:
+#                         if section_t_split.count(word) >= 2:
+
+#                             first_chapter_number = section_t_split[section_t_split.index(word)+1] #get numbers (3 & 4) from string: "Dracula-chapter-3-chapter-4"
+#                             section_t_split.reverse()
+#                             second_chapter_number = section_t_split[section_t_split.index(word)-1] # ^^
+
+#                             if first_chapter_number.isnumeric() and second_chapter_number.isnumeric(): #avoid things like: chapter-1-chapter-finale
+#                                 chapter_coverage = int(second_chapter_number) - (int(first_chapter_number)-1) # chapter 1 - chapter 3 should = 3 covered chapters.
+                    
+#                     #three hardcoded fixes
+#                     if summary['corrected_section'] == "middlemarch-book-8-chapter-84-chapter-finale":
+#                         chapter_coverage = 4
+#                     if summary['corrected_section'] == "coriolanus-act-4-5-scene-5-scene-1":
+#                         chapter_coverage = 4
+#                     if summary['corrected_section'] == "the-winter's-tale-act-3-4-scene-3-3":
+#                         chapter_coverage = 4 #act3-s3, act4-s1, s2 and, s3
+                    
+
+#                     if chapter_coverage == None:
+#                         print(f"ERROR with section: {summary['corrected_section']}") #should never happen.
+#                     else:
+#                         number_of_matches[summary['source']] += chapter_coverage
+#                 else: #not aggregate, thank god!
+#                     number_of_matches[summary['source']] += 1
+
+#         library[book]['total_individual_chapters'] = max(number_of_matches.values())
+
+#     with open(f"chapter_numbers_all.jsonl", 'w') as f:
+#         f.write(json.dumps(library, default=vars))
 
 def main():
     #Fixing book aggregates
@@ -492,7 +677,8 @@ def main():
     fix_book_summaries()
     make_json(finished_file)
 
-
+    # calculate_source_coverage_all()
+    # create_number_of_chapters_all()
     # givemetrue()
     # givemefalse()
 

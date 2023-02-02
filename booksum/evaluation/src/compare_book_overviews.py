@@ -96,7 +96,7 @@ def setup_model(function):
         return  # no model required
 
 
-def calculate_F1(function):
+def calculate_F1(metric):
     start_time = time.time()
     summaries_count = 0
 
@@ -143,54 +143,7 @@ def calculate_F1(function):
                     precision = "NA"
                     recall = "NA"
 
-                    if function == "bleu":
-                        from bleu import calculate_score
-                        current_score, precision = calculate_score.compute_score(
-                            ref_sent, hyp_sent)
-                    elif function == "bert":
-                        from bert import calculate_score
-                        current_score = calculate_score.compute_score(
-                            ref_sent, hyp_sent)
-                    elif function == "bertscore":
-                        from bert import calculate_bertscore
-                        current_score, precision, recall = calculate_bertscore.compute_score(
-                            ref_sent, hyp_sent)
-                    elif function == "rouge-1n":
-                        from rouge_scoring import calculate_score
-                        current_score, precision, recall = calculate_score.compute_score_1n(
-                            ref_sent, hyp_sent)
-                    elif function == "rouge-2n":
-                        from rouge_scoring import calculate_score
-                        current_score, precision, recall = calculate_score.compute_score_2n(
-                            ref_sent, hyp_sent)
-                    elif function == "rouge-l":
-                        from rouge_scoring import calculate_score
-                        current_score, precision, recall = calculate_score.compute_score_l(
-                            ref_sent, hyp_sent)
-                    elif function == "moverscore":
-                        from moverscore import calculate_score
-                        current_score = calculate_score.compute_score(
-                            ref_sent, hyp_sent)
-                    elif function == "qaeval":
-                        from qaeval_scoring import calculate_score
-                        current_score = calculate_score.compute_score(
-                            ref_sent, hyp_sent)
-                    elif function == "meteor":
-                        from meteor import calculate_score
-                        current_score = calculate_score.compute_score(
-                            ref_sent, hyp_sent)
-                    elif function == "summac":
-                        from summac_scoring import calculate_score
-                        current_score = calculate_score.compute_score(
-                            ref_sent, hyp_sent)
-                    elif function == "bartscore":
-                        from bartscore import calculate_score
-                        current_score = calculate_score.compute_score(
-                            ref_sent, hyp_sent)
-                    elif function == "chrf":
-                        from chrf import calculate_score
-                        current_score = calculate_score.compute_score(
-                            ref_sent, hyp_sent)
+                    compute_single_score(metric, ref_sent, hyp_sent)
 
                     # print("token:", token)
                     # print("sentence: ", sentence)
@@ -231,6 +184,58 @@ def calculate_F1(function):
 
     return summary_comparison_data, summaries_count, unique_books, unique_used_books
 
+def compute_single_score(metric, ref_sent, hyp_sent):
+
+
+    """Calculates an f1 score between two sentences depending on the metric used 
+
+    Args:
+        metric (str): metric to denote how the calculation is performed
+        ref_sent (str): reference sentence
+        hyp_sent (str): hypothesis sentence
+
+    Returns:
+        float: f1 score based on how similar the ref_sent and hyp_sent are
+    """
+    # calculate score based on metric, p.s. surely there is a better way to do this.
+    if metric == "bleu":
+        from bleu import calculate_score
+        current_score, precision = calculate_score.compute_score(ref_sent, hyp_sent)
+    elif metric == "bert":
+        from bert import calculate_score
+        current_score = calculate_score.compute_score(ref_sent, hyp_sent)
+    elif metric == "bertscore":
+        from bert import calculate_bertscore
+        current_score, precision, recall = calculate_bertscore.compute_score(ref_sent, hyp_sent)
+    elif metric == "rouge-1n":
+        from rouge_scoring import calculate_score
+        current_score, precision, recall = calculate_score.compute_score_1n(ref_sent, hyp_sent)
+    elif metric == "rouge-2n":
+        from rouge_scoring import calculate_score
+        current_score, precision, recall = calculate_score.compute_score_2n(ref_sent, hyp_sent)
+    elif metric == "rouge-l":
+        from rouge_scoring import calculate_score
+        current_score, precision, recall = calculate_score.compute_score_l(ref_sent, hyp_sent)
+    elif metric == "moverscore":
+        from moverscore import calculate_score
+        current_score = calculate_score.compute_score(ref_sent, hyp_sent)
+    elif metric == "qaeval":
+        from qaeval_scoring import calculate_score
+        current_score = calculate_score.compute_score(ref_sent, hyp_sent)
+    elif metric == "meteor":
+        from meteor import calculate_score
+        current_score = calculate_score.compute_score(ref_sent, hyp_sent)
+    elif metric == "summac":
+        from summac_scoring import calculate_score
+        current_score = calculate_score.compute_score(ref_sent, hyp_sent)
+    elif metric == "bartscore":
+        from bartscore import calculate_score
+        current_score = calculate_score.compute_score(ref_sent, hyp_sent)
+    elif metric == "chrf":
+        from chrf import calculate_score
+        current_score = calculate_score.compute_score(ref_sent, hyp_sent)
+
+    return current_score
 
 def write_to_csv(function, split, filename):
     print(filename)

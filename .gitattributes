@@ -2,3 +2,6 @@
 *.jsonl.gathered filter=lfs diff=lfs merge=lfs -text
 *.jsonl.gathered.stable filter=lfs diff=lfs merge=lfs -text
 *.stable filter=lfs diff=lfs merge=lfs -text
+-lbl.csv filter=lfs diff=lfs merge=lfs -text
+*-lbl.csv filter=lfs diff=lfs merge=lfs -text
+*-line-by-line.csv filter=lfs diff=lfs merge=lfs -text

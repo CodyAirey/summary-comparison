@@ -1,0 +1,334 @@
+,rouge-2n,number of Unique sentences,title,source
+0,0.07768080264491223,40,paradise lost,gradesaver
+1,0.11561316782788819,16,paradise lost,shmoop
+2,0.07114598188627193,17,paradise lost,sparknotes
+3,0.09614657129438221,36,adam bede,gradesaver
+4,0.06352937611710087,24,adam bede,shmoop
+5,0.07850848152671387,40,adam bede,cliffnotes
+6,0.09094010424175548,37,adam bede,sparknotes
+7,0.09156580370879847,30,northanger abbey,gradesaver
+8,0.08186526586895584,20,northanger abbey,shmoop
+9,0.071654939504758,21,northanger abbey,sparknotes
+10,0.058172407167745,39,frankenstein,gradesaver
+11,0.052001708474552176,22,frankenstein,shmoop
+12,0.08359185782042078,17,frankenstein,cliffnotes
+13,0.08785671580098468,17,frankenstein,sparknotes
+14,0.08686425361358123,26,my antonia,shmoop
+15,0.06711306156004594,39,my antonia,cliffnotes
+16,0.08808327899067904,22,my antonia,sparknotes
+17,0.025007082533729887,9,a vindication of the rights of woman,gradesaver
+18,0.040821899897879946,9,a vindication of the rights of woman,shmoop
+19,0.05625406480150209,26,little women,gradesaver
+20,0.07838787874548186,17,little women,shmoop
+21,0.05762047945997774,15,little women,sparknotes
+22,0.059298495067722994,16,the house of mirth,shmoop
+23,0.05670892542657077,17,the house of mirth,cliffnotes
+24,0.07501738683343263,16,the house of mirth,sparknotes
+25,0.10825610309587615,28,the house of the seven gables,gradesaver
+26,0.09954430559543476,28,the house of the seven gables,shmoop
+27,0.08388896903204886,19,the house of the seven gables,cliffnotes
+28,0.07257880263146355,17,the house of the seven gables,sparknotes
+29,0.06564152098505475,28,hamlet,gradesaver
+30,0.07397016622955252,17,hamlet,shmoop
+31,0.08362003633830495,16,hamlet,sparknotes
+32,0.08256323334452952,41,othello,gradesaver
+33,0.0677757672118057,31,othello,shmoop
+34,0.07518330034903914,40,othello,sparknotes
+35,0.06745355898044458,28,a room with a view,gradesaver
+36,0.07469575463925053,22,a room with a view,shmoop
+37,0.07042476997624958,22,a room with a view,sparknotes
+38,0.04396816038243152,16,coriolanus,gradesaver
+39,0.06100766760294271,11,coriolanus,shmoop
+40,0.07869476822643592,10,coriolanus,sparknotes
+41,0.07190741783358895,18,around the world in eighty days,shmoop
+42,0.0643800742067755,33,candide,gradesaver
+43,0.09847613192057876,22,candide,shmoop
+44,0.08520149928651677,29,candide,cliffnotes
+45,0.08881063798571605,29,candide,sparknotes
+46,0.05514666835082555,16,around the world in eighty days,gradesaver
+47,0.05863874358031807,5,sister carrie,gradesaver
+48,0.04245543472963062,4,sister carrie,shmoop
+49,0.05968686860133982,5,sister carrie,cliffnotes
+50,0.0300683711279801,6,sister carrie,sparknotes
+51,0.08057980143714866,28,persuasion,gradesaver
+52,0.07248472633606412,20,persuasion,shmoop
+53,0.08197819700320241,19,persuasion,sparknotes
+54,0.05499059641360713,32,wuthering heights,gradesaver
+55,0.08723636616267601,32,wuthering heights,shmoop
+56,0.0859743714880067,16,wuthering heights,cliffnotes
+57,0.0836236286994993,17,wuthering heights,sparknotes
+58,0.07793066465387627,9,what maisie knew,gradesaver
+59,0.04412451263456744,7,what maisie knew,shmoop
+60,0.08145052648157965,18,oliver twist,gradesaver
+61,0.06979820818531352,22,oliver twist,shmoop
+62,0.05857986258231662,27,oliver twist,cliffnotes
+63,0.08974489653418234,26,oliver twist,sparknotes
+64,0.09639579178086977,28,david copperfield,gradesaver
+65,0.06136437072754602,40,david copperfield,shmoop
+66,0.10096956705797759,15,david copperfield,cliffnotes
+67,0.08978573743457159,18,david copperfield,sparknotes
+68,0.052580051883499755,29,heart of darkness,gradesaver
+69,0.06437926544011653,16,heart of darkness,shmoop
+70,0.07426264736277685,14,heart of darkness,cliffnotes
+71,0.0747301006651062,17,heart of darkness,sparknotes
+72,0.06373258240617274,29,dracula,gradesaver
+73,0.07553912699024608,21,dracula,shmoop
+74,0.07469656617448263,25,dracula,cliffnotes
+75,0.08783485732028018,25,dracula,sparknotes
+76,0.01343617134334692,6,leviathan,gradesaver
+77,0.033305223273687505,6,leviathan,shmoop
+78,0.07545988804929946,19,main street,shmoop
+79,0.06832444672905484,28,main street,cliffnotes
+80,0.07475789273634766,27,main street,sparknotes
+81,0.0358867497648923,19,middlemarch,gradesaver
+82,0.05283549229498816,10,middlemarch,shmoop
+83,0.03681178449718869,10,middlemarch,sparknotes
+84,0.08784417016853353,20,the power and the glory,shmoop
+85,0.09064880749736391,15,the power and the glory,sparknotes
+86,0.07214254434495924,12,the return of the native,shmoop
+87,0.05278483967180832,19,the return of the native,cliffnotes
+88,0.06317088506085819,18,the return of the native,sparknotes
+89,0.08252106266413478,22,the scarlet letter,gradesaver
+90,0.048279953230604966,13,the scarlet letter,shmoop
+91,0.06506812090061372,23,the scarlet letter,cliffnotes
+92,0.06807744003943382,26,the scarlet letter,sparknotes
+93,0.08399969490891952,23,my antonia,gradesaver
+94,0.08808462563480143,15,babbitt,gradesaver
+95,0.05729075511539747,11,babbitt,shmoop
+96,0.06563325899997265,14,babbitt,sparknotes
+97,0.028148439482710896,9,madame bovary,shmoop
+98,0.04924859269833695,12,madame bovary,cliffnotes
+99,0.08140048178131105,22,a tale of two cities,gradesaver
+100,0.0388499893457518,32,a tale of two cities,shmoop
+101,0.0680225413701942,17,a tale of two cities,cliffnotes
+102,0.06696666622355295,20,a tale of two cities,sparknotes
+103,0.06191391605245937,31,howards end,gradesaver
+104,0.0593358331390043,13,howards end,shmoop
+105,0.08445632322813845,15,howards end,sparknotes
+106,0.09342450534799544,44,the turn of the screw,gradesaver
+107,0.07592496956934204,23,the turn of the screw,shmoop
+108,0.09877226793733401,22,the turn of the screw,cliffnotes
+109,0.10900536757838496,25,the turn of the screw,sparknotes
+110,0.07011081585685902,17,the secret agent,gradesaver
+111,0.038938053694189755,15,the secret agent,shmoop
+112,0.10335505283159192,31,jane eyre,gradesaver
+113,0.06951569981691323,29,jane eyre,shmoop
+114,0.07026744218173049,37,jane eyre,cliffnotes
+115,0.09982490410609408,36,jane eyre,sparknotes
+116,0.051576878875647394,27,ivanhoe,shmoop
+117,0.11812422162090762,12,ivanhoe,cliffnotes
+118,0.08993631965805643,12,ivanhoe,sparknotes
+119,0.0867426456140766,32,mansfield park,gradesaver
+120,0.09452951362608306,12,mansfield park,shmoop
+121,0.09602505787537796,14,mansfield park,sparknotes
+122,0.07893572691018036,27,typee,shmoop
+123,0.07656318546330794,29,typee,sparknotes
+124,0.07834471947988134,10,anne of green gables,gradesaver
+125,0.04195501129959012,14,anne of green gables,shmoop
+126,0.05937077757251841,17,anne of green gables,sparknotes
+127,0.05258239802957988,67,kidnapped,gradesaver
+128,0.0848846657892949,33,kidnapped,shmoop
+129,0.09000995239893125,37,kidnapped,sparknotes
+130,0.04640185225671629,18,a little princess,gradesaver
+131,0.05092659177853146,18,a little princess,shmoop
+132,0.10710536324591616,36,regeneration,gradesaver
+133,0.1261617780247729,36,regeneration,sparknotes
+134,0.03383833735500988,10,sons and lovers,shmoop
+135,0.06807949802372451,13,sons and lovers,sparknotes
+136,0.08892252088526338,34,the hound of the baskervilles,gradesaver
+137,0.07662635680744034,30,the hound of the baskervilles,shmoop
+138,0.08394721338947563,16,the last of the mohicans,cliffnotes
+139,0.07244456148924977,17,the last of the mohicans,sparknotes
+140,0.05871337973937255,39,the red badge of courage,gradesaver
+141,0.07298484742858197,18,the red badge of courage,shmoop
+142,0.08091554939430547,21,the red badge of courage,cliffnotes
+143,0.0771977841256199,23,the red badge of courage,sparknotes
+144,0.07287878498554365,40,the mill on the floss,gradesaver
+145,0.09020596102158739,17,the mill on the floss,shmoop
+146,0.05767830428619612,23,the mill on the floss,cliffnotes
+147,0.0699200664913262,20,treasure island,gradesaver
+148,0.0576768399964849,27,treasure island,shmoop
+149,0.07415238034225785,27,treasure island,cliffnotes
+150,0.0703496633676302,23,henry viii,sparknotes
+151,0.06752769453334834,25,the time machine,gradesaver
+152,0.112000721081874,11,the time machine,shmoop
+153,0.10932929981190595,17,the time machine,sparknotes
+154,0.07093678911142853,15,vanity fair,gradesaver
+155,0.043430481794285214,26,vanity fair,shmoop
+156,0.06623700563940138,23,vanity fair,cliffnotes
+157,0.07776152306954133,70,little dorrit,gradesaver
+158,0.07932920910662343,67,little dorrit,shmoop
+159,0.04732743352554044,22,incidents in the life of a slave girl,gradesaver
+160,0.06442135143108177,19,incidents in the life of a slave girl,shmoop
+161,0.02891787535695868,15,henry iv part 2,gradesaver
+162,0.06666666199027813,1,henry iv part 2,shmoop
+163,0.047330617988463934,1,henry iv part 2,sparknotes
+164,0.08317183711876651,25,macbeth,gradesaver
+165,0.060269740185353304,14,macbeth,shmoop
+166,0.09673967032987854,16,macbeth,sparknotes
+167,0.08001072111900145,14,troilus and cressida,gradesaver
+168,0.06086097662037036,17,troilus and cressida,shmoop
+169,0.08709336827727367,16,troilus and cressida,sparknotes
+170,0.05035585640101714,14,richard ii,gradesaver
+171,0.035544439808943534,16,richard ii,shmoop
+172,0.06924932419368068,13,richard ii,sparknotes
+173,0.053023131027262194,15,henry iv part 1,gradesaver
+174,0.04013089243728514,21,henry iv part 1,shmoop
+175,0.06555575732340993,20,henry iv part 1,sparknotes
+176,0.08024793158972814,21,king john,shmoop
+177,0.06626566264900667,22,king john,sparknotes
+178,0.06821941382936107,18,henry vi part 1,shmoop
+179,0.03941331689757379,19,henry vi part 1,sparknotes
+180,0.06571362776246767,15,richard iii,gradesaver
+181,0.04906354410112519,14,richard iii,shmoop
+182,0.08453716858029263,14,richard iii,sparknotes
+183,0.06943153790555862,47,henry v,gradesaver
+184,0.08108671646657424,50,henry v,shmoop
+185,0.06583410425549405,20,henry viii,shmoop
+186,0.051075504476388325,12,titus andronicus,gradesaver
+187,0.06536611980391348,11,titus andronicus,shmoop
+188,0.05359659047167467,11,titus andronicus,sparknotes
+189,0.08104547600228128,43,julius caesar,gradesaver
+190,0.08326307647398026,34,julius caesar,shmoop
+191,0.08778482877930757,38,julius caesar,sparknotes
+192,0.08564832937119535,20,two gentlemen of verona,shmoop
+193,0.0908116836751861,17,two gentlemen of verona,sparknotes
+194,0.0976854377163518,29,the wonderful wizard of oz,gradesaver
+195,0.0757272054157933,31,the wonderful wizard of oz,shmoop
+196,0.06452976802999554,17,pygmalion,gradesaver
+197,0.057743437889821836,16,pygmalion,shmoop
+198,0.06841433021248042,16,pygmalion,sparknotes
+199,0.07248378164529455,27,twelfth night,gradesaver
+200,0.09113400080582142,27,twelfth night,sparknotes
+201,0.06651695243920663,20,the aeneid,gradesaver
+202,0.06392287301020261,20,the aeneid,shmoop
+203,0.06238122415446712,19,the aeneid,sparknotes
+204,0.036419354703300884,15,ghosts,gradesaver
+205,0.06799651468912518,16,ghosts,shmoop
+206,0.07628555816806881,26,merry wives of windsor,shmoop
+207,0.06606060311854786,26,merry wives of windsor,sparknotes
+208,0.07123911772832096,20,the spanish tragedy,gradesaver
+209,0.06855503345972325,25,the spanish tragedy,shmoop
+210,0.07524851387066138,24,tartuffe,gradesaver
+211,0.06819637008372444,24,tartuffe,shmoop
+212,0.0368738671606701,10,an enemy of the people,gradesaver
+213,0.06752398869830646,7,an enemy of the people,shmoop
+214,0.08847736193766524,8,an enemy of the people,sparknotes
+215,0.04026066493640382,16,siddhartha,gradesaver
+216,0.07305847740025496,15,siddhartha,shmoop
+217,0.06712729375030171,22,measure for measure,gradesaver
+218,0.06036111295338444,11,measure for measure,shmoop
+219,0.08662512030674599,12,measure for measure,sparknotes
+220,0.039932621349314586,18,the seagull,gradesaver
+221,0.054518743973599425,18,the seagull,shmoop
+222,0.12794838807943637,32,alice's adventure in wonderland,gradesaver
+223,0.12615671181352442,29,alice's adventure in wonderland,sparknotes
+224,0.06504546836651452,36,pride and prejudice,gradesaver
+225,0.11024210618182342,34,pride and prejudice,cliffnotes
+226,0.0696685010666774,27,emma,gradesaver
+227,0.07119343470556874,13,emma,shmoop
+228,0.0748258637781912,13,emma,sparknotes
+229,0.05907293255418779,17,white fang,gradesaver
+230,0.06422124136078722,13,white fang,shmoop
+231,0.07998062862752736,12,white fang,sparknotes
+232,0.08273907508184888,34,romeo and juliet,gradesaver
+233,0.06552980691448312,23,romeo and juliet,shmoop
+234,0.07545799802707007,24,romeo and juliet,sparknotes
+235,0.059746988273980034,31,the merchant of venice,shmoop
+236,0.080116240328752,30,the merchant of venice,sparknotes
+237,0.07645868481718512,21,major barbara,shmoop
+238,0.044882423540716566,18,major barbara,sparknotes
+239,0.08313294604240455,20,the jew of malta,gradesaver
+240,0.06478074953883294,22,the jew of malta,sparknotes
+241,0.12201074635127601,27,an ideal husband,gradesaver
+242,0.10669400025223144,22,an ideal husband,shmoop
+243,0.11663331902223521,21,an ideal husband,sparknotes
+244,0.07740466699847247,10,the three musketeers,gradesaver
+245,0.04925270392686023,15,the three musketeers,shmoop
+246,0.05375710993714015,16,the three musketeers,cliffnotes
+247,0.04540524432582591,14,the three musketeers,sparknotes
+248,0.041476629989285384,18,black beauty,gradesaver
+249,0.07442701465394731,17,black beauty,shmoop
+250,0.04695093809491324,21,king lear,gradesaver
+251,0.05790151002899415,18,king lear,shmoop
+252,0.08816889273514628,18,king lear,sparknotes
+253,0.05899946644375043,23,antony and cleopatra,gradesaver
+254,0.08035063861692705,24,antony and cleopatra,sparknotes
+255,0.08231625742333135,45,the adventures of huckleberry finn,gradesaver
+256,0.11481806684120577,21,the adventures of huckleberry finn,cliffnotes
+257,0.1106223786091221,24,the adventures of huckleberry finn,sparknotes
+258,0.05717399312624483,17,the duchess of malfi,gradesaver
+259,0.06546765068637062,17,the duchess of malfi,shmoop
+260,0.08855823544540063,18,the secret garden,gradesaver
+261,0.05693160828888706,20,the secret garden,shmoop
+262,0.07222406919012359,19,the secret garden,sparknotes
+263,0.061892661910238976,15,the age of innocence,shmoop
+264,0.07495907793474013,17,the age of innocence,cliffnotes
+265,0.08743275946329973,17,the age of innocence,sparknotes
+266,0.07847013539779991,23,ethan frome,gradesaver
+267,0.08034282948130365,26,ethan frome,shmoop
+268,0.08810991185317911,24,ethan frome,cliffnotes
+269,0.07092969542593817,27,ethan frome,sparknotes
+270,0.09945923516216865,28,bleak house,gradesaver
+271,0.06943893211771836,39,bleak house,shmoop
+272,0.09171167651405904,29,bleak house,cliffnotes
+273,0.06808805427197771,28,bleak house,sparknotes
+274,0.08680892918192626,40,the jungle,gradesaver
+275,0.08339200813093903,37,the jungle,shmoop
+276,0.09455549739632235,40,the jungle,sparknotes
+277,0.09425911603661974,22,much ado about nothing,gradesaver
+278,0.08190895104845809,22,much ado about nothing,shmoop
+279,0.11689008341791794,18,much ado about nothing,sparknotes
+280,0.09515263960793885,22,anthem,gradesaver
+281,0.08566695943732178,21,anthem,shmoop
+282,0.08122354691388849,24,anthem,cliffnotes
+283,0.11229057015943944,22,anthem,sparknotes
+284,0.0716119115227068,34,as you like it,gradesaver
+285,0.07102680329092692,29,as you like it,shmoop
+286,0.0989263448061206,29,as you like it,sparknotes
+287,0.04485767971634004,15,the ambassadors,shmoop
+288,0.06253941777731091,13,the ambassadors,cliffnotes
+289,0.06530785995419756,25,the taming of the shrew,gradesaver
+290,0.07092598874829693,26,the taming of the shrew,shmoop
+291,0.07942583812989065,29,the taming of the shrew,sparknotes
+292,0.07408993800180462,49,the brothers karamazov,gradesaver
+293,0.0801778460169319,36,the brothers karamazov,shmoop
+294,0.07323291636720038,37,the brothers karamazov,cliffnotes
+295,0.08393399418620623,38,the brothers karamazov,sparknotes
+296,0.06747563432111624,37,the portrait of a lady,gradesaver
+297,0.08818485485456956,21,the portrait of a lady,shmoop
+298,0.10034474117691165,23,the portrait of a lady,cliffnotes
+299,0.0817345171286128,22,the portrait of a lady,sparknotes
+300,0.031822653856694146,8,the prince,gradesaver
+301,0.01340750481703716,7,the prince,shmoop
+302,0.03955069960183313,9,the prince,cliffnotes
+303,0.03805631754118718,7,the prince,sparknotes
+304,0.07851024428199715,11,the red and the black,shmoop
+305,0.06331801109852671,19,the red and the black,cliffnotes
+306,0.11117240524290964,17,the red and the black,sparknotes
+307,0.08369436979036397,28,the picture of dorian gray,gradesaver
+308,0.06590145082266065,24,the picture of dorian gray,shmoop
+309,0.07657114095378179,24,the picture of dorian gray,cliffnotes
+310,0.08201139957613289,22,the picture of dorian gray,sparknotes
+311,0.05223346774605536,19,lord jim,gradesaver
+312,0.05041598246928524,8,lord jim,shmoop
+313,0.042597550719896106,20,lord jim,cliffnotes
+314,0.06405202549972187,18,lord jim,sparknotes
+315,0.059072008212254834,18,far from the madding crowd,gradesaver
+316,0.042932076602717174,12,far from the madding crowd,shmoop
+317,0.05174619969740595,11,far from the madding crowd,cliffnotes
+318,0.07731611854368713,12,far from the madding crowd,sparknotes
+319,0.07169924652373341,20,sense and sensibility,gradesaver
+320,0.06751985810797338,18,sense and sensibility,shmoop
+321,0.07497717339583905,20,sense and sensibility,cliffnotes
+322,0.10073698211670272,19,sense and sensibility,sparknotes
+323,0.05502424000376316,26,the white devil,gradesaver
+324,0.08998849129755428,21,the white devil,shmoop
+325,0.0711138976157548,35,the tempest,gradesaver
+326,0.06153292478319411,34,the tempest,shmoop
+327,0.06472489906605974,37,the tempest,sparknotes
+328,0.06547195744055734,39,uncle vanya,gradesaver
+329,0.07775220678883599,21,uncle vanya,shmoop
+330,0.06500056324795302,21,uncle vanya,sparknotes
+331,0.04388904176473569,14,the comedy of errors,shmoop
+332,0.07598838728411873,14,the comedy of errors,sparknotes

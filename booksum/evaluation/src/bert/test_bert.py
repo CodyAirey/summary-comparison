@@ -1,15 +1,9 @@
-from typing import List, Union, Iterable
 import numpy as np
 import nltk
 import math
-from collections import defaultdict
 from nltk import tokenize
-from itertools import zip_longest
-import json
 from sklearn.metrics.pairwise import cosine_similarity
 from sentence_transformers import SentenceTransformer
-from nltk.translate import meteor_score
-from nltk import translate
 nltk.download('wordnet')
 
 human_sums_bad = [
@@ -54,7 +48,9 @@ def process_summaries(ref_doc, summaries):
                 embedded_pair = model.encode(current_pair)
                 embedded_pair.shape
 
-                current_score = cosine_similarity([embedded_pair[0]], [embedded_pair[1]])[0][0]
+                current_score = cosine_similarity([embedded_pair[0]], [embedded_pair[1]])
+
+                print(current_score)
 
                 #print("token:", token)
                 #print("sentence:", sentence)

@@ -12,6 +12,7 @@ from collections import Counter
 from fractions import Fraction
 from nltk.translate.bleu_score import sentence_bleu
 
+import bleu_
 
 human_sums_bad = [
     ["The man went to the park.", "There were dogs there, they were chasing a rabbit.", "Lola did a backflip."],
@@ -51,7 +52,10 @@ def process_summaries(ref_doc, summaries):
             for j, sentence in enumerate(sentence_list):
                 token_split = tokenize.word_tokenize(token)
                 sent_split = tokenize.word_tokenize(sentence)
-                current_score = sentence_bleu([token_split], sent_split, weights=(1,.0,0,0))
+                # current_score = sentence_bleu([token_split], sent_split, weights=(1,.0,0,0))
+                current_score, precisions, bp, ratio, translation_length, reference_length = bleu_.compute_bleu(token_split, sent_split, max_order=1)
+
+                # print(f"bleu: {current_score}, precisions: {precisions}")
 
                 #print("token:", token_split)
                 #print("sentence:", sent_split)
@@ -71,8 +75,8 @@ def process_summaries(ref_doc, summaries):
 
 
 
-# process_summaries(ref_doc, human_sums_bad)
-# process_summaries(ref_doc, human_sums_good)
-# process_summaries(ref_doc, human_sums_exact)
+process_summaries(ref_doc, human_sums_bad)
+process_summaries(ref_doc, human_sums_good)
+process_summaries(ref_doc, human_sums_exact)
 process_summaries(large_test_ref_exact, large_test_hyp_exact)
 

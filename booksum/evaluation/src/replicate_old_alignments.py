@@ -27,7 +27,8 @@ fixed = []
 
 for line in f:
     content = json.loads(line)
-    content['normalized_title'] = content['book_id']
+    content['corrected_section'] = content['book_id']
+    content['normalized_title'] = content['bid']
     fixed.append(content)
 
 

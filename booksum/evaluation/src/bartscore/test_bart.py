@@ -54,6 +54,7 @@ def process_summaries(ref_doc, summaries):
             for j, sentence in enumerate(sentence_list):
                 current_score = bart_scorer.score([token], [sentence])[0]
                 
+                print(current_score)
                 #print("token:", token)
                 #print("sentence:", sentence)
                 #print("score:", current_score)

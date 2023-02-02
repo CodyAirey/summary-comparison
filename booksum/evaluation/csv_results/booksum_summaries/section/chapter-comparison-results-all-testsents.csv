@@ -1,0 +1,11 @@
+,bleu,Section Title,Source,Unique sentences used
+0,0.3340116345259747,bleak-house-chapter-18,gradesaver,"{'shmoop': {0, 35, 39, 12, 17, 19, 30, 31}, 'cliffnotes': {1, 2, 4, 5, 6, 7}, 'sparknotes': {8, 11, 13, 14, 16, 17, 18, 20, 27}, 'novelguide': {0, 1, 2, 5, 6, 10, 11, 13, 16, 20, 21}}"
+1,0.305544627505247,bleak-house-chapter-19,gradesaver,"{'shmoop': {2, 5, 7, 12, 14, 19, 25, 26, 30, 31}, 'cliffnotes': {0, 2, 3, 4, 6, 7}, 'sparknotes': {1, 2, 4, 6, 8, 10, 15, 17, 19, 20, 22}, 'novelguide': {2, 5, 6, 7, 8, 10}}"
+2,0.3130903737337696,bleak-house-chapter-40,gradesaver,"{'shmoop': {7, 10, 12, 13, 15, 18, 23, 25}, 'cliffnotes': {0, 1, 2, 3}, 'sparknotes': {0, 2, 6, 9, 11, 14, 15, 18, 19, 20}, 'novelguide': {0, 1, 2, 3, 5, 6, 8}}"
+3,0.34216629951015143,bleak-house-chapter-42,gradesaver,"{'shmoop': {3, 6, 9, 11, 12, 14}, 'cliffnotes': {1, 2, 4, 5, 6}, 'sparknotes': {16, 4, 5}, 'novelguide': {1, 2, 3, 6, 7, 8}}"
+4,0.38456435911286185,bleak-house-chapter-61,gradesaver,"{'shmoop': {3, 7, 8, 11, 16, 19}, 'cliffnotes': {1, 4, 5, 8, 9, 10, 11}, 'sparknotes': {2, 3, 4, 6, 7, 9, 10, 13}, 'novelguide': {0, 2, 4, 8, 9, 11, 13}}"
+5,0.34844838770816206,bleak-house-chapter-62,gradesaver,"{'shmoop': {0, 5, 6, 10, 13}, 'cliffnotes': {0, 4, 5, 6, 7}, 'sparknotes': {1, 2, 3, 12}, 'novelguide': {1, 2, 3, 4, 7}}"
+6,0.2868882173853459,bleak-house-chapter-1,shmoop,"{'cliffnotes': {0, 1, 2, 4, 5}, 'sparknotes': {0, 1, 2, 3, 4, 5, 6, 7}, 'novelguide': {4, 5, 6, 7, 8, 9, 10}}"
+7,0.2833149103682819,bleak-house-chapter-2,shmoop,"{'cliffnotes': {0, 1, 2, 3, 5, 6, 7}, 'sparknotes': {0, 1, 2, 3, 4, 5, 6}, 'novelguide': {0, 1, 2, 3, 4, 5, 6, 8, 9}}"
+8,0.33218737773702595,bleak-house-chapter-3,shmoop,"{'cliffnotes': {0, 1, 2, 3, 4, 5}, 'sparknotes': {1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 14, 15, 16, 17, 19, 20, 21, 22, 24, 25, 26}, 'novelguide': {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 14, 15, 18, 19, 20, 22, 23, 24}}"
+9,0.29099255396566615,bleak-house-chapter-4,shmoop,"{'cliffnotes': {0, 1, 2, 3, 4, 5, 6}, 'sparknotes': {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}, 'novelguide': {2, 3, 4, 5, 6, 7, 9, 12, 13, 15}}"

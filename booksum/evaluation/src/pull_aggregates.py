@@ -507,6 +507,8 @@ def fix_book_summaries():
             title = "notes from underground"
         if title == "around the world in 80 days":
             title = "around the world in eighty days"
+        if title == "the invisible man":
+            title = "invisible man"
 
         summary['normalized_title'] = title
 

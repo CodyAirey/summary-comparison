@@ -13,4 +13,4 @@ def compute_score(token, sentence):
     global scorer
     p, r, f1 = scorer.score([token], [sentence])
     current_score = float(f1.mean())
-    return current_score
+    return current_score, p, r

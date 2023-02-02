@@ -15,7 +15,8 @@ import re
 
 human_summaries = dict()
 summaries_count = 0
-data = []
+summary_comparison_data = []
+line_by_line_data = []
 used_files = []
 unique_books = set()
 unique_used_books = set()
@@ -103,7 +104,7 @@ def result_printout(function):
     """
     print("Unique chapters covered: {}".format(len(unique_chapters)))
     print("Unique chapters used: {}".format(len(unique_used_chapters)))
-    FUNC_list = [data_item[0] for data_item in data]
+    FUNC_list = [data_item[0] for data_item in summary_comparison_data]
     FUNC_mean = sum(FUNC_list) / len(FUNC_list)
     print(f"Mean {function}: {FUNC_mean}")
     print()
@@ -199,8 +200,7 @@ def calculate_F1(function):
 
 
         #grab all summaries with same title but different source (matching sections to compare with one another) aka related.
-        related_summaries = list(filter(lambda curr_summary: curr_summary['section_title'] == summary[
-                'section_title'] and curr_summary['source'] != summary['source'], human_summaries.values()))
+        related_summaries = list(filter(lambda curr_summary: curr_summary['section_title'] == summary['section_title'] and curr_summary['source'] != summary['source'], human_summaries.values()))
 
 
         if summary['is_aggregate'] == True:
@@ -242,60 +242,72 @@ def calculate_F1(function):
             tokenized_sums.append(tokenize.sent_tokenize(cursum))
 
         temp_time = time.time()
-
+        unique_sents = dict()
         max_scores = []
-        for sentence_list in tokenized_sums:
+        for hyp_summary in related_summaries:
+            hyp_doc = tokenize.sent_tokenize(hyp_summary['summary_text'])
             sentence_scores = []
-            unique_sents = set()
-            for i, token in enumerate(ref_doc):
+            
+            for ref_sent_index, ref_sent in enumerate(ref_doc):
                 best_score = -math.inf
-                best_score_i = -1
-                for j, sentence in enumerate(sentence_list):
+                best_score_index = -1
+                for hyp_sent_index, hyp_sent in enumerate(hyp_doc):
                     current_score = "!"
+                    precision = "NA"
+                    recall = "NA"
 
                     # calculate score based on function, p.s. surely there is a better way to do this.
                     if function == "bleu":
                         from bleu import calculate_score
-                        current_score = calculate_score.compute_score(token, sentence)
+                        current_score, precision = calculate_score.compute_score(ref_sent, hyp_sent)
                     elif function == "bert":
                         from bert import calculate_score
-                        current_score = calculate_score.compute_score(token, sentence)
+                        current_score = calculate_score.compute_score(ref_sent, hyp_sent)
                     elif function == "bertscore":
                         from bert import calculate_bertscore
-                        current_score = calculate_bertscore.compute_score(token, sentence)
+                        current_score, precision, recall = calculate_bertscore.compute_score(ref_sent, hyp_sent)
                     elif function == "rouge-1n":
                         from rouge_scoring import calculate_score
-                        current_score = calculate_score.compute_score_1n(token, sentence)
+                        current_score, precision, recall = calculate_score.compute_score_1n(ref_sent, hyp_sent)
                     elif function == "rouge-2n":
                         from rouge_scoring import calculate_score
-                        current_score = calculate_score.compute_score_2n(token, sentence)
+                        current_score, precision, recall = calculate_score.compute_score_2n(ref_sent, hyp_sent)
                     elif function == "rouge-l":
                         from rouge_scoring import calculate_score
-                        current_score = calculate_score.compute_score_l(token, sentence)
+                        current_score, precision, recall = calculate_score.compute_score_l(ref_sent, hyp_sent)
                     elif function == "moverscore":
                         from moverscore import calculate_score
-                        current_score = calculate_score.compute_score(token, sentence)
+                        current_score = calculate_score.compute_score(ref_sent, hyp_sent)
                     elif function == "qaeval":
                         from qaeval_scoring import calculate_score
-                        current_score = calculate_score.compute_score(token, sentence)
+                        current_score = calculate_score.compute_score(ref_sent, hyp_sent)
                     elif function == "meteor":
                         from meteor import calculate_score
-                        current_score = calculate_score.compute_score(token, sentence)
+                        current_score = calculate_score.compute_score(ref_sent, hyp_sent)
                     elif function == "summac":
                         from summac_scoring import calculate_score
-                        current_score = calculate_score.compute_score(token, sentence)
+                        current_score = calculate_score.compute_score(ref_sent, hyp_sent)
                     elif function == "bartscore":
                         from bartscore import calculate_score
-                        current_score = calculate_score.compute_score(token, sentence)
+                        current_score = calculate_score.compute_score(ref_sent, hyp_sent)
                     elif function == "chrf":
                         from chrf import calculate_score
-                        current_score = calculate_score.compute_score(token, sentence)
+                        current_score = calculate_score.compute_score(ref_sent, hyp_sent)
 
                     if current_score > best_score:
                         best_score = current_score
-                        best_score_i = j
+                        best_score_index = hyp_sent_index
+                    
+                    # print(f"Hyp doc:{hyp_doc}")
+
+
+                    line_by_line_data.append([summary['section_title'], summary['source'], hyp_summary['source'], ref_sent_index, hyp_sent_index, current_score, precision, recall])
                 sentence_scores.append(best_score)
-                unique_sents.add(best_score_i)
+                # unique_sents.append(best_score_index)
+                if hyp_summary['source'] in unique_sents.keys():
+                    unique_sents[hyp_summary['source']].add(best_score_index)
+                else:
+                    unique_sents[hyp_summary['source']] = {best_score_index}
             max_scores.append(np.mean(sentence_scores))
             # print(f"{sentence_scores} => {np.mean(sentence_scores)}")
             # print("Unique sentences:", len(unique_sents), "out of", len(ref_doc), "ref sents. :", unique_sents)
@@ -304,21 +316,22 @@ def calculate_F1(function):
         # print(f"{np.mean(max_scores)}")
         mean_max_score = np.mean(max_scores)
 
-        print(section_title, "-", summary['source'], "- time:", round((time.time() - temp_time), 3), "seconds.")
 
-        data.append([mean_max_score, len(unique_sents), section_title, summary['source']])
+        summary_comparison_data.append([mean_max_score, section_title, summary['source'], unique_sents])
 
         unique_used_books.add(section_title)
         summaries_count += 1
 
-        # if summaries_count >= 20:
+        print(section_title, "-", summary['source'], "- time:", round((time.time() - temp_time), 3), "seconds.")
+
+        # if summaries_count >= 10:
         #     break
 
     total_time = (time.time() - start_time)
     print(summaries_count)
     print("time total:", round(total_time, 1), "seconds.", "Average:", (total_time / summaries_count))
 
-    return data, summaries_count, unique_books, unique_used_books
+    return
 
 
 def write_summary_count_to_json(split, filename):
@@ -328,11 +341,14 @@ def write_summary_count_to_json(split, filename):
 
 def write_to_csv(function, split, filename):
     print(filename)
-    df = pd.DataFrame(data, columns=[
-                      function, "number of Unique sentences", "chapter-title", "source"])
+    df = pd.DataFrame(summary_comparison_data, columns=[ function, "Section Title", "Source", "Unique sentences used"])
     # Save file.
     df.to_csv(
-        f"../csv_results/booksum_summaries/chapter-comparison-results-{split}-{filename}.csv")
+        f"../csv_results/booksum_summaries/section/chapter-comparison-results-{split}-{filename}.csv")
+    
+    df = pd.DataFrame(line_by_line_data, columns=["Section Title", "Reference Source", "Hypothesis Source", "Reference Sentence Index", "Hypothesis Sentence Index", (function + "score"), "Precision", "Recall"])
+    df.to_csv(
+        f"../csv_results/booksum_summaries/line_by_line_section/chapter-comparison-results-{split}-{filename}-lbl.csv")
 
 
 def helper(function_list):
@@ -366,7 +382,7 @@ def main(argv):
         helper(function_list)
         sys.exit(2)
 
-    # used getopt for first time to handle arguments, works well but feels messy.
+    # used getopt for first time to handle arguments, works well but feels messy. Will try another solution next time
     try:
         opts, args = getopt.getopt(
             argv, "hf:o:s:", ["help", "function=", "ofile=", "split="])
@@ -400,8 +416,7 @@ def main(argv):
     setup_matches_datastructure(split)
     setup_model(function)
     
-    data, summaries_count, unique_books, unique_used_books = calculate_F1(
-        function)
+    calculate_F1(function)
     
     result_printout(function)
     write_to_csv(function, split, outputfile)

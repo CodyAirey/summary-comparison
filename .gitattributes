@@ -3,5 +3,6 @@
 *.jsonl.gathered.stable filter=lfs diff=lfs merge=lfs -text
 *.stable filter=lfs diff=lfs merge=lfs -text
 *-lbl.csv filter=lfs diff=lfs merge=lfs -text
+summary-comparison/booksum/evaluation/csv_results/booksum_summaries/line_by_line_section/chapter-comparison-results-all-testsents-lbl.csv filter=lfs diff=lfs merge=lfs -text
 -lbl.csv filter=lfs diff=lfs merge=lfs -text
 *-line-by-line.csv filter=lfs diff=lfs merge=lfs -text
